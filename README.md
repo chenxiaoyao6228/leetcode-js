@@ -3,4 +3,5 @@
 Learn some algorithmns everyday
 ## resource
 
-[JavaScript 数据结构与算法之美 - 强烈推荐: GitHub 上 170K+ Star 的前端学习的数据结构与算法项目](https://github.com/biaochenxuying/blog/issues/43)
+[https://github.com/labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm)
+[JavaScript 数据结构与算法之美](https://github.com/biaochenxuying/blog/issues/43)
