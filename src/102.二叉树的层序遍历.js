@@ -18,32 +18,26 @@
  * @return {number[][]}
  */
 var levelOrder = function(root) {
-  // corner case
   if (!root) return []
-
-  let res = [],
-    queue = [root]
   root.depth = 0
+  let queue = [root]
+  let res = []
   while (queue.length) {
-    const node = queue.shift()
-    const depth = node.depth
+    let node = queue.shift()
 
-    if (!res[depth]) {
-      res[depth] = [node.val]
+    if (!res[node.depth]) {
+      res[node.depth] = [node.val]
     } else {
-      res[depth].push(node.val)
+      res[node.depth].push(node.val)
     }
 
-    // handle left and right
-    const left = node.left
-    if (left) {
-      left.depth = depth + 1
-      queue.push(left)
+    if (node.left) {
+      node.left.depth = node.depth + 1
+      queue.push(node.left)
     }
-    const right = node.right
-    if (right) {
-      right.depth = depth + 1
-      queue.push(right)
+    if (node.right) {
+      node.right.depth = node.depth + 1
+      queue.push(node.right)
     }
   }
   return res
