@@ -27,6 +27,7 @@ function build(nums, lo, hi) {
   // find the largest num in the array
   let maxIndex = max(nums, lo, hi)
   // build root node
+  // eslint-disable-next-line
   let root = new TreeNode(nums[maxIndex])
 
   // build left and tree recursively

@@ -8,7 +8,8 @@
     "commit": "git-cz",
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "prettier --write ./**/*.js && eslint --fix . && echo 'Lint complete.'"
+    "lint": "prettier --write ./**/*.js && eslint --fix . && echo 'Lint complete.'",
+    "generate": "node ./scripts/generate.js"
   },
   "keywords": [
     "kata",
@@ -38,6 +39,10 @@
     "*.js": [
       "jest --bail --findRelatedTests && echo 'Test complete.'",
       "npm run lint",
+      "git add"
+    ],
+    "*.md": [
+      "yarn generate",
       "git add"
     ]
   },

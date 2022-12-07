@@ -21,6 +21,8 @@ module.exports = {
     afterEach: true
   },
   rules: {
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
+    'no-unused-expressions': 0,
+    'no-unused-vars': 'off'
   }
 }
