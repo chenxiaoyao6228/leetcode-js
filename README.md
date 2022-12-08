@@ -30,6 +30,7 @@ Personal Leetcode solutions with javascript.
 | 116 | [填充每个节点的下一个右侧节点指针](./src/116.填充每个节点的下一个右侧节点指针.js) | 
 | 125 | [valid-palindrome](./src/125.valid-palindrome.js) | 
 | 144 | [二叉树的前序遍历](./src/144.二叉树的前序遍历.js) | 
+| 145 | [二叉树的后序遍历](./src/145.二叉树的后序遍历.js) | 
 | 147 | [insertion-sort-list](./src/147.insertion-sort-list.js) | 
 | 149 | [max-points-on-a-line](./src/149.max-points-on-a-line.js) | 
 | 167 | [two-sum-ii-input-array-is-sorted](./src/167.two-sum-ii-input-array-is-sorted.js) | 

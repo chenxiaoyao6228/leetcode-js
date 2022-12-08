@@ -18,19 +18,21 @@
  * @return {void} Do not return anything, modify root in-place instead.
  * !!!! pay attention not to modify root in-place, so you cann't simply use pre-oroder traverse
  */
+
 var flatten = function(root) {
   if (!root) {
     return
   }
-  // flatten left and right node
+
+  // framework code, have to use post-order
   flatten(root.left)
   flatten(root.right)
 
-  // now we can assume all left and right node are flatten
-  // just simply move all right node to left and then move all left to right
-  var left = root.left
-  var right = root.right
+  // manipulate single node
+  let left = root.left
+  let right = root.right
 
+  // detach old node
   root.left = null
   root.right = left
 
@@ -40,4 +42,5 @@ var flatten = function(root) {
   }
   r.right = right
 }
+
 // @lc code=end

@@ -37,18 +37,15 @@
   },
   "lint-staged": {
     "*.js": [
+      "yarn generate",
       "jest --bail --findRelatedTests && echo 'Test complete.'",
       "npm run lint",
-      "git add"
-    ],
-    "*.md": [
-      "yarn generate",
       "git add"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "pre-commit": "yarn generate && git add README.md && lint-staged",
       "commitmsg": "commitlint -E GIT_PARAMS"
     }
   },
