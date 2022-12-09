@@ -1,8 +1,9 @@
 # Leetcode-js
 
-Personal Leetcode solutions with javascript.
+Personal Leetcode solutions in javascript.
 
 ## Table of contents
+Total Submit: **57**
 | ID | Solutions |
   | --- | ----------- |
 | 1 | [two-sum](./src/1.two-sum.js) | 
