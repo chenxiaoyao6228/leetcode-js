@@ -50,8 +50,10 @@ Personal Leetcode solutions with javascript.
 | 349 | [intersection-of-two-arrays](./src/349.intersection-of-two-arrays.js) | 
 | 350 | [intersection-of-two-arrays-ii](./src/350.intersection-of-two-arrays-ii.js) | 
 | 438 | [find-all-anagrams-in-a-string](./src/438.find-all-anagrams-in-a-string.js) | 
+| 501 | [二叉搜索树中的众数](./src/501.二叉搜索树中的众数.js) | 
 | 506 | [relative-ranks](./src/506.relative-ranks.js) | 
 | 538 | [把二叉搜索树转换为累加树](./src/538.把二叉搜索树转换为累加树.js) | 
 | 543 | [二叉树的直径](./src/543.二叉树的直径.js) | 
+| 559 | [n-叉树的最大深度](./src/559.n-叉树的最大深度.js) | 
 | 652 | [寻找重复的子树](./src/652.寻找重复的子树.js) | 
 | 654 | [最大二叉树](./src/654.最大二叉树.js) | 
