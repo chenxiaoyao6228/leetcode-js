@@ -3,7 +3,7 @@
 Personal Leetcode solutions in javascript.
 
 ## Table of contents
-Total Submit: **59**
+Total Submit: **60**
 | ID | Solutions |
   | --- | ----------- |
 | 1 | [two-sum](./src/1.two-sum.js) | 
@@ -62,3 +62,4 @@ Total Submit: **59**
 | 590 | [n-叉树的后序遍历](./src/590.n-叉树的后序遍历.js) | 
 | 652 | [寻找重复的子树](./src/652.寻找重复的子树.js) | 
 | 654 | [最大二叉树](./src/654.最大二叉树.js) | 
+| 1094 | [拼车](./src/1094.拼车.js) | 
