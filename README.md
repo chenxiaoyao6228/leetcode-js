@@ -3,7 +3,7 @@
 Personal Leetcode solutions in javascript.
 
 ## Table of contents
-Total Submit: **60**
+Total Submit: **61**
 | ID | Solutions |
   | --- | ----------- |
 | 1 | [two-sum](./src/1.two-sum.js) | 
@@ -14,6 +14,7 @@ Total Submit: **60**
 | 15 | [3-sum](./src/15.3-sum.js) | 
 | 16 | [3-sum-closest](./src/16.3-sum-closest.js) | 
 | 20 | [valid-parentheses](./src/20.valid-parentheses.js) | 
+| 21 | [合并两个有序链表](./src/21.合并两个有序链表.js) | 
 | 24 | [swap-nodes-in-pairs](./src/24.swap-nodes-in-pairs.js) | 
 | 25 | [reverse-nodes-in-k-group](./src/25.reverse-nodes-in-k-group.js) | 
 | 75 | [sort-colors](./src/75.sort-colors.js) | 
