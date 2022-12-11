@@ -10,49 +10,55 @@
  * @param {number} capacity
  * @return {boolean}
  */
-const BusStopMaxLength = 1000
+const maxBusStopNum = 1000
 var carPooling = function(trips, capacity) {
-  let underCapacity = true
-  const nums = new Array(BusStopMaxLength + 1).fill(0)
+  let isUnderCapacity = true
+  const nums = new Array(maxBusStopNum + 1).fill(0)
   const diff = new Difference(nums)
   trips.forEach(trip => {
-    let val = trip[0]
-    let start = trip[1]
-    let end = trip[2] - 1
+    const val = trip[0]
+    const start = trip[1]
+    const end = trip[2] - 1 // ❗ don't forget this
     diff.increment(val, start, end)
   })
-  const results = diff.getResults()
-
+  const results = diff.getResult()
   for (let i = 0; i < results.length; i++) {
     const res = results[i]
     if (res > capacity) {
-      underCapacity = false
+      isUnderCapacity = false
       break
     }
   }
-  return underCapacity
+  return isUnderCapacity
 }
 
-const Difference = function(nums) {
-  this.diff = new Array(nums.length)
-  this.diff[0] = nums[0]
-  for (let i = 1; i < nums.length; i++) {
-    this.diff[i] = nums[i] - nums[i - 1]
+/*
+ * input: trips = [[2,1,5],[3,3,7]], capacity = 4
+ * process: [2,1,5] -> [2,0,0,0,0] => [3,3,7] -> [2,0,3,0,0,-2, 0, -3,0]
+ */
+
+class Difference {
+  constructor(nums) {
+    this.diff = new Array(nums.length)
+    this.diff[0] = nums[0]
+    for (let i = 1; i < this.diff.length; i++) {
+      this.diff[i] = nums[i] - nums[i - 1]
+    }
   }
-}
-Difference.prototype.increment = function(val, start, end) {
-  this.diff[start] += val
-  if (end + 1 < this.diff.length) {
-    this.diff[end + 1] -= val
+  // [1,3,5,8] -> [1,2,2,3] => increment([1,1,2]) => [1,4,6,8] -> [1,3,2,2]
+  increment(val, i, j) {
+    this.diff[i] += val
+    if (j + 1 < this.diff.length) {
+      this.diff[j + 1] -= val
+    }
   }
-}
-Difference.prototype.getResults = function() {
-  const res = new Array(this.diff.length)
-  res[0] = this.diff[0]
-  for (let i = 1; i < this.diff.length; i++) {
-    res[i] = res[i - 1] + this.diff[i]
+  getResult() {
+    let res = [this.diff[0]]
+    for (let i = 1; i < this.diff.length; i++) {
+      res[i] = this.diff[i] + res[i - 1]
+    }
+    return res
   }
-  return res
 }
 
 // @lc code=end
