@@ -19,36 +19,63 @@
  * @return {ListNode}
  */
 // solution1: come through a way to make two list react the same length
+// var getIntersectionNode = function(headA, headB) {
+//   let lenA = 0,
+//     lenB = 0
+//   for (let p1 = headA; p1 != null; p1 = p1.next) {
+//     lenA++
+//   }
+//   for (let p2 = headB; p2 != null; p2 = p2.next) {
+//     lenB++
+//   }
+//   let p1 = headA,
+//     p2 = headB
+//   // p1:             1 -> 2 -> |3| -> 4 -> 5
+//   // p2: -2 -> -1 -> 0 -> 1 -> |3| -> 4 -> 5
+//   // move the longest list so that two list at the same length
+//   if (lenA > lenB) {
+//     for (let i = 0; i < lenA - lenB; i++) {
+//       p1 = p1.next
+//     }
+//   } else {
+//     for (let i = 0; i < lenB - lenA; i++) {
+//       p2 = p2.next
+//     }
+//   }
+//   // since two list are the same length, so just move the forward at the same time
+//   // they will get intersection or reach the end( p1 == null )
+//   while (p1 != p2) {
+//     p1 = p1.next
+//     p2 = p2.next
+//   }
+//   return p1
+//   // todo
+// }
+
+/*
+  solution2: let p1 and p2 walk through two list
+  headA(p1):        1 -> 2 -> |3| -> 4
+  headB(p2): -1 ->  0 -> 1 -> |3| -> 4
+  for p1:  1 -> 2 -> |3| -> 4 -> -1 -> 0 -> 1 -> |3| -> 4
+  for p2:  -1 -> 0 -> 1 -> |3| -> 4 -> 1 -> 2 -> |3| -> 4
+*/
 var getIntersectionNode = function(headA, headB) {
-  let lenA = 0,
-    lenB = 0
-  for (let p1 = headA; p1 != null; p1 = p1.next) {
-    lenA++
-  }
-  for (let p2 = headB; p2 != null; p2 = p2.next) {
-    lenB++
-  }
   let p1 = headA,
     p2 = headB
-  // p1:             1 -> 2 -> |3| -> 4 -> 5
-  // p2: -2 -> -1 -> 0 -> 1 -> |3| -> 4 -> 5
-  // move the longest list so that two list at the same length
-  if (lenA > lenB) {
-    for (let i = 0; i < lenA - lenB; i++) {
-      p1 = p1.next
-    }
-  } else {
-    for (let i = 0; i < lenB - lenA; i++) {
-      p2 = p2.next
-    }
-  }
-  // since two list are the same length, so just move the forward at the same time
-  // they will get intersection or reach the end( p1 == null )
   while (p1 != p2) {
-    p1 = p1.next
-    p2 = p2.next
+    if (p1) {
+      p1 = p1.next
+    } else {
+      p1 = headB
+    }
+
+    if (p2) {
+      p2 = p2.next
+    } else {
+      p2 = headA
+    }
   }
   return p1
-  // todo
 }
+
 // @lc code=end
