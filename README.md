@@ -3,12 +3,13 @@
 Personal Leetcode solutions in javascript.
 
 ## Table of contents
-Total Submit: **71**
+Total Submit: **72**
 | ID | Solutions |
   | --- | ----------- |
 | 1 | [two-sum](./src/1.two-sum.js) | 
 | 3 | [longest-substring-without-repeating-characters](./src/3.longest-substring-without-repeating-characters.js) | 
 | 4 | [median-of-two-sorted-arrays](./src/4.median-of-two-sorted-arrays.js) | 
+| 5 | [最长回文子串](./src/5.最长回文子串.js) | 
 | 7 | [reverse-integer](./src/7.reverse-integer.js) | 
 | 11 | [container-with-most-water](./src/11.container-with-most-water.js) | 
 | 15 | [3-sum](./src/15.3-sum.js) | 
