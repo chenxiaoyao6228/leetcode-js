@@ -3,7 +3,7 @@
 Personal Leetcode solutions in javascript.
 
 ## Table of contents
-Total Submit: **66**
+Total Submit: **68**
 | ID | Solutions |
   | --- | ----------- |
 | 1 | [two-sum](./src/1.two-sum.js) | 
@@ -18,8 +18,10 @@ Total Submit: **66**
 | 21 | [合并两个有序链表](./src/21.合并两个有序链表.js) | 
 | 24 | [swap-nodes-in-pairs](./src/24.swap-nodes-in-pairs.js) | 
 | 25 | [reverse-nodes-in-k-group](./src/25.reverse-nodes-in-k-group.js) | 
+| 26 | [删除有序数组中的重复项](./src/26.删除有序数组中的重复项.js) | 
 | 75 | [sort-colors](./src/75.sort-colors.js) | 
 | 76 | [minimum-window-substring](./src/76.minimum-window-substring.js) | 
+| 83 | [删除排序链表中的重复元素](./src/83.删除排序链表中的重复元素.js) | 
 | 86 | [分隔链表](./src/86.分隔链表.js) | 
 | 94 | [二叉树的中序遍历](./src/94.二叉树的中序遍历.js) | 
 | 100 | [相同的树](./src/100.相同的树.js) | 
