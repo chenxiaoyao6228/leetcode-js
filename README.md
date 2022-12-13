@@ -3,7 +3,7 @@
 Personal Leetcode solutions in javascript.
 
 ## Table of contents
-Total Submit: **70**
+Total Submit: **71**
 | ID | Solutions |
   | --- | ----------- |
 | 1 | [two-sum](./src/1.two-sum.js) | 
@@ -62,7 +62,7 @@ Total Submit: **70**
 | 344 | [反转字符串](./src/344.反转字符串.js) | 
 | 349 | [intersection-of-two-arrays](./src/349.intersection-of-two-arrays.js) | 
 | 350 | [intersection-of-two-arrays-ii](./src/350.intersection-of-two-arrays-ii.js) | 
-| 438 | [find-all-anagrams-in-a-string](./src/438.find-all-anagrams-in-a-string.js) | 
+| 438 | [找到字符串中所有字母异位词](./src/438.找到字符串中所有字母异位词.js) | 
 | 501 | [二叉搜索树中的众数](./src/501.二叉搜索树中的众数.js) | 
 | 506 | [relative-ranks](./src/506.relative-ranks.js) | 
 | 538 | [把二叉搜索树转换为累加树](./src/538.把二叉搜索树转换为累加树.js) | 
