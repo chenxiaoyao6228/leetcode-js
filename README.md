@@ -3,7 +3,7 @@
 Personal Leetcode solutions in javascript.
 
 ## Table of contents
-Total Submit: **72**
+Total Submit: **73**
 | ID | Solutions |
   | --- | ----------- |
 | 1 | [two-sum](./src/1.two-sum.js) | 
