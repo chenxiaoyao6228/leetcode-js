@@ -57,9 +57,11 @@ function generateTableContent(prefixPath = '') {
       )
       const stats = fs.statSync(absSolutionsPath)
       if (stats.isFile()) {
-        totalCount++
-        const [id, content] = genrateFileContent(prefixPath, fileOrFolderName)
-        bodyRes[id] = content + '\n'
+        if (fileOrFolderName.match(/^\d/)) {
+          totalCount++
+          const [id, content] = genrateFileContent(prefixPath, fileOrFolderName)
+          bodyRes[id] = content + '\n'
+        }
       } else {
         generateFolderContent(`${prefixPath}/${fileOrFolderName}`)
       }
