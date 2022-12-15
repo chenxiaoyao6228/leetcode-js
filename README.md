@@ -3,7 +3,7 @@
 Personal Leetcode solutions in javascript.
 
 ## Table of contents
-Total Submit: **77**
+Total Submit: **78**
 | ID | Solutions |
   | --- | ----------- |
 | 1 | [two-sum](./src/1.two-sum.js) | 
@@ -50,6 +50,7 @@ Total Submit: **77**
 | 167 | [两数之和-ii-输入有序数组](./src/167.两数之和-ii-输入有序数组.js) | 
 | 202 | [happy-number](./src/202.happy-number.js) | 
 | 205 | [isomorphic-strings](./src/205.isomorphic-strings.js) | 
+| 206 | [反转链表](./src/206.反转链表.js) | 
 | 209 | [minimum-size-subarray-sum](./src/209.minimum-size-subarray-sum.js) | 
 | 219 | [contains-duplicate-ii](./src/219.contains-duplicate-ii.js) | 
 | 220 | [contains-duplicate-iii](./src/220.contains-duplicate-iii.js) | 
