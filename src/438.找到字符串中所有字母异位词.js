@@ -41,6 +41,7 @@ var findAnagrams = function(source, target) {
     }
     // move left pointer
     while (right - left > target.length) {
+      // update data
       if (valid === Object.keys(need).length) {
         res.push(left)
       }
