@@ -29,6 +29,7 @@ Total Submit: **84**
 | 86 | [分隔链表](./src/86.分隔链表.js) | 
 | 92 | [反转链表-ii](./src/92.反转链表-ii.js) | 
 | 94 | [二叉树的中序遍历](./src/94.二叉树的中序遍历.js) | 
+| 95 | [不同的二叉搜索树-ii](./src/95.不同的二叉搜索树-ii.js) | 
 | 100 | [相同的树](./src/100.相同的树.js) | 
 | 102 | [二叉树的层序遍历](./src/102.二叉树的层序遍历.js) | 
 | 103 | [二叉树的锯齿形层序遍历](./src/103.二叉树的锯齿形层序遍历.js) | 
@@ -68,7 +69,6 @@ Total Submit: **84**
 | 349 | [intersection-of-two-arrays](./src/349.intersection-of-two-arrays.js) | 
 | 350 | [intersection-of-two-arrays-ii](./src/350.intersection-of-two-arrays-ii.js) | 
 | 438 | [找到字符串中所有字母异位词](./src/438.找到字符串中所有字母异位词.js) | 
-| 496 | [下一个更大元素-i](./src/496.下一个更大元素-i.js) | 
 | 501 | [二叉搜索树中的众数](./src/501.二叉搜索树中的众数.js) | 
 | 503 | [下一个更大元素-ii](./src/503.下一个更大元素-ii.js) | 
 | 506 | [relative-ranks](./src/506.relative-ranks.js) | 
