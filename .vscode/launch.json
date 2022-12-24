@@ -1,9 +1,9 @@
 {
     "configurations": [
         {
-            "name": "Debug",
-            "port": 9229,
-            "request": "attach",
+            "name": "Debug currentFile",
+            "program": "${file}",
+            "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
             ],
