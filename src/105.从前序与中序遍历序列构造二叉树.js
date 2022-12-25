@@ -18,27 +18,28 @@
  * @param {number[]} inorder
  * @return {TreeNode}
  */
+
+// preorder: |rootVal|(preStart+1)....(preStart+leftSize)|(preStart+leftSize+1)....(preEnd)|
+// inorder:  |....|rootVal|.....|
 let map = new Map()
 var buildTree = function(preorder, inorder) {
-  for (let index = 0; index < inorder.length; index++) {
-    const element = inorder[index]
-    map.set(element, index)
+  // mark order in case loop everytime to find index of array
+  for (let i = 0; i < inorder.length; i++) {
+    const el = inorder[i]
+    map.set(el, i)
   }
   return build(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1)
 }
+
 function build(preorder, preStart, preEnd, inorder, inStart, inEnd) {
+  // base case
   if (preStart > preEnd) {
     return null
   }
-  let rootValue = preorder[preStart]
-  // build root node
-  let rootNode = new TreeNode(rootValue)
-
-  let rootValIdxOfInorder = map.get(rootValue)
-  // use inorder to determine preorder index
-  let leftSize = rootValIdxOfInorder - inStart
-
-  // build left and right node recursively
+  const rootVal = preorder[preStart]
+  const rootValIdxOfInorder = map.get(rootVal)
+  const rootNode = new TreeNode(rootVal)
+  const leftSize = rootValIdxOfInorder - inStart
   rootNode.left = build(
     preorder,
     preStart + 1,
@@ -71,6 +72,6 @@ const preorder = [3, 9, 20, 15, 7]
 const inorder = [9, 3, 15, 20, 7]
 
 const res = buildTree(preorder, inorder)
-console.log('res', res)
+// console.log('res', res)
 
 // @lc code=end
