@@ -18,16 +18,21 @@
  * @return {TreeNode}
  */
 
-var constructMaximumBinaryTree = function(nums) {
-  return build(nums, 0, nums.length)
+function TreeNode(val, left, right) {
+  this.val = val === undefined ? 0 : val
+  this.left = left === undefined ? null : left
+  this.right = right === undefined ? null : right
 }
 
+var constructMaximumBinaryTree = function(nums) {
+  return build(nums, 0, nums.length - 1)
+}
+// range: [lo,hi]
 function build(nums, lo, hi) {
   if (lo > hi) return null
   // find the largest num in the array
   let maxIndex = max(nums, lo, hi)
   // build root node
-  // eslint-disable-next-line
   let root = new TreeNode(nums[maxIndex])
 
   // build left and tree recursively
@@ -49,5 +54,7 @@ function max(nums, lo, hi) {
   }
   return maxIndex
 }
+
+// constructMaximumBinaryTree([3, 2, 1, 6, 0, 5])
 
 // @lc code=end
