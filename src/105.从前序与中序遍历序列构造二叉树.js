@@ -68,10 +68,10 @@ function TreeNode(val) {
   this.right = null
 }
 
-const preorder = [3, 9, 20, 15, 7]
-const inorder = [9, 3, 15, 20, 7]
+// const preorder = [3, 9, 20, 15, 7]
+// const inorder = [9, 3, 15, 20, 7]
 
-const res = buildTree(preorder, inorder)
+// const res = buildTree(preorder, inorder)
 // console.log('res', res)
 
 // @lc code=end
