@@ -60,7 +60,6 @@ Total Submit: **94**
 | 209 | [minimum-size-subarray-sum](./src/209.minimum-size-subarray-sum.js) | 
 | 219 | [contains-duplicate-ii](./src/219.contains-duplicate-ii.js) | 
 | 220 | [contains-duplicate-iii](./src/220.contains-duplicate-iii.js) | 
-| 222 | [完全二叉树的节点个数](./src/222.完全二叉树的节点个数.js) | 
 | 226 | [翻转二叉树](./src/226.翻转二叉树.js) | 
 | 230 | [二叉搜索树中第k小的元素](./src/230.二叉搜索树中第k小的元素.js) | 
 | 234 | [palindrome-linked-list](./src/234.palindrome-linked-list.js) | 
@@ -77,6 +76,7 @@ Total Submit: **94**
 | 501 | [二叉搜索树中的众数](./src/501.二叉搜索树中的众数.js) | 
 | 503 | [下一个更大元素-ii](./src/503.下一个更大元素-ii.js) | 
 | 506 | [relative-ranks](./src/506.relative-ranks.js) | 
+| 513 | [找树左下角的值](./src/513.找树左下角的值.js) | 
 | 538 | [把二叉搜索树转换为累加树](./src/538.把二叉搜索树转换为累加树.js) | 
 | 543 | [二叉树的直径](./src/543.二叉树的直径.js) | 
 | 559 | [n-叉树的最大深度](./src/559.n-叉树的最大深度.js) | 
