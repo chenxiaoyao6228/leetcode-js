@@ -1,13 +1,32 @@
 const { TreeNode } = require('../data-structure/TreeNode')
 
-function createBTFromArray(nodeList, index = 0) {
-  if (index > nodeList.length - 1 || !nodeList[index]) {
+function createBTFromArray(arr) {
+  if (!arr || !arr.length) {
     return null
   }
-  const root = new TreeNode(nodeList[index])
-  root.left = createBTFromArray(nodeList, 2 * index + 1)
-  root.right = createBTFromArray(nodeList, 2 * index + 2)
-  return root
+  let index = 0
+  const queue = []
+  const len = arr.length
+  const head = new TreeNode(arr[index])
+  queue.push(head)
+
+  while (index < len) {
+    index++
+    const parent = queue.shift()
+    if (arr[index] !== null && arr[index] !== undefined) {
+      const node = new TreeNode(arr[index])
+      parent.left = node
+      queue.push(node)
+    }
+
+    index++
+    if (arr[index] !== null && arr[index] !== undefined) {
+      const node = new TreeNode(arr[index])
+      parent.right = node
+      queue.push(node)
+    }
+  }
+  return head
 }
 
 // const res = createBTFromArray([7, 3, 15, null, null, 9, 20])
