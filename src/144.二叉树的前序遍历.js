@@ -4,6 +4,8 @@
  * [144] 二叉树的前序遍历
  */
 
+const { traverse } = require('@babel/core')
+
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -17,15 +19,32 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
+// solution1: decomposition
+// var preorderTraversal = function(root) {
+//   if (!root) {
+//     return []
+//   }
+//   if (!root.left && !root.right) {
+//     return [root.val]
+//   }
+//   return [root.val]
+//     .concat(preorderTraversal(root.left))
+//     .concat(preorderTraversal(root.right))
+// }
+
+// solution2: traversal
 var preorderTraversal = function(root) {
-  if (!root) {
-    return []
+  let res = []
+  traverse(root)
+  return res
+
+  function traverse(root) {
+    if (!root) {
+      return null
+    }
+    res.push(root.val)
+    traverse(root.left)
+    traverse(root.right)
   }
-  if (!root.left && !root.right) {
-    return [root.val]
-  }
-  return [root.val]
-    .concat(preorderTraversal(root.left))
-    .concat(preorderTraversal(root.right))
 }
 // @lc code=end
