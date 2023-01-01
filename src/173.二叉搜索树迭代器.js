@@ -44,8 +44,8 @@ BSTIterator.prototype.hasNext = function() {
   return this.stack.length > 0
 }
 // https://mp.weixin.qq.com/s/jI8_-E6rx2HVBOmuQOTgHg
-// const { createASTFromArray } = require('./utils/bst')
-// const ast = createASTFromArray([7, 3, 15, null, null, 9, 20])
+// const { createBTFromArray } = require('./utils/bst')
+// const ast = createBTFromArray([7, 3, 15, null, null, 9, 20])
 // const bSTIterator = new BSTIterator(ast)
 
 /**
