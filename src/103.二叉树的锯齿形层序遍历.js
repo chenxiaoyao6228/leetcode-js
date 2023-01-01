@@ -19,7 +19,7 @@
  */
 var zigzagLevelOrder = function(root) {
   // base case
-  if (!root) return
+  if (!root) return []
   let res = []
   let queue = [root]
   root.depth = 0
