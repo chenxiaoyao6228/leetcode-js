@@ -14,7 +14,7 @@ const result = generateResult()
 fs.writeFileSync(readMePath, result, 'utf8')
 
 function generateResult() {
-  const anchorText = '## Table of contents'
+  const anchorText = '## Table of solutions'
   const anchorIndex = originReadMe.indexOf(anchorText)
   const preText = originReadMe.slice(0, anchorIndex)
   const table = generateTable()
@@ -36,8 +36,8 @@ function generateTable() {
 }
 
 function generateTableHeader() {
-  const header = `| ID | Solutions |
-  | --- | ----------- |`
+  const header = `| ID | Solutions | Test Case |
+  | --- | ----------- | -------- |`
   return header
 }
 
@@ -70,6 +70,16 @@ function generateTableContent(prefixPath = '') {
 
   function genrateFileContent(prefixPath, fileName) {
     const [id, name, _] = fileName.split('.')
-    return [id, `| ${id} | [${name}](./src${prefixPath}/${fileName}) | `]
+    const testName = fileName.slice(0, -3) + '.test.js'
+    const testFolder = path.join(__dirname, '../test', testName)
+    console.log('testFolder', testFolder)
+    let testCasePath = `[test](./test${prefixPath}/${testName})`
+    if (!fs.existsSync(testFolder)) {
+      testCasePath = ''
+    }
+    return [
+      id,
+      `| ${id} | [${name}](./src${prefixPath}/${fileName}) |  ${testCasePath}`
+    ]
   }
 }
