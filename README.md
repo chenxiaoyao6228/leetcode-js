@@ -3,7 +3,7 @@
 Personal Leetcode solutions in javascript.
 
 ## Table of contents
-Total Submit: **110**
+Total Submit: **111**
 | ID | Solutions |
   | --- | ----------- |
 | 1 | [two-sum](./src/1.two-sum.js) | 
@@ -40,6 +40,7 @@ Total Submit: **110**
 | 106 | [从中序与后序遍历序列构造二叉树](./src/106.从中序与后序遍历序列构造二叉树.js) | 
 | 107 | [二叉树的层序遍历-ii](./src/107.二叉树的层序遍历-ii.js) | 
 | 108 | [将有序数组转换为二叉搜索树](./src/108.将有序数组转换为二叉搜索树.js) | 
+| 110 | [平衡二叉树](./src/110.平衡二叉树.js) | 
 | 111 | [二叉树的最小深度](./src/111.二叉树的最小深度.js) | 
 | 112 | [路径总和](./src/112.路径总和.js) | 
 | 113 | [路径总和-ii](./src/113.路径总和-ii.js) | 
