@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const leetcodeENData = require('./crawler/en.json')
 
 let totalCount = 0
 
@@ -36,8 +37,8 @@ function generateTable() {
 }
 
 function generateTableHeader() {
-  const header = `| ID | Solutions | Test Case |
-  | --- | ----------- | -------- |`
+  const header = `| ID | Title | Solutions | Test Case |
+  | --- | ------ | ------ | ----- |`
   return header
 }
 
@@ -77,9 +78,17 @@ function generateTableContent(prefixPath = '') {
     if (!fs.existsSync(testFolder)) {
       testCasePath = ''
     }
+    const titleName = leetcodeENData[id]
+    const linkName = titleName
+      .split(' ')
+      .map(s => s.toLowerCase())
+      .join('-')
+    const enLink = `https://leetcode.com/problems/` + linkName
+    const cnLink = `https://leetcode.cn/problems/` + linkName
+
     return [
       id,
-      `| ${id} | [${name}](./src${prefixPath}/${fileName}) |  ${testCasePath}`
+      `| ${id} | ${titleName}([en](${enLink}), [cn](${cnLink})) | [Javascript](./src${prefixPath}/${fileName}) |  ${testCasePath}`
     ]
   }
 }

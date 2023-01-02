@@ -9,7 +9,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "prettier --write ./**/*.js && eslint --fix . && echo 'Lint complete.'",
-    "generate": "node ./scripts/generate.js"
+    "generate": "node ./scripts/generate.js",
+    "getList": "node ./scripts/crawler/index.js"
   },
   "keywords": [
     "kata",
