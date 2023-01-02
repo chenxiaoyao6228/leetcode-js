@@ -24,7 +24,7 @@ TODO
 * [union-find(TODO)]()
 
 ## Table of solutions
-Total Submit: **112**/**300(Goal)**
+Total Submit: **113**/**300(Goal)**
 | ID | Solutions | Test Case |
   | --- | ----------- | -------- |
 | 1 | [two-sum](./src/1.two-sum.js) |  [test](./test/1.two-sum.test.js)
@@ -86,6 +86,7 @@ Total Submit: **112**/**300(Goal)**
 | 209 | [minimum-size-subarray-sum](./src/209.minimum-size-subarray-sum.js) |  [test](./test/209.minimum-size-subarray-sum.test.js)
 | 219 | [contains-duplicate-ii](./src/219.contains-duplicate-ii.js) |  [test](./test/219.contains-duplicate-ii.test.js)
 | 220 | [contains-duplicate-iii](./src/220.contains-duplicate-iii.js) |  [test](./test/220.contains-duplicate-iii.test.js)
+| 222 | [完全二叉树的节点个数](./src/222.完全二叉树的节点个数.js) |  
 | 226 | [翻转二叉树](./src/226.翻转二叉树.js) |  
 | 230 | [二叉搜索树中第k小的元素](./src/230.二叉搜索树中第k小的元素.js) |  
 | 234 | [palindrome-linked-list](./src/234.palindrome-linked-list.js) |  [test](./test/234.palindrome-linked-list.test.js)
