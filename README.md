@@ -8,6 +8,9 @@ Personal Leetcode solutions in javascript. All JavaScript codes are written in E
 
 ## Summaries and Templates
 It's almost impossible to finish all leetcode problems since it has more than 2000 problems for now and the number is still increasing. Here are some summaries and templates that might offer some bits of help.
+
+**Guide**
+* [guide](docs/guide.md)
 #### **Array/LinkedList**
 * [sliding-window](docs/Array/sliding-window.md)
 ####  **Queue/Stack**
@@ -18,10 +21,10 @@ TODO
 TODO
 #### Graph
 * [graph-basic](docs/Graph/graph-basic.md)
-
+* [union-find(TODO)]()
 
 ## Table of solutions
-Total Submit: **111**
+Total Submit: **111**/**300(Goal)**
 | ID | Solutions | Test Case |
   | --- | ----------- | -------- |
 | 1 | [two-sum](./src/1.two-sum.js) |  [test](./test/1.two-sum.test.js)

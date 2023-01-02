@@ -24,7 +24,7 @@ function generateResult() {
 }
 
 function generateProgess() {
-  return `Total Submit: **${totalCount}**`
+  return `Total Submit: **${totalCount}**/**300(Goal)**`
 }
 
 function generateTable() {

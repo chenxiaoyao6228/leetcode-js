@@ -47,4 +47,21 @@ var preorderTraversal = function(root) {
     traverse(root.right)
   }
 }
+
+// solution3: bfs: use extra stack
+// var preorderTraversal = function(root) {
+//   const res = []
+//   if (root == null) {
+//     return res
+//   }
+//   const stack = [root]
+//   while (stack.length) {
+//     let cur = stack.pop()
+//     res.push(cur.val)
+//     cur.right && stack.push(cur.right)
+//     cur.left && stack.push(cur.left)
+//   }
+//   return res
+// }
+
 // @lc code=end

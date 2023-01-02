@@ -13,7 +13,7 @@
 // tips: use directed graph to solve
 var canFinish = function(numCourses, prerequisites) {
   const graph = buildGraph(numCourses, prerequisites)
-  console.log('graph', graph)
+  // console.log('graph', graph)
   const visitedArrOfBoolean = new Array(numCourses).fill(false)
   const onPathArrayOfBoolean = new Array(numCourses).fill(false)
   let hasCycle = false
@@ -33,6 +33,7 @@ var canFinish = function(numCourses, prerequisites) {
     visitedArrOfBoolean[i] = true
     onPathArrayOfBoolean[i] = true
     graph[i].forEach(g => {
+      // traverse neighbor
       traverse(graph, g)
     })
     // postorder code position
