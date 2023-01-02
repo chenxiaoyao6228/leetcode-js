@@ -24,7 +24,7 @@ TODO
 * [union-find(TODO)]()
 
 ## Table of solutions
-Total Submit: **113**/**300(Goal)**
+Total Submit: **114**/**300(Goal)**
 | ID | Solutions | Test Case |
   | --- | ----------- | -------- |
 | 1 | [two-sum](./src/1.two-sum.js) |  [test](./test/1.two-sum.test.js)
@@ -54,6 +54,7 @@ Total Submit: **113**/**300(Goal)**
 | 96 | [不同的二叉搜索树](./src/96.不同的二叉搜索树.js) |  
 | 98 | [验证二叉搜索树](./src/98.验证二叉搜索树.js) |  
 | 100 | [相同的树](./src/100.相同的树.js) |  
+| 101 | [对称二叉树](./src/101.对称二叉树.js) |  
 | 102 | [二叉树的层序遍历](./src/102.二叉树的层序遍历.js) |  
 | 103 | [二叉树的锯齿形层序遍历](./src/103.二叉树的锯齿形层序遍历.js) |  
 | 104 | [二叉树的最大深度](./src/104.二叉树的最大深度.js) |  
