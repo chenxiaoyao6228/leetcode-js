@@ -20,7 +20,7 @@ TODO
 #### Graph
 TODO
 ## Table of solutions
-Total Submit: **116**/**300(Goal)**
+Total Submit: **117**/**300(Goal)**
 | ID | Title | Solutions | Test Case |
   | --- | ------ | ------ | ----- |
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) | [Javascript](./src/1.two-sum.js) |  [test](./test/1.two-sum.test.js)
@@ -41,6 +41,7 @@ Total Submit: **116**/**300(Goal)**
 | 34 | Find First and Last Position of Element in Sorted Array([en](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array), [cn](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array)) | [Javascript](./src/34.在排序数组中查找元素的第一个和最后一个位置.js) |  
 | 35 | Search Insert Position([en](https://leetcode.com/problems/search-insert-position), [cn](https://leetcode.cn/problems/search-insert-position)) | [Javascript](./src/35.搜索插入位置.js) |  
 | 46 | Permutations([en](https://leetcode.com/problems/permutations), [cn](https://leetcode.cn/problems/permutations)) | [Javascript](./src/46.全排列.js) |  
+| 51 | N-Queens([en](https://leetcode.com/problems/n-queens), [cn](https://leetcode.cn/problems/n-queens)) | [Javascript](./src/51.n-皇后.js) |  
 | 75 | Sort Colors([en](https://leetcode.com/problems/sort-colors), [cn](https://leetcode.cn/problems/sort-colors)) | [Javascript](./src/75.sort-colors.js) |  [test](./test/75.sort-colors.test.js)
 | 76 | Minimum Window Substring([en](https://leetcode.com/problems/minimum-window-substring), [cn](https://leetcode.cn/problems/minimum-window-substring)) | [Javascript](./src/76.最小覆盖子串.js) |  
 | 83 | Remove Duplicates from Sorted List([en](https://leetcode.com/problems/remove-duplicates-from-sorted-list), [cn](https://leetcode.cn/problems/remove-duplicates-from-sorted-list)) | [Javascript](./src/83.删除排序链表中的重复元素.js) |  
