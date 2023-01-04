@@ -20,7 +20,7 @@ TODO
 #### Graph
 TODO
 ## Table of solutions
-Total Submit: **122**/**300(Goal)**
+Total Submit: **123**/**300(Goal)**
 | ID | Title | Solutions | Test Case |
   | --- | ------ | ------ | ----- |
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) | [Javascript](./src/1.two-sum.js) |  [test](./test/1.two-sum.test.js)
@@ -40,6 +40,7 @@ Total Submit: **122**/**300(Goal)**
 | 27 | Remove Element([en](https://leetcode.com/problems/remove-element), [cn](https://leetcode.cn/problems/remove-element)) | [Javascript](./src/27.移除元素.js) |  
 | 34 | Find First and Last Position of Element in Sorted Array([en](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array), [cn](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array)) | [Javascript](./src/34.在排序数组中查找元素的第一个和最后一个位置.js) |  
 | 35 | Search Insert Position([en](https://leetcode.com/problems/search-insert-position), [cn](https://leetcode.cn/problems/search-insert-position)) | [Javascript](./src/35.搜索插入位置.js) |  
+| 39 | Combination Sum([en](https://leetcode.com/problems/combination-sum), [cn](https://leetcode.cn/problems/combination-sum)) | [Javascript](./src/39.组合总和.js) |  
 | 40 | Combination Sum II([en](https://leetcode.com/problems/combination-sum-ii), [cn](https://leetcode.cn/problems/combination-sum-ii)) | [Javascript](./src/40.组合总和-ii.js) |  
 | 46 | Permutations([en](https://leetcode.com/problems/permutations), [cn](https://leetcode.cn/problems/permutations)) | [Javascript](./src/46.全排列.js) |  
 | 47 | Permutations II([en](https://leetcode.com/problems/permutations-ii), [cn](https://leetcode.cn/problems/permutations-ii)) | [Javascript](./src/47.全排列-ii.js) |  
