@@ -20,7 +20,7 @@ TODO
 #### Graph
 TODO
 ## Table of solutions
-Total Submit: **118**/**300(Goal)**
+Total Submit: **119**/**300(Goal)**
 | ID | Title | Solutions | Test Case |
   | --- | ------ | ------ | ----- |
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) | [Javascript](./src/1.two-sum.js) |  [test](./test/1.two-sum.test.js)
@@ -44,6 +44,7 @@ Total Submit: **118**/**300(Goal)**
 | 51 | N-Queens([en](https://leetcode.com/problems/n-queens), [cn](https://leetcode.cn/problems/n-queens)) | [Javascript](./src/51.n-皇后.js) |  
 | 75 | Sort Colors([en](https://leetcode.com/problems/sort-colors), [cn](https://leetcode.cn/problems/sort-colors)) | [Javascript](./src/75.sort-colors.js) |  [test](./test/75.sort-colors.test.js)
 | 76 | Minimum Window Substring([en](https://leetcode.com/problems/minimum-window-substring), [cn](https://leetcode.cn/problems/minimum-window-substring)) | [Javascript](./src/76.最小覆盖子串.js) |  
+| 77 | Combinations([en](https://leetcode.com/problems/combinations), [cn](https://leetcode.cn/problems/combinations)) | [Javascript](./src/77.组合.js) |  
 | 78 | Subsets([en](https://leetcode.com/problems/subsets), [cn](https://leetcode.cn/problems/subsets)) | [Javascript](./src/78.子集.js) |  
 | 83 | Remove Duplicates from Sorted List([en](https://leetcode.com/problems/remove-duplicates-from-sorted-list), [cn](https://leetcode.cn/problems/remove-duplicates-from-sorted-list)) | [Javascript](./src/83.删除排序链表中的重复元素.js) |  
 | 86 | Partition List([en](https://leetcode.com/problems/partition-list), [cn](https://leetcode.cn/problems/partition-list)) | [Javascript](./src/86.分隔链表.js) |  
