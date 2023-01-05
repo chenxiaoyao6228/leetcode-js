@@ -18,6 +18,7 @@ var numIslands = function(grid) {
       if (grid[i][j] === '1') {
         res++
         // floodfill all neigbors since all adjacent land should count as one
+        // no need to maintain the 'used' array
         dfs(grid, i, j)
       }
     }
