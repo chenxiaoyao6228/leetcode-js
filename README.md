@@ -20,7 +20,7 @@ TODO
 #### Graph
 TODO
 ## Table of solutions
-Total Submit: **124**/**300(Goal)**
+Total Submit: **125**/**300(Goal)**
 | ID | Title | Solutions | Test Case |
   | --- | ------ | ------ | ----- |
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) | [Javascript](./src/1.two-sum.js) |  [test](./test/1.two-sum.test.js)
@@ -131,6 +131,7 @@ Total Submit: **124**/**300(Goal)**
 | 687 | Longest Univalue Path([en](https://leetcode.com/problems/longest-univalue-path), [cn](https://leetcode.cn/problems/longest-univalue-path)) | [Javascript](./src/687.最长同值路径.js) |  
 | 700 | Search in a Binary Search Tree([en](https://leetcode.com/problems/search-in-a-binary-search-tree), [cn](https://leetcode.cn/problems/search-in-a-binary-search-tree)) | [Javascript](./src/700.二叉搜索树中的搜索.js) |  
 | 704 | Binary Search([en](https://leetcode.com/problems/binary-search), [cn](https://leetcode.cn/problems/binary-search)) | [Javascript](./src/704.二分查找.js) |  
+| 752 | Open the Lock([en](https://leetcode.com/problems/open-the-lock), [cn](https://leetcode.cn/problems/open-the-lock)) | [Javascript](./src/752.打开转盘锁.js) |  
 | 785 | Is Graph Bipartite?([en](https://leetcode.com/problems/is-graph-bipartite?), [cn](https://leetcode.cn/problems/is-graph-bipartite?)) | [Javascript](./src/785.判断二分图.js) |  
 | 797 | All Paths From Source to Target([en](https://leetcode.com/problems/all-paths-from-source-to-target), [cn](https://leetcode.cn/problems/all-paths-from-source-to-target)) | [Javascript](./src/797.所有可能的路径.js) |  
 | 876 | Middle of the Linked List([en](https://leetcode.com/problems/middle-of-the-linked-list), [cn](https://leetcode.cn/problems/middle-of-the-linked-list)) | [Javascript](./src/876.链表的中间结点.js) |  
