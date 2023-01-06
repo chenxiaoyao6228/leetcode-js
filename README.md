@@ -20,7 +20,7 @@ TODO
 #### Graph
 TODO
 ## Table of solutions
-Total Submit: **125**/**300(Goal)**
+Total Submit: **126**/**300(Goal)**
 | ID | Title | Solutions | Test Case |
   | --- | ------ | ------ | ----- |
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) | [Javascript](./src/1.two-sum.js) |  [test](./test/1.two-sum.test.js)
@@ -102,6 +102,7 @@ Total Submit: **125**/**300(Goal)**
 | 283 | Move Zeroes([en](https://leetcode.com/problems/move-zeroes), [cn](https://leetcode.cn/problems/move-zeroes)) | [Javascript](./src/283.移动零.js) |  
 | 290 | Word Pattern([en](https://leetcode.com/problems/word-pattern), [cn](https://leetcode.cn/problems/word-pattern)) | [Javascript](./src/290.word-pattern.js) |  [test](./test/290.word-pattern.test.js)
 | 297 | Serialize and Deserialize Binary Tree([en](https://leetcode.com/problems/serialize-and-deserialize-binary-tree), [cn](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree)) | [Javascript](./src/297.二叉树的序列化与反序列化.js) |  
+| 300 | Longest Increasing Subsequence([en](https://leetcode.com/problems/longest-increasing-subsequence), [cn](https://leetcode.cn/problems/longest-increasing-subsequence)) | [Javascript](./src/300.最长递增子序列.js) |  
 | 303 | Range Sum Query - Immutable([en](https://leetcode.com/problems/range-sum-query---immutable), [cn](https://leetcode.cn/problems/range-sum-query---immutable)) | [Javascript](./src/303.区域和检索-数组不可变.js) |  
 | 322 | Coin Change([en](https://leetcode.com/problems/coin-change), [cn](https://leetcode.cn/problems/coin-change)) | [Javascript](./src/322.零钱兑换.js) |  
 | 344 | Reverse String([en](https://leetcode.com/problems/reverse-string), [cn](https://leetcode.cn/problems/reverse-string)) | [Javascript](./src/344.反转字符串.js) |  
