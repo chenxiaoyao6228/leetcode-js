@@ -9,16 +9,14 @@
  * @param {number[][]} envelopes
  * @return {number}
  */
+// ❗time exceeded
 var maxEnvelopes = function(envelopes) {
-  // sort the matrix by width and then by height and covert two dimensional problem to one dimension
+  // sort the matrix by width in (❗increasing) and height in (❗decreasing order)
   const sorted = envelopes.sort((a, b) => {
-    const [a1, a2] = a
-    const [b1, b2] = b
-    return a1 - b1 || a2 - b2
+    return a[0] === b[0] ? b[1] - a[1] : a[0] - b[0]
   })
+  // and then by height and covert two dimensional problem to one dimension
   const heightList = sorted.map(item => item[1])
-  //   console.log('heightList', heightList)
-  // call LIS for the height
   return LIS(heightList)
 
   function LIS(arr) {
@@ -39,12 +37,4 @@ var maxEnvelopes = function(envelopes) {
     return res
   }
 }
-// console.log(
-//   maxEnvelopes([
-//     [5, 4],
-//     [6, 4],
-//     [6, 7],
-//     [2, 3]
-//   ])
-// )
 // @lc code=end
