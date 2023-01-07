@@ -42,14 +42,31 @@ const puppeteer = require('puppeteer')
 
       const problemsMap =
         (await page.evaluate(resultsSelector => {
-          const elements = [...document.querySelectorAll(resultsSelector)]
+          const rowSelector = 'div[role="rowgroup"] > div[role="row"]'
+          const rows = [...document.querySelectorAll(rowSelector)]
           const problemsMap = {}
-          if (elements.length > 0) {
-            elements.forEach(el => {
-              const [id, problemName] = el.innerText.split('. ')
-              problemsMap[id] = problemName
+          if (rows.length > 0) {
+            rows.forEach(el => {
+              const idElement = el.querySelector(
+                'div[role="cell"]:nth-child(2)'
+              )
+              const acceptanceElement = el.querySelector(
+                'div[role="cell"]:nth-child(4)'
+              )
+              const difficultyElement = el.querySelector(
+                'div[role="cell"]:nth-child(5)'
+              )
+
+              const [id, problemName] = idElement.innerText.split('. ')
+              if (!problemsMap[id]) {
+                problemsMap[id] = {}
+              }
+              problemsMap[id].name = problemName
+              problemsMap[id].acceptance = acceptanceElement.innerText
+              problemsMap[id].difficulty = difficultyElement.innerText
             })
           }
+
           // console.log('problemsMap', problemsMap)
           return problemsMap
         }, resultsSelector)) || {}
