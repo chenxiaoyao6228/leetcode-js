@@ -20,7 +20,7 @@ TODO
 #### Graph
 TODO
 ## Table of solutions
-Total Submit: **128**/**300(Goal)**
+Total Submit: **129**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.two-sum.js) | [test](./test/1.two-sum.test.js)
@@ -145,4 +145,5 @@ Total Submit: **128**/**300(Goal)**
 | 998 | Maximum Binary Tree II([en](https://leetcode.com/problems/maximum-binary-tree-ii), [cn](https://leetcode.cn/problems/maximum-binary-tree-ii)) |  Medium | [Javascript](./src/998.maximum-binary-tree-ii.js) | 
 | 1008 | Construct Binary Search Tree from Preorder Traversal([en](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal), [cn](https://leetcode.cn/problems/construct-binary-search-tree-from-preorder-traversal)) |  Medium | [Javascript](./src/1008.前序遍历构造二叉搜索树.js) | 
 | 1094 | Car Pooling([en](https://leetcode.com/problems/car-pooling), [cn](https://leetcode.cn/problems/car-pooling)) |  Medium | [Javascript](./src/1094.拼车.js) | 
+| 1143 | Longest Common Subsequence([en](https://leetcode.com/problems/longest-common-subsequence), [cn](https://leetcode.cn/problems/longest-common-subsequence)) |  Medium | [Javascript](./src/1143.最长公共子序列.js) | 
 | 1373 | Maximum Sum BST in Binary Tree([en](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree), [cn](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree)) |  Hard | [Javascript](./src/1373.二叉搜索子树的最大键值和.js) | 
