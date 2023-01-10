@@ -66,6 +66,70 @@ var openLock = function(deadends, target) {
     return arr.join('')
   }
 }
+
+// var openLock = function(deadends, target) {
+//   const targetLen = 4
+//   const deadMap = new Map()
+//   deadends.forEach(d => deadMap.set(d, true))
+//   const visted = new Map()
+//   let step = 0
+//   const queue = ['0000']
+//   visted.set('0000', true)
+
+//   while (queue.length > 0) {
+//     let len = queue.length
+//     for (let i = 0; i < len; i++) {
+//       let node = queue.shift()
+//       if (deadMap.get(node)) {
+//         continue
+//       }
+//       // should check before add
+//       // if (visted.get(node)) {
+//       //   break
+//       // }
+//       if (node === target) {
+//         return step
+//       }
+//       // for every move, you have 2^targetLen choices
+//       for (let j = 0; j < targetLen; j++) {
+//         let up = add(node, j)
+//         if (!visted.get(up)) {
+//           queue.push(up)
+//           visted.set(up, true)
+//         }
+//         let down = minus(node, j)
+//         if (!visted.get(down)) {
+//           queue.push(down)
+//           visted.set(down, true)
+//         }
+//       }
+//     }
+//     step++
+//   }
+
+//   return -1
+
+//   function add(target, i) {
+//     const arr = target.split('')
+//     if (arr[i] === '9') {
+//       arr[i] = '0'
+//     } else {
+//       arr[i] = Number(arr[i]) + 1
+//     }
+//     return arr.join('')
+//   }
+
+//   function minus(target, i) {
+//     const arr = target.split('')
+//     if (arr[i] === '0') {
+//       arr[i] = '9'
+//     } else {
+//       arr[i] = Number(arr[i]) - 1 + ''
+//     }
+//     return arr.join('')
+//   }
+// }
+
 // let res = openLock(['0201', '0101', '0102', '1212', '2002'])
 // console.log('res', res)
 // @lc code=end
