@@ -20,7 +20,7 @@ TODO
 #### Graph
 TODO
 ## Table of solutions
-Total Submit: **129**/**300(Goal)**
+Total Submit: **130**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.two-sum.js) | [test](./test/1.two-sum.test.js)
@@ -135,6 +135,7 @@ Total Submit: **129**/**300(Goal)**
 | 700 | Search in a Binary Search Tree([en](https://leetcode.com/problems/search-in-a-binary-search-tree), [cn](https://leetcode.cn/problems/search-in-a-binary-search-tree)) |  Easy | [Javascript](./src/700.二叉搜索树中的搜索.js) | 
 | 704 | Binary Search([en](https://leetcode.com/problems/binary-search), [cn](https://leetcode.cn/problems/binary-search)) |  Easy | [Javascript](./src/704.二分查找.js) | 
 | 752 | Open the Lock([en](https://leetcode.com/problems/open-the-lock), [cn](https://leetcode.cn/problems/open-the-lock)) |  Medium | [Javascript](./src/752.打开转盘锁.js) | 
+| 773 | Sliding Puzzle([en](https://leetcode.com/problems/sliding-puzzle), [cn](https://leetcode.cn/problems/sliding-puzzle)) |  Hard | [Javascript](./src/773.滑动谜题.js) | 
 | 785 | Is Graph Bipartite?([en](https://leetcode.com/problems/is-graph-bipartite?), [cn](https://leetcode.cn/problems/is-graph-bipartite?)) |  Medium | [Javascript](./src/785.判断二分图.js) | 
 | 797 | All Paths From Source to Target([en](https://leetcode.com/problems/all-paths-from-source-to-target), [cn](https://leetcode.cn/problems/all-paths-from-source-to-target)) |  Medium | [Javascript](./src/797.所有可能的路径.js) | 
 | 876 | Middle of the Linked List([en](https://leetcode.com/problems/middle-of-the-linked-list), [cn](https://leetcode.cn/problems/middle-of-the-linked-list)) |  Easy | [Javascript](./src/876.链表的中间结点.js) | 
