@@ -1,4 +1,4 @@
-const { containsNearbyDuplicate } = require('../src/219.contains-duplicate-ii')
+const { containsNearbyDuplicate } = require('./219.contains-duplicate-ii')
 
 describe('containsNearbyDuplicate', () => {
   test.each`

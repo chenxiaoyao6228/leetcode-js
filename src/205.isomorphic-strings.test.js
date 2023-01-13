@@ -1,4 +1,4 @@
-import { isIsomorphic } from '../src/205.isomorphic-strings'
+import { isIsomorphic } from './205.isomorphic-strings'
 
 test.each`
   a          | b          | expected

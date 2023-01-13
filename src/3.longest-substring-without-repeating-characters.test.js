@@ -1,6 +1,6 @@
 const {
   lengthOfLongestSubstring
-} = require('../src/3.longest-substring-without-repeating-characters')
+} = require('./3.longest-substring-without-repeating-characters')
 describe('longest substring', () => {
   test.each([
     ['abba', 2],

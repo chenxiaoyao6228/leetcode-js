@@ -1,4 +1,4 @@
-import { threeSumClosest } from '../src/16.3-sum-closest'
+import { threeSumClosest } from './16.3-sum-closest'
 
 test.each`
   a                    | b    | expected

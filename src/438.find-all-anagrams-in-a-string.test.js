@@ -1,4 +1,4 @@
-const { findAnagrams } = require('../src/438.find-all-anagrams-in-a-string')
+const { findAnagrams } = require('./438.find-all-anagrams-in-a-string')
 
 describe('findAnagrams', () => {
   test('findAnagrams', () => {

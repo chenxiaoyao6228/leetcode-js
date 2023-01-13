@@ -1,4 +1,4 @@
-const { sortColors } = require('../src/75.sort-colors')
+const { sortColors } = require('./75.sort-colors')
 
 describe('sorted color', () => {
   test('sortColors', () => {

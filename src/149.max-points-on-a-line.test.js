@@ -1,4 +1,4 @@
-const { maxPoints } = require('../src/149.max-points-on-a-line')
+const { maxPoints } = require('./149.max-points-on-a-line')
 
 describe('Max points', () => {
   test('basic ', () => {

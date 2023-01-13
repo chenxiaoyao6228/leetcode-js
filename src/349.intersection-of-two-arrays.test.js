@@ -1,4 +1,4 @@
-const { intersection } = require('../src/349.intersection-of-two-arrays')
+const { intersection } = require('./349.intersection-of-two-arrays')
 
 test('should handle empty array', () => {
   expect(intersection([1, 2, 2, 1], [])).toEqual([])

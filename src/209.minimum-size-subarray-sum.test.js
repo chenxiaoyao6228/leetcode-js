@@ -1,4 +1,4 @@
-const { minSubArrayLen } = require('../src/209.minimum-size-subarray-sum')
+const { minSubArrayLen } = require('./209.minimum-size-subarray-sum')
 
 describe('minSubArrayLen', () => {
   test('minSubArrayLen', () => {

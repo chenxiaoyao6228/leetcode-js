@@ -1,4 +1,4 @@
-const { reverse } = require('../src/7.reverse-integer')
+const { reverse } = require('./7.reverse-integer')
 
 describe('reverse integer', () => {
   test('should reverse the correct num', () => {

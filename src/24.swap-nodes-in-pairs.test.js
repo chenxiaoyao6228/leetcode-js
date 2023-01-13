@@ -1,5 +1,5 @@
-const { swapPairs } = require('./../src/24.swap-nodes-in-pairs')
-const { ListNode, createList } = require('../src/utils/linked-list')
+const { swapPairs } = require('./24.swap-nodes-in-pairs')
+const { ListNode, createList } = require('./utils/linked-list')
 
 describe('swapPairs', () => {
   test('should create a simple list', () => {

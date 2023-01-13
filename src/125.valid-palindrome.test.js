@@ -1,4 +1,4 @@
-const { isPalindrome } = require('../src/125.valid-palindrome')
+const { isPalindrome } = require('./125.valid-palindrome')
 
 test.each([
   ['', true],

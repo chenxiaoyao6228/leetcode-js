@@ -1,4 +1,4 @@
-import { MaxPQ } from '../../src/data-structure/MaxPriorityQueue'
+import { MaxPQ } from './MaxPriorityQueue'
 
 describe('MaxPQ', () => {
   let pq

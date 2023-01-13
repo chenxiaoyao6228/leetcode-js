@@ -1,4 +1,4 @@
-const { isHappy } = require('../src/202.happy-number')
+const { isHappy } = require('./202.happy-number')
 
 test('happy number', () => {
   expect(isHappy(19)).toEqual(true)

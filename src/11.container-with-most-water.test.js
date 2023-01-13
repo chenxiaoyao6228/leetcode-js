@@ -1,4 +1,4 @@
-const { maxArea } = require('../src/11.container-with-most-water')
+const { maxArea } = require('./11.container-with-most-water')
 
 describe('container with most water', () => {
   test('should return the max number', () => {

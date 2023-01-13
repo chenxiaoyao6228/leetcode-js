@@ -1,5 +1,5 @@
-const { reverseKGroup } = require('../src/25.reverse-nodes-in-k-group')
-const { createList } = require('../src/utils/linked-list')
+const { reverseKGroup } = require('./25.reverse-nodes-in-k-group')
+const { createList } = require('./utils/linked-list')
 
 describe('reverseKGroup', () => {
   test('test with no left-out, that means: length / k === 0', () => {

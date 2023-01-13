@@ -1,6 +1,6 @@
 const {
   containsNearbyAlmostDuplicate
-} = require('../src/220.contains-duplicate-iii')
+} = require('./220.contains-duplicate-iii')
 
 describe('containsNearbyAlmostDuplicate', () => {
   test.each`

@@ -1,5 +1,5 @@
-const { isPalindrome } = require('../src/234.palindrome-linked-list')
-const { createList } = require('../src/utils/linked-list')
+const { isPalindrome } = require('./234.palindrome-linked-list')
+const { createList } = require('./utils/linked-list')
 
 test('isPalindrome', () => {
   expect(isPalindrome(createList(1))).toEqual(true)

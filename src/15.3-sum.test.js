@@ -1,4 +1,4 @@
-const { threeSum } = require('../src/15.3-sum')
+const { threeSum } = require('./15.3-sum')
 
 describe('three sum', () => {
   test('should return a two dimension array', () => {

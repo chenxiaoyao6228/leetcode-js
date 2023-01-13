@@ -1,4 +1,4 @@
-const { isValid } = require('../src/20.valid-parentheses')
+const { isValid } = require('./20.valid-parentheses')
 test('isValid', () => {
   expect(isValid('')).toEqual(true)
   expect(isValid('(')).toEqual(false)

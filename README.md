@@ -20,22 +20,22 @@ TODO
 #### Graph
 TODO
 ## Table of solutions
-Total Submit: **133**/**300(Goal)**
+Total Submit: **161**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
-| 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.two-sum.js) | [test](./test/1.two-sum.test.js)
+| 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.two-sum.test.js) | 
 | 3 | Longest Substring Without Repeating Characters([en](https://leetcode.com/problems/longest-substring-without-repeating-characters), [cn](https://leetcode.cn/problems/longest-substring-without-repeating-characters)) |  Medium | [Javascript](./src/3.无重复字符的最长子串.js) | 
-| 4 | Median of Two Sorted Arrays([en](https://leetcode.com/problems/median-of-two-sorted-arrays), [cn](https://leetcode.cn/problems/median-of-two-sorted-arrays)) |  Hard | [Javascript](./src/4.median-of-two-sorted-arrays.js) | [test](./test/4.median-of-two-sorted-arrays.test.js)
+| 4 | Median of Two Sorted Arrays([en](https://leetcode.com/problems/median-of-two-sorted-arrays), [cn](https://leetcode.cn/problems/median-of-two-sorted-arrays)) |  Hard | [Javascript](./src/4.median-of-two-sorted-arrays.test.js) | 
 | 5 | Longest Palindromic Substring([en](https://leetcode.com/problems/longest-palindromic-substring), [cn](https://leetcode.cn/problems/longest-palindromic-substring)) |  Medium | [Javascript](./src/5.最长回文子串.js) | 
-| 7 | Reverse Integer([en](https://leetcode.com/problems/reverse-integer), [cn](https://leetcode.cn/problems/reverse-integer)) |  Medium | [Javascript](./src/7.reverse-integer.js) | [test](./test/7.reverse-integer.test.js)
-| 11 | Container With Most Water([en](https://leetcode.com/problems/container-with-most-water), [cn](https://leetcode.cn/problems/container-with-most-water)) |  Medium | [Javascript](./src/11.container-with-most-water.js) | [test](./test/11.container-with-most-water.test.js)
-| 15 | 3Sum([en](https://leetcode.com/problems/3sum), [cn](https://leetcode.cn/problems/3sum)) |  Medium | [Javascript](./src/15.3-sum.js) | [test](./test/15.3-sum.test.js)
-| 16 | 3Sum Closest([en](https://leetcode.com/problems/3sum-closest), [cn](https://leetcode.cn/problems/3sum-closest)) |  Medium | [Javascript](./src/16.3-sum-closest.js) | [test](./test/16.3-sum-closest.test.js)
+| 7 | Reverse Integer([en](https://leetcode.com/problems/reverse-integer), [cn](https://leetcode.cn/problems/reverse-integer)) |  Medium | [Javascript](./src/7.reverse-integer.test.js) | 
+| 11 | Container With Most Water([en](https://leetcode.com/problems/container-with-most-water), [cn](https://leetcode.cn/problems/container-with-most-water)) |  Medium | [Javascript](./src/11.container-with-most-water.test.js) | 
+| 15 | 3Sum([en](https://leetcode.com/problems/3sum), [cn](https://leetcode.cn/problems/3sum)) |  Medium | [Javascript](./src/15.3-sum.test.js) | 
+| 16 | 3Sum Closest([en](https://leetcode.com/problems/3sum-closest), [cn](https://leetcode.cn/problems/3sum-closest)) |  Medium | [Javascript](./src/16.3-sum-closest.test.js) | 
 | 19 | Remove Nth Node From End of List([en](https://leetcode.com/problems/remove-nth-node-from-end-of-list), [cn](https://leetcode.cn/problems/remove-nth-node-from-end-of-list)) |  Medium | [Javascript](./src/19.删除链表的倒数第-n-个结点.js) | 
-| 20 | Valid Parentheses([en](https://leetcode.com/problems/valid-parentheses), [cn](https://leetcode.cn/problems/valid-parentheses)) |  Easy | [Javascript](./src/20.valid-parentheses.js) | [test](./test/20.valid-parentheses.test.js)
+| 20 | Valid Parentheses([en](https://leetcode.com/problems/valid-parentheses), [cn](https://leetcode.cn/problems/valid-parentheses)) |  Easy | [Javascript](./src/20.valid-parentheses.test.js) | 
 | 21 | Merge Two Sorted Lists([en](https://leetcode.com/problems/merge-two-sorted-lists), [cn](https://leetcode.cn/problems/merge-two-sorted-lists)) |  Easy | [Javascript](./src/21.合并两个有序链表.js) | 
-| 24 | Swap Nodes in Pairs([en](https://leetcode.com/problems/swap-nodes-in-pairs), [cn](https://leetcode.cn/problems/swap-nodes-in-pairs)) |  Medium | [Javascript](./src/24.swap-nodes-in-pairs.js) | [test](./test/24.swap-nodes-in-pairs.test.js)
-| 25 | Reverse Nodes in k-Group([en](https://leetcode.com/problems/reverse-nodes-in-k-group), [cn](https://leetcode.cn/problems/reverse-nodes-in-k-group)) |  Hard | [Javascript](./src/25.reverse-nodes-in-k-group.js) | [test](./test/25.reverse-nodes-in-k-group.test.js)
+| 24 | Swap Nodes in Pairs([en](https://leetcode.com/problems/swap-nodes-in-pairs), [cn](https://leetcode.cn/problems/swap-nodes-in-pairs)) |  Medium | [Javascript](./src/24.swap-nodes-in-pairs.test.js) | 
+| 25 | Reverse Nodes in k-Group([en](https://leetcode.com/problems/reverse-nodes-in-k-group), [cn](https://leetcode.cn/problems/reverse-nodes-in-k-group)) |  Hard | [Javascript](./src/25.reverse-nodes-in-k-group.test.js) | 
 | 26 | Remove Duplicates from Sorted Array([en](https://leetcode.com/problems/remove-duplicates-from-sorted-array), [cn](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)) |  Easy | [Javascript](./src/26.删除有序数组中的重复项.js) | 
 | 27 | Remove Element([en](https://leetcode.com/problems/remove-element), [cn](https://leetcode.cn/problems/remove-element)) |  Easy | [Javascript](./src/27.移除元素.js) | 
 | 34 | Find First and Last Position of Element in Sorted Array([en](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array), [cn](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array)) |  Medium | [Javascript](./src/34.在排序数组中查找元素的第一个和最后一个位置.js) | 
@@ -46,7 +46,7 @@ Total Submit: **133**/**300(Goal)**
 | 47 | Permutations II([en](https://leetcode.com/problems/permutations-ii), [cn](https://leetcode.cn/problems/permutations-ii)) |  Medium | [Javascript](./src/47.全排列-ii.js) | 
 | 51 | N-Queens([en](https://leetcode.com/problems/n-queens), [cn](https://leetcode.cn/problems/n-queens)) |  Hard | [Javascript](./src/51.n-皇后.js) | 
 | 72 | Edit Distance([en](https://leetcode.com/problems/edit-distance), [cn](https://leetcode.cn/problems/edit-distance)) |  Hard | [Javascript](./src/72.编辑距离.js) | 
-| 75 | Sort Colors([en](https://leetcode.com/problems/sort-colors), [cn](https://leetcode.cn/problems/sort-colors)) |  Medium | [Javascript](./src/75.sort-colors.js) | [test](./test/75.sort-colors.test.js)
+| 75 | Sort Colors([en](https://leetcode.com/problems/sort-colors), [cn](https://leetcode.cn/problems/sort-colors)) |  Medium | [Javascript](./src/75.sort-colors.test.js) | 
 | 76 | Minimum Window Substring([en](https://leetcode.com/problems/minimum-window-substring), [cn](https://leetcode.cn/problems/minimum-window-substring)) |  Hard | [Javascript](./src/76.最小覆盖子串.js) | 
 | 77 | Combinations([en](https://leetcode.com/problems/combinations), [cn](https://leetcode.cn/problems/combinations)) |  Medium | [Javascript](./src/77.组合.js) | 
 | 78 | Subsets([en](https://leetcode.com/problems/subsets), [cn](https://leetcode.cn/problems/subsets)) |  Medium | [Javascript](./src/78.子集.js) | 
@@ -75,46 +75,46 @@ Total Submit: **133**/**300(Goal)**
 | 116 | Populating Next Right Pointers in Each Node([en](https://leetcode.com/problems/populating-next-right-pointers-in-each-node), [cn](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node)) |  Medium | [Javascript](./src/116.填充每个节点的下一个右侧节点指针.js) | 
 | 117 | Populating Next Right Pointers in Each Node II([en](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii), [cn](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii)) |  Medium | [Javascript](./src/117.填充每个节点的下一个右侧节点指针-ii.js) | 
 | 124 | Binary Tree Maximum Path Sum([en](https://leetcode.com/problems/binary-tree-maximum-path-sum), [cn](https://leetcode.cn/problems/binary-tree-maximum-path-sum)) |  Hard | [Javascript](./src/124.二叉树中的最大路径和.js) | 
-| 125 | Valid Palindrome([en](https://leetcode.com/problems/valid-palindrome), [cn](https://leetcode.cn/problems/valid-palindrome)) |  Easy | [Javascript](./src/125.valid-palindrome.js) | [test](./test/125.valid-palindrome.test.js)
+| 125 | Valid Palindrome([en](https://leetcode.com/problems/valid-palindrome), [cn](https://leetcode.cn/problems/valid-palindrome)) |  Easy | [Javascript](./src/125.valid-palindrome.test.js) | 
 | 129 | Sum Root to Leaf Numbers([en](https://leetcode.com/problems/sum-root-to-leaf-numbers), [cn](https://leetcode.cn/problems/sum-root-to-leaf-numbers)) |  Medium | [Javascript](./src/129.求根节点到叶节点数字之和.js) | 
 | 141 | Linked List Cycle([en](https://leetcode.com/problems/linked-list-cycle), [cn](https://leetcode.cn/problems/linked-list-cycle)) |  Easy | [Javascript](./src/141.环形链表.js) | 
 | 144 | Binary Tree Preorder Traversal([en](https://leetcode.com/problems/binary-tree-preorder-traversal), [cn](https://leetcode.cn/problems/binary-tree-preorder-traversal)) |  Easy | [Javascript](./src/144.二叉树的前序遍历.js) | 
 | 145 | Binary Tree Postorder Traversal([en](https://leetcode.com/problems/binary-tree-postorder-traversal), [cn](https://leetcode.cn/problems/binary-tree-postorder-traversal)) |  Easy | [Javascript](./src/145.二叉树的后序遍历.js) | 
-| 147 | Insertion Sort List([en](https://leetcode.com/problems/insertion-sort-list), [cn](https://leetcode.cn/problems/insertion-sort-list)) |  Medium | [Javascript](./src/147.insertion-sort-list.js) | [test](./test/147.insertion-sort-list.test.js)
-| 149 | Max Points on a Line([en](https://leetcode.com/problems/max-points-on-a-line), [cn](https://leetcode.cn/problems/max-points-on-a-line)) |  Hard | [Javascript](./src/149.max-points-on-a-line.js) | [test](./test/149.max-points-on-a-line.test.js)
+| 147 | Insertion Sort List([en](https://leetcode.com/problems/insertion-sort-list), [cn](https://leetcode.cn/problems/insertion-sort-list)) |  Medium | [Javascript](./src/147.insertion-sort-list.test.js) | 
+| 149 | Max Points on a Line([en](https://leetcode.com/problems/max-points-on-a-line), [cn](https://leetcode.cn/problems/max-points-on-a-line)) |  Hard | [Javascript](./src/149.max-points-on-a-line.test.js) | 
 | 160 | Intersection of Two Linked Lists([en](https://leetcode.com/problems/intersection-of-two-linked-lists), [cn](https://leetcode.cn/problems/intersection-of-two-linked-lists)) |  Easy | [Javascript](./src/160.相交链表.js) | 
 | 167 | Two Sum II - Input Array Is Sorted([en](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted), [cn](https://leetcode.cn/problems/two-sum-ii---input-array-is-sorted)) |  Medium | [Javascript](./src/167.两数之和-ii-输入有序数组.js) | 
 | 173 | Binary Search Tree Iterator([en](https://leetcode.com/problems/binary-search-tree-iterator), [cn](https://leetcode.cn/problems/binary-search-tree-iterator)) |  Medium | [Javascript](./src/173.二叉搜索树迭代器.js) | 
 | 200 | Number of Islands([en](https://leetcode.com/problems/number-of-islands), [cn](https://leetcode.cn/problems/number-of-islands)) |  Medium | [Javascript](./src/200.岛屿数量.js) | 
-| 202 | Happy Number([en](https://leetcode.com/problems/happy-number), [cn](https://leetcode.cn/problems/happy-number)) |  Easy | [Javascript](./src/202.happy-number.js) | [test](./test/202.happy-number.test.js)
-| 205 | Isomorphic Strings([en](https://leetcode.com/problems/isomorphic-strings), [cn](https://leetcode.cn/problems/isomorphic-strings)) |  Easy | [Javascript](./src/205.isomorphic-strings.js) | [test](./test/205.isomorphic-strings.test.js)
+| 202 | Happy Number([en](https://leetcode.com/problems/happy-number), [cn](https://leetcode.cn/problems/happy-number)) |  Easy | [Javascript](./src/202.happy-number.test.js) | 
+| 205 | Isomorphic Strings([en](https://leetcode.com/problems/isomorphic-strings), [cn](https://leetcode.cn/problems/isomorphic-strings)) |  Easy | [Javascript](./src/205.isomorphic-strings.test.js) | 
 | 206 | Reverse Linked List([en](https://leetcode.com/problems/reverse-linked-list), [cn](https://leetcode.cn/problems/reverse-linked-list)) |  Easy | [Javascript](./src/206.反转链表.js) | 
 | 207 | Course Schedule([en](https://leetcode.com/problems/course-schedule), [cn](https://leetcode.cn/problems/course-schedule)) |  Medium | [Javascript](./src/207.课程表.js) | 
-| 209 | Minimum Size Subarray Sum([en](https://leetcode.com/problems/minimum-size-subarray-sum), [cn](https://leetcode.cn/problems/minimum-size-subarray-sum)) |  Medium | [Javascript](./src/209.minimum-size-subarray-sum.js) | [test](./test/209.minimum-size-subarray-sum.test.js)
-| 219 | Contains Duplicate II([en](https://leetcode.com/problems/contains-duplicate-ii), [cn](https://leetcode.cn/problems/contains-duplicate-ii)) |  Easy | [Javascript](./src/219.contains-duplicate-ii.js) | [test](./test/219.contains-duplicate-ii.test.js)
-| 220 | Contains Duplicate III([en](https://leetcode.com/problems/contains-duplicate-iii), [cn](https://leetcode.cn/problems/contains-duplicate-iii)) |  Hard | [Javascript](./src/220.contains-duplicate-iii.js) | [test](./test/220.contains-duplicate-iii.test.js)
+| 209 | Minimum Size Subarray Sum([en](https://leetcode.com/problems/minimum-size-subarray-sum), [cn](https://leetcode.cn/problems/minimum-size-subarray-sum)) |  Medium | [Javascript](./src/209.minimum-size-subarray-sum.test.js) | 
+| 219 | Contains Duplicate II([en](https://leetcode.com/problems/contains-duplicate-ii), [cn](https://leetcode.cn/problems/contains-duplicate-ii)) |  Easy | [Javascript](./src/219.contains-duplicate-ii.test.js) | 
+| 220 | Contains Duplicate III([en](https://leetcode.com/problems/contains-duplicate-iii), [cn](https://leetcode.cn/problems/contains-duplicate-iii)) |  Hard | [Javascript](./src/220.contains-duplicate-iii.test.js) | 
 | 222 | Count Complete Tree Nodes([en](https://leetcode.com/problems/count-complete-tree-nodes), [cn](https://leetcode.cn/problems/count-complete-tree-nodes)) |  Medium | [Javascript](./src/222.完全二叉树的节点个数.js) | 
 | 226 | Invert Binary Tree([en](https://leetcode.com/problems/invert-binary-tree), [cn](https://leetcode.cn/problems/invert-binary-tree)) |  Easy | [Javascript](./src/226.翻转二叉树.js) | 
 | 230 | Kth Smallest Element in a BST([en](https://leetcode.com/problems/kth-smallest-element-in-a-bst), [cn](https://leetcode.cn/problems/kth-smallest-element-in-a-bst)) |  Medium | [Javascript](./src/230.二叉搜索树中第k小的元素.js) | 
-| 234 | Palindrome Linked List([en](https://leetcode.com/problems/palindrome-linked-list), [cn](https://leetcode.cn/problems/palindrome-linked-list)) |  Easy | [Javascript](./src/234.palindrome-linked-list.js) | [test](./test/234.palindrome-linked-list.test.js)
+| 234 | Palindrome Linked List([en](https://leetcode.com/problems/palindrome-linked-list), [cn](https://leetcode.cn/problems/palindrome-linked-list)) |  Easy | [Javascript](./src/234.palindrome-linked-list.test.js) | 
 | 235 | Lowest Common Ancestor of a Binary Search Tree([en](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree), [cn](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree)) |  Medium | [Javascript](./src/235.二叉搜索树的最近公共祖先.js) | 
 | 236 | Lowest Common Ancestor of a Binary Tree([en](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree), [cn](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree)) |  Medium | [Javascript](./src/236.二叉树的最近公共祖先.js) | 
 | 257 | Binary Tree Paths([en](https://leetcode.com/problems/binary-tree-paths), [cn](https://leetcode.cn/problems/binary-tree-paths)) |  Easy | [Javascript](./src/257.二叉树的所有路径.js) | 
 | 283 | Move Zeroes([en](https://leetcode.com/problems/move-zeroes), [cn](https://leetcode.cn/problems/move-zeroes)) |  Easy | [Javascript](./src/283.移动零.js) | 
-| 290 | Word Pattern([en](https://leetcode.com/problems/word-pattern), [cn](https://leetcode.cn/problems/word-pattern)) |  Easy | [Javascript](./src/290.word-pattern.js) | [test](./test/290.word-pattern.test.js)
+| 290 | Word Pattern([en](https://leetcode.com/problems/word-pattern), [cn](https://leetcode.cn/problems/word-pattern)) |  Easy | [Javascript](./src/290.word-pattern.test.js) | 
 | 297 | Serialize and Deserialize Binary Tree([en](https://leetcode.com/problems/serialize-and-deserialize-binary-tree), [cn](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree)) |  Hard | [Javascript](./src/297.二叉树的序列化与反序列化.js) | 
 | 300 | Longest Increasing Subsequence([en](https://leetcode.com/problems/longest-increasing-subsequence), [cn](https://leetcode.cn/problems/longest-increasing-subsequence)) |  Medium | [Javascript](./src/300.最长递增子序列.js) | 
 | 303 | Range Sum Query - Immutable([en](https://leetcode.com/problems/range-sum-query---immutable), [cn](https://leetcode.cn/problems/range-sum-query---immutable)) |  Easy | [Javascript](./src/303.区域和检索-数组不可变.js) | 
 | 322 | Coin Change([en](https://leetcode.com/problems/coin-change), [cn](https://leetcode.cn/problems/coin-change)) |  Medium | [Javascript](./src/322.零钱兑换.js) | 
 | 344 | Reverse String([en](https://leetcode.com/problems/reverse-string), [cn](https://leetcode.cn/problems/reverse-string)) |  Easy | [Javascript](./src/344.反转字符串.js) | 
-| 349 | Intersection of Two Arrays([en](https://leetcode.com/problems/intersection-of-two-arrays), [cn](https://leetcode.cn/problems/intersection-of-two-arrays)) |  Easy | [Javascript](./src/349.intersection-of-two-arrays.js) | [test](./test/349.intersection-of-two-arrays.test.js)
-| 350 | Intersection of Two Arrays II([en](https://leetcode.com/problems/intersection-of-two-arrays-ii), [cn](https://leetcode.cn/problems/intersection-of-two-arrays-ii)) |  Easy | [Javascript](./src/350.intersection-of-two-arrays-ii.js) | [test](./test/350.intersection-of-two-arrays-ii.test.js)
+| 349 | Intersection of Two Arrays([en](https://leetcode.com/problems/intersection-of-two-arrays), [cn](https://leetcode.cn/problems/intersection-of-two-arrays)) |  Easy | [Javascript](./src/349.intersection-of-two-arrays.test.js) | 
+| 350 | Intersection of Two Arrays II([en](https://leetcode.com/problems/intersection-of-two-arrays-ii), [cn](https://leetcode.cn/problems/intersection-of-two-arrays-ii)) |  Easy | [Javascript](./src/350.intersection-of-two-arrays-ii.test.js) | 
 | 354 | Russian Doll Envelopes([en](https://leetcode.com/problems/russian-doll-envelopes), [cn](https://leetcode.cn/problems/russian-doll-envelopes)) |  Hard | [Javascript](./src/354.俄罗斯套娃信封问题.js) | 
 | 416 | Partition Equal Subset Sum([en](https://leetcode.com/problems/partition-equal-subset-sum), [cn](https://leetcode.cn/problems/partition-equal-subset-sum)) |  Medium | [Javascript](./src/416.分割等和子集.test.js) | 
 | 438 | Find All Anagrams in a String([en](https://leetcode.com/problems/find-all-anagrams-in-a-string), [cn](https://leetcode.cn/problems/find-all-anagrams-in-a-string)) |  Medium | [Javascript](./src/438.找到字符串中所有字母异位词.js) | 
 | 501 | Find Mode in Binary Search Tree([en](https://leetcode.com/problems/find-mode-in-binary-search-tree), [cn](https://leetcode.cn/problems/find-mode-in-binary-search-tree)) |  Easy | [Javascript](./src/501.二叉搜索树中的众数.js) | 
 | 503 | Next Greater Element II([en](https://leetcode.com/problems/next-greater-element-ii), [cn](https://leetcode.cn/problems/next-greater-element-ii)) |  Medium | [Javascript](./src/503.下一个更大元素-ii.js) | 
-| 506 | Relative Ranks([en](https://leetcode.com/problems/relative-ranks), [cn](https://leetcode.cn/problems/relative-ranks)) |  Easy | [Javascript](./src/506.relative-ranks.js) | [test](./test/506.relative-ranks.test.js)
+| 506 | Relative Ranks([en](https://leetcode.com/problems/relative-ranks), [cn](https://leetcode.cn/problems/relative-ranks)) |  Easy | [Javascript](./src/506.relative-ranks.test.js) | 
 | 513 | Find Bottom Left Tree Value([en](https://leetcode.com/problems/find-bottom-left-tree-value), [cn](https://leetcode.cn/problems/find-bottom-left-tree-value)) |  Medium | [Javascript](./src/513.找树左下角的值.js) | 
 | 515 | Find Largest Value in Each Tree Row([en](https://leetcode.com/problems/find-largest-value-in-each-tree-row), [cn](https://leetcode.cn/problems/find-largest-value-in-each-tree-row)) |  Medium | [Javascript](./src/515.在每个树行中找最大值.js) | 
 | 518 | Coin Change II([en](https://leetcode.com/problems/coin-change-ii), [cn](https://leetcode.cn/problems/coin-change-ii)) |  Medium | [Javascript](./src/518.零钱兑换-ii.js) | 

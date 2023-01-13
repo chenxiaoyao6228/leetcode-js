@@ -1,5 +1,5 @@
-const { insertionSortList } = require('../src/147.insertion-sort-list')
-const { createList } = require('../src/utils/linked-list')
+const { insertionSortList } = require('./147.insertion-sort-list')
+const { createList } = require('./utils/linked-list')
 
 describe('insertion', () => {
   test('case1', () => {

@@ -1,4 +1,4 @@
-const { wordPattern } = require('../src/290.word-pattern')
+const { wordPattern } = require('./290.word-pattern')
 
 test.each`
   a         | b                     | expected

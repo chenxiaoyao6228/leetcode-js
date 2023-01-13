@@ -1,4 +1,4 @@
-const { findRelativeRanks } = require('../src/506.relative-ranks')
+const { findRelativeRanks } = require('./506.relative-ranks')
 
 test('findRelativeRanks', () => {
   expect(findRelativeRanks([5, 4, 3, 2, 1])).toEqual([

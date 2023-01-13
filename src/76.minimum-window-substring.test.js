@@ -1,4 +1,4 @@
-const { minWindow } = require('../src/76.minimum-window-substring')
+const { minWindow } = require('./76.minimum-window-substring')
 
 describe('minWin', () => {
   test('minWin', () => {
