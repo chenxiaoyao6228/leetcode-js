@@ -16,6 +16,7 @@
 var minFallingPathSum = function(matrix) {
   let n = matrix.length
   let res = Infinity
+  const memo = new Map()
 
   for (let j = 0; j < matrix[0].length; j++) {
     res = Math.min(res, dp(matrix, n - 1, j))
@@ -32,6 +33,10 @@ var minFallingPathSum = function(matrix) {
       //   printer.logReturn(matrix[i][j])
       return matrix[i][j]
     }
+    const key = `${i}-${j}`
+    if (memo.has(key)) {
+      return memo.get(key)
+    }
     let res =
       matrix[i][j] +
       min(
@@ -39,15 +44,9 @@ var minFallingPathSum = function(matrix) {
         dp(matrix, i - 1, j),
         dp(matrix, i - 1, j + 1)
       )
+    memo.set(key, res)
     // printer.logReturn(res)
-    return (
-      matrix[i][j] +
-      min(
-        dp(matrix, i - 1, j - 1),
-        dp(matrix, i - 1, j),
-        dp(matrix, i - 1, j + 1)
-      )
-    )
+    return res
   }
   function min(a, b, c) {
     return Math.min(a, Math.min(b, c))

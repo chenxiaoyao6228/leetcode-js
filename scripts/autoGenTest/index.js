@@ -57,6 +57,10 @@ function createTest(path, fnName) {
     test('${fnName}', () => {
       expect(${fnName}()).toEqual()
     })
+    
+    test('${fnName}', () => {
+      expect(${fnName}()).toEqual()
+    })
   `
   fs.writeFileSync(testPath, template, 'utf8')
 }
