@@ -58,7 +58,10 @@ function generateTableContent(prefixPath = '') {
       )
       const stats = fs.statSync(absSolutionsPath)
       if (stats.isFile()) {
-        if (fileOrFolderName.match(/^\d/)) {
+        if (
+          /^\d/.test(fileOrFolderName) &&
+          !/test.js$/.test(fileOrFolderName)
+        ) {
           totalCount++
           const [id, content] = genrateFileContent(prefixPath, fileOrFolderName)
           bodyRes[id] = content + '\n'
@@ -72,9 +75,9 @@ function generateTableContent(prefixPath = '') {
   function genrateFileContent(prefixPath, fileName) {
     const [id, name, _] = fileName.split('.')
     const testName = fileName.slice(0, -3) + '.test.js'
-    const testFolder = path.join(__dirname, '../test', testName)
+    const testFolder = path.join(__dirname, '../src', testName)
     console.log('testFolder', testFolder)
-    let testCasePath = `[test](./test${prefixPath}/${testName})`
+    let testCasePath = `[test](./src${prefixPath}/${testName})`
     if (!fs.existsSync(testFolder)) {
       testCasePath = ''
     }

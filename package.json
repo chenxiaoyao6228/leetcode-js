@@ -8,8 +8,10 @@
     "commit": "git-cz",
     "test": "jest",
     "test:watch": "jest --watch",
+    "autoGenTest": "node ./scripts/autoGenTest/index.js",
+    "genCache": "node ./scripts/autoGenTest/generateCache.js",
+    "genMD": "node ./scripts/genMarkdown.js",
     "lint": "prettier --write ./**/*.js && eslint --fix . && echo 'Lint complete.'",
-    "generate": "node ./scripts/generate.js",
     "crawler": "node ./scripts/crawler/index.js"
   },
   "keywords": [
@@ -38,7 +40,6 @@
   },
   "lint-staged": {
     "*.js": [
-      "yarn generate",
       "jest --bail --findRelatedTests && echo 'Test complete.'",
       "npm run lint",
       "git add"
@@ -46,7 +47,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn generate && git add README.md && lint-staged",
+      "pre-commit": "yarn genCache && yarn genMD && git add README.md && lint-staged",
       "commitmsg": "commitlint -E GIT_PARAMS"
     }
   },
@@ -72,12 +73,14 @@
     "@commitlint/prompt": "~8.1.0",
     "async": "^3.2.0",
     "babel-jest": "^24.9.0",
+    "chokidar": "^3.5.3",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "~3.0.2",
     "eslint": "^6.4.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-prettier": "^3.1.0",
+    "glob": "^8.0.3",
     "husky": "^3.0.5",
     "import-local": "^3.0.2",
     "jest": "^24.9.0",

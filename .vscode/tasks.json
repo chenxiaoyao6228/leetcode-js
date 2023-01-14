@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "leetcodejs start",
+            "dependsOn": [
+                "leetcodejs jest start",
+                "leetcodejs watchSrc start",
+            ],
+            "runOptions": {
+                "runOn": "folderOpen" // 打开项目的时候执行启动命令
+            }
+        },
+        {
+            "label": "leetcodejs jest start",
+            "type": "npm",
+            "script": "test:watch",
+            "group": "none",
+            "presentation": {
+                "group": "leetcodejs start",
+            }
+        },
+        {
+            "label": "leetcodejs watchSrc start",
+            "type": "npm",
+            "script": "autoGenTest",
+            "group": "none",
+            "presentation": {
+                "group": "leetcodejs start",
+            }
+        }
+    ]
+}
