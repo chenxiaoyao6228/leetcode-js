@@ -47,7 +47,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn genCache && yarn genMD && git add README.md && lint-staged",
+      "pre-commit": "yarn genCache && git add  scripts/autoGenTest/cache.json && yarn genMD && git add README.md && lint-staged",
       "commitmsg": "commitlint -E GIT_PARAMS"
     }
   },
