@@ -20,7 +20,7 @@ TODO
 #### Graph
 TODO
 ## Table of solutions
-Total Submit: **135**/**300(Goal)**
+Total Submit: **136**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.two-sum.js) | [test](./src/1.two-sum.test.js)
@@ -52,6 +52,7 @@ Total Submit: **135**/**300(Goal)**
 | 76 | Minimum Window Substring([en](https://leetcode.com/problems/minimum-window-substring), [cn](https://leetcode.cn/problems/minimum-window-substring)) |  Hard | [Javascript](./src/76.最小覆盖子串.js) | 
 | 77 | Combinations([en](https://leetcode.com/problems/combinations), [cn](https://leetcode.cn/problems/combinations)) |  Medium | [Javascript](./src/77.组合.js) | 
 | 78 | Subsets([en](https://leetcode.com/problems/subsets), [cn](https://leetcode.cn/problems/subsets)) |  Medium | [Javascript](./src/78.子集.js) | 
+| 79 | Word Search([en](https://leetcode.com/problems/word-search), [cn](https://leetcode.cn/problems/word-search)) |  Medium | [Javascript](./src/79.单词搜索.js) | [test](./src/79.单词搜索.test.js)
 | 83 | Remove Duplicates from Sorted List([en](https://leetcode.com/problems/remove-duplicates-from-sorted-list), [cn](https://leetcode.cn/problems/remove-duplicates-from-sorted-list)) |  Easy | [Javascript](./src/83.删除排序链表中的重复元素.js) | 
 | 86 | Partition List([en](https://leetcode.com/problems/partition-list), [cn](https://leetcode.cn/problems/partition-list)) |  Medium | [Javascript](./src/86.分隔链表.js) | 
 | 90 | Subsets II([en](https://leetcode.com/problems/subsets-ii), [cn](https://leetcode.cn/problems/subsets-ii)) |  Medium | [Javascript](./src/90.子集-ii.js) | 
