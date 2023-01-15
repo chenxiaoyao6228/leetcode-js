@@ -9,6 +9,8 @@
  * @param {number[]} nums
  * @return {number}
  */
+
+// dp[i]: LIS of nums[i]
 var lengthOfLIS = function(nums) {
   const dp = new Array(nums.length).fill(1)
   for (let i = 0; i < nums.length; i++) {
@@ -24,5 +26,6 @@ var lengthOfLIS = function(nums) {
   }
   return res
 }
-// console.log(lengthOfLIS([1, 4, 3, 4, 2, 3]))
 // @lc code=end
+
+module.exports = { lengthOfLIS }

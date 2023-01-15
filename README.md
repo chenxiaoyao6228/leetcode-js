@@ -20,7 +20,7 @@ TODO
 #### Graph
 TODO
 ## Table of solutions
-Total Submit: **134**/**300(Goal)**
+Total Submit: **135**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.two-sum.js) | [test](./src/1.two-sum.test.js)
@@ -45,6 +45,7 @@ Total Submit: **134**/**300(Goal)**
 | 46 | Permutations([en](https://leetcode.com/problems/permutations), [cn](https://leetcode.cn/problems/permutations)) |  Medium | [Javascript](./src/46.全排列.js) | 
 | 47 | Permutations II([en](https://leetcode.com/problems/permutations-ii), [cn](https://leetcode.cn/problems/permutations-ii)) |  Medium | [Javascript](./src/47.全排列-ii.js) | 
 | 51 | N-Queens([en](https://leetcode.com/problems/n-queens), [cn](https://leetcode.cn/problems/n-queens)) |  Hard | [Javascript](./src/51.n-皇后.js) | 
+| 52 | N-Queens II([en](https://leetcode.com/problems/n-queens-ii), [cn](https://leetcode.cn/problems/n-queens-ii)) |  Hard | [Javascript](./src/52.n皇后-ii.js) | [test](./src/52.n皇后-ii.test.js)
 | 64 | Minimum Path Sum([en](https://leetcode.com/problems/minimum-path-sum), [cn](https://leetcode.cn/problems/minimum-path-sum)) |  Medium | [Javascript](./src/64.最小路径和.js) | [test](./src/64.最小路径和.test.js)
 | 72 | Edit Distance([en](https://leetcode.com/problems/edit-distance), [cn](https://leetcode.cn/problems/edit-distance)) |  Hard | [Javascript](./src/72.编辑距离.js) | 
 | 75 | Sort Colors([en](https://leetcode.com/problems/sort-colors), [cn](https://leetcode.cn/problems/sort-colors)) |  Medium | [Javascript](./src/75.sort-colors.js) | [test](./src/75.sort-colors.test.js)
@@ -104,7 +105,7 @@ Total Submit: **134**/**300(Goal)**
 | 283 | Move Zeroes([en](https://leetcode.com/problems/move-zeroes), [cn](https://leetcode.cn/problems/move-zeroes)) |  Easy | [Javascript](./src/283.移动零.js) | 
 | 290 | Word Pattern([en](https://leetcode.com/problems/word-pattern), [cn](https://leetcode.cn/problems/word-pattern)) |  Easy | [Javascript](./src/290.word-pattern.js) | [test](./src/290.word-pattern.test.js)
 | 297 | Serialize and Deserialize Binary Tree([en](https://leetcode.com/problems/serialize-and-deserialize-binary-tree), [cn](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree)) |  Hard | [Javascript](./src/297.二叉树的序列化与反序列化.js) | 
-| 300 | Longest Increasing Subsequence([en](https://leetcode.com/problems/longest-increasing-subsequence), [cn](https://leetcode.cn/problems/longest-increasing-subsequence)) |  Medium | [Javascript](./src/300.最长递增子序列.js) | 
+| 300 | Longest Increasing Subsequence([en](https://leetcode.com/problems/longest-increasing-subsequence), [cn](https://leetcode.cn/problems/longest-increasing-subsequence)) |  Medium | [Javascript](./src/300.最长递增子序列.js) | [test](./src/300.最长递增子序列.test.js)
 | 303 | Range Sum Query - Immutable([en](https://leetcode.com/problems/range-sum-query---immutable), [cn](https://leetcode.cn/problems/range-sum-query---immutable)) |  Easy | [Javascript](./src/303.区域和检索-数组不可变.js) | 
 | 322 | Coin Change([en](https://leetcode.com/problems/coin-change), [cn](https://leetcode.cn/problems/coin-change)) |  Medium | [Javascript](./src/322.零钱兑换.js) | 
 | 344 | Reverse String([en](https://leetcode.com/problems/reverse-string), [cn](https://leetcode.cn/problems/reverse-string)) |  Easy | [Javascript](./src/344.反转字符串.js) | 
