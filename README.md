@@ -50,7 +50,7 @@ Total Submit: **137**/**300(Goal)**
 | 72 | Edit Distance([en](https://leetcode.com/problems/edit-distance), [cn](https://leetcode.cn/problems/edit-distance)) |  Hard | [Javascript](./src/72.编辑距离.js) | 
 | 75 | Sort Colors([en](https://leetcode.com/problems/sort-colors), [cn](https://leetcode.cn/problems/sort-colors)) |  Medium | [Javascript](./src/75.sort-colors.js) | [test](./src/75.sort-colors.test.js)
 | 76 | Minimum Window Substring([en](https://leetcode.com/problems/minimum-window-substring), [cn](https://leetcode.cn/problems/minimum-window-substring)) |  Hard | [Javascript](./src/76.最小覆盖子串.js) | 
-| 77 | Combinations([en](https://leetcode.com/problems/combinations), [cn](https://leetcode.cn/problems/combinations)) |  Medium | [Javascript](./src/77.组合.js) | 
+| 77 | Combinations([en](https://leetcode.com/problems/combinations), [cn](https://leetcode.cn/problems/combinations)) |  Medium | [Javascript](./src/77.组合.js) | [test](./src/77.组合.test.js)
 | 78 | Subsets([en](https://leetcode.com/problems/subsets), [cn](https://leetcode.cn/problems/subsets)) |  Medium | [Javascript](./src/78.子集.js) | 
 | 79 | Word Search([en](https://leetcode.com/problems/word-search), [cn](https://leetcode.cn/problems/word-search)) |  Medium | [Javascript](./src/79.单词搜索.js) | [test](./src/79.单词搜索.test.js)
 | 83 | Remove Duplicates from Sorted List([en](https://leetcode.com/problems/remove-duplicates-from-sorted-list), [cn](https://leetcode.cn/problems/remove-duplicates-from-sorted-list)) |  Easy | [Javascript](./src/83.删除排序链表中的重复元素.js) | 
@@ -99,7 +99,7 @@ Total Submit: **137**/**300(Goal)**
 | 220 | Contains Duplicate III([en](https://leetcode.com/problems/contains-duplicate-iii), [cn](https://leetcode.cn/problems/contains-duplicate-iii)) |  Hard | [Javascript](./src/220.contains-duplicate-iii.js) | [test](./src/220.contains-duplicate-iii.test.js)
 | 222 | Count Complete Tree Nodes([en](https://leetcode.com/problems/count-complete-tree-nodes), [cn](https://leetcode.cn/problems/count-complete-tree-nodes)) |  Medium | [Javascript](./src/222.完全二叉树的节点个数.js) | 
 | 226 | Invert Binary Tree([en](https://leetcode.com/problems/invert-binary-tree), [cn](https://leetcode.cn/problems/invert-binary-tree)) |  Easy | [Javascript](./src/226.翻转二叉树.js) | 
-| 230 | Kth Smallest Element in a BST([en](https://leetcode.com/problems/kth-smallest-element-in-a-bst), [cn](https://leetcode.cn/problems/kth-smallest-element-in-a-bst)) |  Medium | [Javascript](./src/230.二叉搜索树中第k小的元素.js) | 
+| 230 | Kth Smallest Element in a BST([en](https://leetcode.com/problems/kth-smallest-element-in-a-bst), [cn](https://leetcode.cn/problems/kth-smallest-element-in-a-bst)) |  Medium | [Javascript](./src/230.二叉搜索树中第k小的元素.js) | [test](./src/230.二叉搜索树中第k小的元素.test.js)
 | 234 | Palindrome Linked List([en](https://leetcode.com/problems/palindrome-linked-list), [cn](https://leetcode.cn/problems/palindrome-linked-list)) |  Easy | [Javascript](./src/234.palindrome-linked-list.js) | [test](./src/234.palindrome-linked-list.test.js)
 | 235 | Lowest Common Ancestor of a Binary Search Tree([en](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree), [cn](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree)) |  Medium | [Javascript](./src/235.二叉搜索树的最近公共祖先.js) | 
 | 236 | Lowest Common Ancestor of a Binary Tree([en](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree), [cn](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree)) |  Medium | [Javascript](./src/236.二叉树的最近公共祖先.js) | 
