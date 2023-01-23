@@ -7,18 +7,7 @@ Personal Leetcode solutions in Javascript. All JavaScript codes are written in E
 ## Summaries and Templates
 It's almost impossible to finish all leetcode problems since it has more than 2000 problems for now and the number is still increasing. Here are some summaries and templates that might offer some bits of help.
 
-#### **Guide**
-* [guide](docs/guide.md)
-#### **Array/LinkedList**
-TODO
-####  **Queue/Stack**
-TODO
-#### **BinaryTree**
-TODO
-####  **BinarySeachTree**
-TODO
-#### Graph
-TODO
+> TODO
 ## Table of solutions
 Total Submit: **137**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
