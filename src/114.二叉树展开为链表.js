@@ -44,3 +44,5 @@ var flatten = function(root) {
 }
 
 // @lc code=end
+
+module.exports = { flatten }

@@ -20,7 +20,24 @@
  * @return {Node}
  */
 
-// solution1: bfs
+// solution1
+// var connect = function(root) {
+//   if (!root) return null
+//   connectTwo(root.left, root.right)
+//   return root
+//   function connectTwo(node1, node2) {
+//     if (!node1 || !node2) return
+//     node1.next = node2
+
+//     connectTwo(node1.left, node1.right)
+//     connectTwo(node2.left, node2.right)
+
+//     // connect two injacent node
+//     connectTwo(node1.right, node2.left)
+//   }
+// }
+
+// solution2: bfs
 // var connect = function(root) {
 //   if (!root) return null
 //   const queue = [{ node: root, level: 0 }]
@@ -41,43 +58,24 @@
 //   return root
 // }
 
-// solution2
-// var connect = function(root) {
-//   if (!root) return null
-//   connectTwo(root.left, root.right)
-//   return root
-//   function connectTwo(node1, node2) {
-//     if (!node1 || !node2) return
-//     node1.next = node2
-
-//     connectTwo(node1.left, node1.right)
-//     connectTwo(node2.left, node2.right)
-
-//     // connect two injacent node
-//     connectTwo(node1.right, node2.left)
-//   }
-// }
-
-// solution3
+// solution3:  bfs-v2
 var connect = function(root) {
-  if (!root) return root
-  let queue = [root] // store current level
-  let nextQueue = [] // store nextLevel
-
-  while (queue.length > 0) {
-    let node = queue.shift()
-    node.left && nextQueue.push(node.left)
-    node.right && nextQueue.push(node.right)
-    if (queue.length > 0) {
-      node.next = queue[0]
-    } else {
-      // current node is the first node of this level!
-      node.next = null
-      queue = nextQueue
-      nextQueue = []
+  let queue = [root]
+  while (queue.length) {
+    const len = queue.length
+    for (let i = 0; i < len; i++) {
+      const node = queue.shift()
+      const peek = queue[0]
+      if (peek) {
+        node.next = peek
+      }
+      node.left && queue.push(node.left)
+      node.right && queue.push(node.right)
     }
   }
-
   return root
 }
+
 // @lc code=end
+
+module.exports = { connect }
