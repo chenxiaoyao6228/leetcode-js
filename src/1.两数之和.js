@@ -1,8 +1,10 @@
 /*
- * @lc app=leetcode id=1 lang=javascript
+ * @lc app=leetcode.cn id=1 lang=javascript
  *
- * [1] Two Sum
+ * [1] 两数之和
  */
+
+// @lc code=start
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -21,7 +23,6 @@ var twoSum = function(nums, target) {
     complements[complement] = i
   }
 }
+// @lc code=end
 
-module.exports = {
-  twoSum
-}
+module.exports = { twoSum }

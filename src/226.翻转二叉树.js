@@ -48,3 +48,5 @@ var invertTree = function(root) {
   return root
 }
 // @lc code=end
+
+module.exports = { invertTree }

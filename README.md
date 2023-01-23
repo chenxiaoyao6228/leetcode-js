@@ -12,10 +12,10 @@ It's almost impossible to finish all leetcode problems since it has more than 20
 Total Submit: **137**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
-| 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.two-sum.js) | [test](./src/1.two-sum.test.js)
+| 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js)
 | 3 | Longest Substring Without Repeating Characters([en](https://leetcode.com/problems/longest-substring-without-repeating-characters), [cn](https://leetcode.cn/problems/longest-substring-without-repeating-characters)) |  Medium | [Javascript](./src/3.无重复字符的最长子串.js) | 
 | 4 | Median of Two Sorted Arrays([en](https://leetcode.com/problems/median-of-two-sorted-arrays), [cn](https://leetcode.cn/problems/median-of-two-sorted-arrays)) |  Hard | [Javascript](./src/4.median-of-two-sorted-arrays.js) | [test](./src/4.median-of-two-sorted-arrays.test.js)
-| 5 | Longest Palindromic Substring([en](https://leetcode.com/problems/longest-palindromic-substring), [cn](https://leetcode.cn/problems/longest-palindromic-substring)) |  Medium | [Javascript](./src/5.最长回文子串.js) | 
+| 5 | Longest Palindromic Substring([en](https://leetcode.com/problems/longest-palindromic-substring), [cn](https://leetcode.cn/problems/longest-palindromic-substring)) |  Medium | [Javascript](./src/5.最长回文子串.js) | [test](./src/5.最长回文子串.test.js)
 | 7 | Reverse Integer([en](https://leetcode.com/problems/reverse-integer), [cn](https://leetcode.cn/problems/reverse-integer)) |  Medium | [Javascript](./src/7.reverse-integer.js) | [test](./src/7.reverse-integer.test.js)
 | 11 | Container With Most Water([en](https://leetcode.com/problems/container-with-most-water), [cn](https://leetcode.cn/problems/container-with-most-water)) |  Medium | [Javascript](./src/11.container-with-most-water.js) | [test](./src/11.container-with-most-water.test.js)
 | 15 | 3Sum([en](https://leetcode.com/problems/3sum), [cn](https://leetcode.cn/problems/3sum)) |  Medium | [Javascript](./src/15.3-sum.js) | [test](./src/15.3-sum.test.js)
@@ -87,7 +87,7 @@ Total Submit: **137**/**300(Goal)**
 | 219 | Contains Duplicate II([en](https://leetcode.com/problems/contains-duplicate-ii), [cn](https://leetcode.cn/problems/contains-duplicate-ii)) |  Easy | [Javascript](./src/219.contains-duplicate-ii.js) | [test](./src/219.contains-duplicate-ii.test.js)
 | 220 | Contains Duplicate III([en](https://leetcode.com/problems/contains-duplicate-iii), [cn](https://leetcode.cn/problems/contains-duplicate-iii)) |  Hard | [Javascript](./src/220.contains-duplicate-iii.js) | [test](./src/220.contains-duplicate-iii.test.js)
 | 222 | Count Complete Tree Nodes([en](https://leetcode.com/problems/count-complete-tree-nodes), [cn](https://leetcode.cn/problems/count-complete-tree-nodes)) |  Medium | [Javascript](./src/222.完全二叉树的节点个数.js) | 
-| 226 | Invert Binary Tree([en](https://leetcode.com/problems/invert-binary-tree), [cn](https://leetcode.cn/problems/invert-binary-tree)) |  Easy | [Javascript](./src/226.翻转二叉树.js) | 
+| 226 | Invert Binary Tree([en](https://leetcode.com/problems/invert-binary-tree), [cn](https://leetcode.cn/problems/invert-binary-tree)) |  Easy | [Javascript](./src/226.翻转二叉树.js) | [test](./src/226.翻转二叉树.test.js)
 | 230 | Kth Smallest Element in a BST([en](https://leetcode.com/problems/kth-smallest-element-in-a-bst), [cn](https://leetcode.cn/problems/kth-smallest-element-in-a-bst)) |  Medium | [Javascript](./src/230.二叉搜索树中第k小的元素.js) | [test](./src/230.二叉搜索树中第k小的元素.test.js)
 | 234 | Palindrome Linked List([en](https://leetcode.com/problems/palindrome-linked-list), [cn](https://leetcode.cn/problems/palindrome-linked-list)) |  Easy | [Javascript](./src/234.palindrome-linked-list.js) | [test](./src/234.palindrome-linked-list.test.js)
 | 235 | Lowest Common Ancestor of a Binary Search Tree([en](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree), [cn](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree)) |  Medium | [Javascript](./src/235.二叉搜索树的最近公共祖先.js) | 

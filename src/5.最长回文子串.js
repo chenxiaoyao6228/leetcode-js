@@ -28,3 +28,5 @@ function palindrome(s, l, r) {
   return s.substring(l + 1, r)
 }
 // @lc code=end
+
+module.exports = { longestPalindrome }
