@@ -18,14 +18,20 @@
  * @param {number[]} postorder
  * @return {TreeNode}
  */
-let map = new Map()
+
+// draw the diagram first
+function TreeNode(val) {
+  this.val = val
+  this.left = null
+  this.right = null
+}
+
 var buildTree = function(inorder, postorder) {
-  // create map
-  for (let index = 0; index < inorder.length; index++) {
-    const element = inorder[index]
-    map.set(element, index)
+  const memo = new Map()
+  for (let i = 0, len = postorder.length; i < len; i++) {
+    memo.set(inorder[i], i)
   }
-  // build recursively
+
   return build(
     inorder,
     0,
@@ -34,54 +40,41 @@ var buildTree = function(inorder, postorder) {
     0,
     postorder.length - 1
   )
-}
 
-function build(inorder, inStart, inEnd, postorder, postStart, postEnd) {
-  // base case
-  if (inStart > inEnd) {
-    return null
+  function build(inorder, inStart, inEnd, postorder, postStart, postEnd) {
+    // base case
+    if (inStart > inEnd) {
+      return null
+    }
+    // rootVal can be infered by preorder and postorder traverse
+    let rootVal = postorder[postEnd]
+
+    const rootNode = new TreeNode(rootVal)
+
+    const rootIdxOfinorder = memo.get(rootVal)
+
+    const leftSize = rootIdxOfinorder - inStart
+
+    rootNode.left = build(
+      inorder,
+      inStart,
+      rootIdxOfinorder - 1, // rootVal in excluded
+      postorder,
+      postStart,
+      postStart + leftSize - 1
+    )
+    rootNode.right = build(
+      inorder,
+      rootIdxOfinorder + 1,
+      inEnd,
+      postorder,
+      postStart + leftSize,
+      postEnd - 1 // rootVal in excluded
+    )
+
+    return rootNode
   }
-
-  // build root
-  let rootValue = postorder[postEnd]
-  let rootNode = new TreeNode(rootValue)
-
-  const rootIdxOfInorder = map.get(rootValue)
-  const leftSize = rootIdxOfInorder - inStart
-
-  // build left and right
-  rootNode.left = build(
-    inorder,
-    inStart,
-    rootIdxOfInorder - 1,
-    postorder,
-    postStart,
-    postStart + leftSize - 1
-  )
-  rootNode.right = build(
-    inorder,
-    rootIdxOfInorder + 1,
-    inEnd,
-    postorder,
-    postStart + leftSize,
-    postEnd - 1
-  )
-
-  return rootNode
 }
-
-// 输入：inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]
-// 输出：[3,9,20,null,null,15,7]
-
-function TreeNode(val) {
-  this.val = val
-  this.left = null
-  this.right = null
-}
-
-// const inorder = [9, 3, 15, 20, 7]
-// const postorder = [9, 15, 7, 20, 3]
-
-// const res = buildTree(inorder, postorder)
-// console.log('res', res)
 // @lc code=end
+
+module.exports = { buildTree }
