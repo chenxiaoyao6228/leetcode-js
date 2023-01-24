@@ -9,7 +9,7 @@ It's almost impossible to finish all leetcode problems since it has more than 20
 
 > TODO
 ## Table of solutions
-Total Submit: **137**/**300(Goal)**
+Total Submit: **138**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js)
@@ -121,13 +121,14 @@ Total Submit: **137**/**300(Goal)**
 | 589 | N-ary Tree Preorder Traversal([en](https://leetcode.com/problems/n-ary-tree-preorder-traversal), [cn](https://leetcode.cn/problems/n-ary-tree-preorder-traversal)) |  Easy | [Javascript](./src/589.n-叉树的前序遍历.js) | 
 | 590 | N-ary Tree Postorder Traversal([en](https://leetcode.com/problems/n-ary-tree-postorder-traversal), [cn](https://leetcode.cn/problems/n-ary-tree-postorder-traversal)) |  Easy | [Javascript](./src/590.n-叉树的后序遍历.js) | 
 | 617 | Merge Two Binary Trees([en](https://leetcode.com/problems/merge-two-binary-trees), [cn](https://leetcode.cn/problems/merge-two-binary-trees)) |  Easy | [Javascript](./src/617.合并二叉树.js) | 
-| 652 | Find Duplicate Subtrees([en](https://leetcode.com/problems/find-duplicate-subtrees), [cn](https://leetcode.cn/problems/find-duplicate-subtrees)) |  Medium | [Javascript](./src/652.寻找重复的子树.js) | 
+| 652 | Find Duplicate Subtrees([en](https://leetcode.com/problems/find-duplicate-subtrees), [cn](https://leetcode.cn/problems/find-duplicate-subtrees)) |  Medium | [Javascript](./src/652.寻找重复的子树.js) | [test](./src/652.寻找重复的子树.test.js)
 | 653 | Two Sum IV - Input is a BST([en](https://leetcode.com/problems/two-sum-iv---input-is-a-bst), [cn](https://leetcode.cn/problems/two-sum-iv---input-is-a-bst)) |  Easy | [Javascript](./src/653.两数之和-iv-输入二叉搜索树.js) | 
 | 654 | Maximum Binary Tree([en](https://leetcode.com/problems/maximum-binary-tree), [cn](https://leetcode.cn/problems/maximum-binary-tree)) |  Medium | [Javascript](./src/654.最大二叉树.js) | [test](./src/654.最大二叉树.test.js)
 | 662 | Maximum Width of Binary Tree([en](https://leetcode.com/problems/maximum-width-of-binary-tree), [cn](https://leetcode.cn/problems/maximum-width-of-binary-tree)) |  Medium | [Javascript](./src/662.二叉树最大宽度.js) | 
 | 671 | Second Minimum Node In a Binary Tree([en](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree), [cn](https://leetcode.cn/problems/second-minimum-node-in-a-binary-tree)) |  Easy | [Javascript](./src/671.二叉树中第二小的节点.js) | 
 | 687 | Longest Univalue Path([en](https://leetcode.com/problems/longest-univalue-path), [cn](https://leetcode.cn/problems/longest-univalue-path)) |  Medium | [Javascript](./src/687.最长同值路径.js) | 
 | 700 | Search in a Binary Search Tree([en](https://leetcode.com/problems/search-in-a-binary-search-tree), [cn](https://leetcode.cn/problems/search-in-a-binary-search-tree)) |  Easy | [Javascript](./src/700.二叉搜索树中的搜索.js) | 
+| 701 | Insert into a Binary Search Tree([en](https://leetcode.com/problems/insert-into-a-binary-search-tree), [cn](https://leetcode.cn/problems/insert-into-a-binary-search-tree)) |  Medium | [Javascript](./src/701.二叉搜索树中的插入操作.js) | [test](./src/701.二叉搜索树中的插入操作.test.js)
 | 704 | Binary Search([en](https://leetcode.com/problems/binary-search), [cn](https://leetcode.cn/problems/binary-search)) |  Easy | [Javascript](./src/704.二分查找.js) | 
 | 752 | Open the Lock([en](https://leetcode.com/problems/open-the-lock), [cn](https://leetcode.cn/problems/open-the-lock)) |  Medium | [Javascript](./src/752.打开转盘锁.js) | 
 | 773 | Sliding Puzzle([en](https://leetcode.com/problems/sliding-puzzle), [cn](https://leetcode.cn/problems/sliding-puzzle)) |  Hard | [Javascript](./src/773.滑动谜题.js) | 

@@ -53,6 +53,7 @@ function createTest(path, fnName) {
   const fileName = res[res.length - 1]
   const template = `
     const { ${fnName} } = require('./${fileName}')
+    const { createBTFromArray } = require('./utils/bst')
 
     test('${fnName}', () => {
       expect(${fnName}()).toEqual()
