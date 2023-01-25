@@ -20,9 +20,7 @@
 var findDuplicateSubtrees = function(root) {
   let memo = new Map(),
     res = []
-
   traverse(root)
-  console.log('res', res)
   return res
 
   function traverse(root) {
