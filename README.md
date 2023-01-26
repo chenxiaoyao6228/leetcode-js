@@ -9,7 +9,7 @@ It's almost impossible to finish all leetcode problems since it has more than 20
 
 > TODO
 ## Table of solutions
-Total Submit: **140**/**300(Goal)**
+Total Submit: **141**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js)
@@ -144,6 +144,7 @@ Total Submit: **140**/**300(Goal)**
 | 988 | Smallest String Starting From Leaf([en](https://leetcode.com/problems/smallest-string-starting-from-leaf), [cn](https://leetcode.cn/problems/smallest-string-starting-from-leaf)) |  Medium | [Javascript](./src/988.从叶结点开始的最小字符串.js) | 
 | 998 | Maximum Binary Tree II([en](https://leetcode.com/problems/maximum-binary-tree-ii), [cn](https://leetcode.cn/problems/maximum-binary-tree-ii)) |  Medium | [Javascript](./src/998.maximum-binary-tree-ii.js) | 
 | 1008 | Construct Binary Search Tree from Preorder Traversal([en](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal), [cn](https://leetcode.cn/problems/construct-binary-search-tree-from-preorder-traversal)) |  Medium | [Javascript](./src/1008.前序遍历构造二叉搜索树.js) | 
+| 1038 | Binary Search Tree to Greater Sum Tree([en](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree), [cn](https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree)) |  Medium | [Javascript](./src/1038.从二叉搜索树到更大和树.js) | [test](./src/1038.从二叉搜索树到更大和树.test.js)
 | 1094 | Car Pooling([en](https://leetcode.com/problems/car-pooling), [cn](https://leetcode.cn/problems/car-pooling)) |  Medium | [Javascript](./src/1094.拼车.js) | 
 | 1143 | Longest Common Subsequence([en](https://leetcode.com/problems/longest-common-subsequence), [cn](https://leetcode.cn/problems/longest-common-subsequence)) |  Medium | [Javascript](./src/1143.最长公共子序列.js) | 
 | 1373 | Maximum Sum BST in Binary Tree([en](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree), [cn](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree)) |  Hard | [Javascript](./src/1373.二叉搜索子树的最大键值和.js) | 
