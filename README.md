@@ -9,7 +9,7 @@ It's almost impossible to finish all leetcode problems since it has more than 20
 
 > TODO
 ## Table of solutions
-Total Submit: **139**/**300(Goal)**
+Total Submit: **140**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js)
@@ -140,6 +140,7 @@ Total Submit: **139**/**300(Goal)**
 | 889 | Construct Binary Tree from Preorder and Postorder Traversal([en](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal), [cn](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal)) |  Medium | [Javascript](./src/889.根据前序和后序遍历构造二叉树.js) | [test](./src/889.根据前序和后序遍历构造二叉树.test.js)
 | 921 | Minimum Add to Make Parentheses Valid([en](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid), [cn](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid)) |  Medium | [Javascript](./src/921.使括号有效的最少添加.js) | 
 | 931 | Minimum Falling Path Sum([en](https://leetcode.com/problems/minimum-falling-path-sum), [cn](https://leetcode.cn/problems/minimum-falling-path-sum)) |  Medium | [Javascript](./src/931.下降路径最小和.js) | [test](./src/931.下降路径最小和.test.js)
+| 965 | Univalued Binary Tree([en](https://leetcode.com/problems/univalued-binary-tree), [cn](https://leetcode.cn/problems/univalued-binary-tree)) |  Easy | [Javascript](./src/965.单值二叉树.js) | [test](./src/965.单值二叉树.test.js)
 | 988 | Smallest String Starting From Leaf([en](https://leetcode.com/problems/smallest-string-starting-from-leaf), [cn](https://leetcode.cn/problems/smallest-string-starting-from-leaf)) |  Medium | [Javascript](./src/988.从叶结点开始的最小字符串.js) | 
 | 998 | Maximum Binary Tree II([en](https://leetcode.com/problems/maximum-binary-tree-ii), [cn](https://leetcode.cn/problems/maximum-binary-tree-ii)) |  Medium | [Javascript](./src/998.maximum-binary-tree-ii.js) | 
 | 1008 | Construct Binary Search Tree from Preorder Traversal([en](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal), [cn](https://leetcode.cn/problems/construct-binary-search-tree-from-preorder-traversal)) |  Medium | [Javascript](./src/1008.前序遍历构造二叉搜索树.js) | 
