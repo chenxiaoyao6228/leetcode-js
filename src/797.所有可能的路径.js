@@ -9,21 +9,26 @@
  * @param {number[][]} graph
  * @return {number[][]}
  */
-const res = []
 var allPathsSourceTarget = function(graph) {
+  let res = []
   const path = []
-  traverse(graph, 0, path)
+  path.push(0)
+  traverse(graph, 0)
   return res
 
-  function traverse(graph, s, path) {
-    path.push(s)
-    if (s === graph.length - 1) {
-      res.push(path.slice(0))
+  function traverse(graph, v) {
+    if (v === graph.length - 1) {
+      res.push(path.slice())
+      return
     }
-    graph[s].forEach(v => {
-      traverse(graph, v, path)
+    const neighbors = graph[v]
+    neighbors.forEach(neighbor => {
+      path.push(neighbor)
+      traverse(graph, neighbor)
+      path.pop()
     })
-    path.pop()
   }
 }
 // @lc code=end
+
+module.exports = { allPathsSourceTarget }
