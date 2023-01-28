@@ -31,18 +31,35 @@ const { traverse } = require('@babel/core')
 // }
 
 // solution2
+// var postorderTraversal = function(root) {
+//   let res = []
+//   traverse(root)
+//   return res
 
+//   function traverse(node) {
+//     if (!node) return
+//     traverse(node.left)
+//     traverse(node.right)
+//     res.push(node.val)
+//   }
+// }
+
+// solution3: iterative
 var postorderTraversal = function(root) {
-  let res = []
-  traverse(root)
-  return res
-
-  function traverse(node) {
-    if (!node) return
-    traverse(node.left)
-    traverse(node.right)
-    res.push(node.val)
+  const res = []
+  if (root == null) {
+    return res
   }
+  const stack = [root]
+  while (stack.length) {
+    let cur = stack.pop()
+    res.push(cur.val)
+    cur.left && stack.push(cur.left)
+    cur.right && stack.push(cur.right)
+  }
+  return res.reverse() // remember to reverse
 }
 
 // @lc code=end
+
+module.exports = { postorderTraversal }

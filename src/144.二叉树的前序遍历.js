@@ -33,35 +33,37 @@ const { traverse } = require('@babel/core')
 // }
 
 // solution2: traversal
-var preorderTraversal = function(root) {
-  let res = []
-  traverse(root)
-  return res
-
-  function traverse(root) {
-    if (!root) {
-      return null
-    }
-    res.push(root.val)
-    traverse(root.left)
-    traverse(root.right)
-  }
-}
-
-// solution3: bfs: use extra stack
 // var preorderTraversal = function(root) {
-//   const res = []
-//   if (root == null) {
-//     return res
-//   }
-//   const stack = [root]
-//   while (stack.length) {
-//     let cur = stack.pop()
-//     res.push(cur.val)
-//     cur.right && stack.push(cur.right)
-//     cur.left && stack.push(cur.left)
-//   }
+//   let res = []
+//   traverse(root)
 //   return res
+
+//   function traverse(root) {
+//     if (!root) {
+//       return null
+//     }
+//     res.push(root.val)
+//     traverse(root.left)
+//     traverse(root.right)
+//   }
 // }
 
+// solution3: interative
+var preorderTraversal = function(root) {
+  const res = []
+  if (root == null) {
+    return res
+  }
+  const stack = [root]
+  while (stack.length) {
+    let cur = stack.pop()
+    res.push(cur.val)
+    cur.right && stack.push(cur.right)
+    cur.left && stack.push(cur.left)
+  }
+  return res
+}
+
 // @lc code=end
+
+module.exports = { preorderTraversal }

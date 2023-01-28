@@ -36,15 +36,36 @@
 // }
 
 // solution2: decomposition
+// var inorderTraversal = function(root) {
+//   let res = []
+//   if (!root) {
+//     return res
+//   }
+//   res = res.concat(inorderTraversal(root.left))
+//   res.push(root.val)
+//   res = res.concat(inorderTraversal(root.right))
+//   return res
+// }
+
+// solution3: interative
 var inorderTraversal = function(root) {
-  let res = []
-  if (!root) {
-    return res
+  const res = []
+  const stack = []
+  let cur = root
+  while (cur || stack.length) {
+    if (cur) {
+      stack.push(cur)
+      cur = cur.left
+    } else {
+      cur = stack[stack.length - 1]
+      res.push(cur.val)
+      stack.pop()
+      cur = cur.right
+    }
   }
-  res = res.concat(inorderTraversal(root.left))
-  res.push(root.val)
-  res = res.concat(inorderTraversal(root.right))
   return res
 }
 
 // @lc code=end
+
+module.exports = { inorderTraversal }
