@@ -10,11 +10,13 @@
  * @param {number[]} coins
  * @return {number}
  */
+// animation: https://www.bilibili.com/video/BV1pY4y1J7na
 var change = function(amount, coins) {
+  // can we shift 'n+1' with 'amount' ? => row is for constrain
+  // r for row(constrain, backpack capacity), j for col(value)
+  // dp[i][j] definition: use coins[0...i-1]
   const n = coins.length
   const dp = new Array(n + 1).fill(0).map(() => new Array(amount + 1).fill(0))
-  // dp[i][j] definition: use coins[0...i-1]
-
   // base case:
   // since we init all cells value to 0, so the folllowing lines are just for explanation
   // for (let j = 0; j <= amount; j++) {
@@ -22,16 +24,16 @@ var change = function(amount, coins) {
   // }
 
   //  j(amount) = 0: don't need to choose any thing, and have 1 solution already
-  for (let i = 0; i <= n; i++) {
-    dp[i][0] = 1
+  for (let row = 0; row <= n; row++) {
+    dp[row][0] = 1 // dp[2][0]
   }
-  for (let i = 1; i <= n; i++) {
-    for (let j = 1; j <= amount; j++) {
+  for (let row = 1; row <= n; row++) {
+    for (let col = 1; col <= amount; col++) {
       // still have enough space for coins[i-1]
-      if (j >= coins[i - 1]) {
-        dp[i][j] = dp[i - 1][j] + dp[i][j - coins[i - 1]]
+      if (col >= coins[row - 1]) {
+        dp[row][col] = dp[row - 1][col] + dp[row][col - coins[row - 1]]
       } else {
-        dp[i][j] = dp[i - 1][j]
+        dp[row][col] = dp[row - 1][col]
       }
     }
   }
@@ -39,3 +41,5 @@ var change = function(amount, coins) {
 }
 
 // @lc code=end
+
+module.exports = { change }

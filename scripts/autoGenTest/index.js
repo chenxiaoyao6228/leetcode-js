@@ -55,11 +55,14 @@ function createTest(path, fnName) {
     const { ${fnName} } = require('./${fileName}')
     const { createBTFromArray } = require('./utils/bst')
 
-    test('${fnName}', () => {
+    test('${fnName}1', () => {
       expect(${fnName}()).toEqual()
     })
     
-    test('${fnName}', () => {
+    test('${fnName}2', () => {
+      expect(${fnName}()).toEqual()
+    })
+    test('${fnName}3', () => {
       expect(${fnName}()).toEqual()
     })
   `
