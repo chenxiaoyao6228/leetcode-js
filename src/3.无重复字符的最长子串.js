@@ -33,3 +33,5 @@ var lengthOfLongestSubstring = function(s) {
   return res
 }
 // @lc code=end
+
+module.exports = { lengthOfLongestSubstring }

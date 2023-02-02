@@ -4,8 +4,6 @@
  * [559] N 叉树的最大深度
  */
 
-const { traverse } = require('@babel/core')
-
 // @lc code=start
 /**
  * // Definition for a Node.
@@ -53,3 +51,5 @@ var maxDepth = function(root) {
   }
 }
 // @lc code=end
+
+module.exports = { maxDepth }

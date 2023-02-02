@@ -38,7 +38,7 @@ var canPartition = function(nums) {
   for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= sum; j++) {
       // not enough space to the (i)th item to fit in, so will inherit from it its above pos in dp table
-      // ❗ we count from 1, and array index start from 0, so the (i) item should be nums[i-1]
+      // ❗ we count from 1, and array index start from 0, so the (i)th item should be nums[i-1]
       if (j < nums[i - 1]) {
         dp[i][j] = dp[i - 1][j]
       } else {

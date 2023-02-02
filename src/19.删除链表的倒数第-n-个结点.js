@@ -44,4 +44,7 @@ function findFromEnd(head, k) {
   }
   return p2
 }
+
 // @lc code=end
+
+module.exports = { removeNthFromEnd }

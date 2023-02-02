@@ -52,3 +52,5 @@ var generateTrees = function(n) {
 }
 console.log(generateTrees(3))
 // @lc code=end
+
+module.exports = { generateTrees }
