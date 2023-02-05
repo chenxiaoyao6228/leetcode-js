@@ -13,7 +13,7 @@ It's almost impossible to finish all leetcode problems since it has more than 20
 
 > TODO
 ## Table of solutions
-Total Submit: **146**/**300(Goal)**
+Total Submit: **147**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js)
@@ -112,6 +112,7 @@ Total Submit: **146**/**300(Goal)**
 | 416 | Partition Equal Subset Sum([en](https://leetcode.com/problems/partition-equal-subset-sum), [cn](https://leetcode.cn/problems/partition-equal-subset-sum)) |  Medium | [Javascript](./src/416.分割等和子集.js) | [test](./src/416.分割等和子集.test.js)
 | 438 | Find All Anagrams in a String([en](https://leetcode.com/problems/find-all-anagrams-in-a-string), [cn](https://leetcode.cn/problems/find-all-anagrams-in-a-string)) |  Medium | [Javascript](./src/438.找到字符串中所有字母异位词.js) | 
 | 450 | Delete Node in a BST([en](https://leetcode.com/problems/delete-node-in-a-bst), [cn](https://leetcode.cn/problems/delete-node-in-a-bst)) |  Medium | [Javascript](./src/450.删除二叉搜索树中的节点.js) | [test](./src/450.删除二叉搜索树中的节点.test.js)
+| 496 | Next Greater Element I([en](https://leetcode.com/problems/next-greater-element-i), [cn](https://leetcode.cn/problems/next-greater-element-i)) |  Easy | [Javascript](./src/496.下一个更大元素-i.js) | [test](./src/496.下一个更大元素-i.test.js)
 | 501 | Find Mode in Binary Search Tree([en](https://leetcode.com/problems/find-mode-in-binary-search-tree), [cn](https://leetcode.cn/problems/find-mode-in-binary-search-tree)) |  Easy | [Javascript](./src/501.二叉搜索树中的众数.js) | 
 | 503 | Next Greater Element II([en](https://leetcode.com/problems/next-greater-element-ii), [cn](https://leetcode.cn/problems/next-greater-element-ii)) |  Medium | [Javascript](./src/503.下一个更大元素-ii.js) | 
 | 506 | Relative Ranks([en](https://leetcode.com/problems/relative-ranks), [cn](https://leetcode.cn/problems/relative-ranks)) |  Easy | [Javascript](./src/506.relative-ranks.js) | [test](./src/506.relative-ranks.test.js)
