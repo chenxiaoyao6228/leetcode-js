@@ -8,12 +8,16 @@ Personal Leetcode solutions in Javascript. All JavaScript codes are written in E
 It's almost impossible to finish all leetcode problems since it has more than 2000 problems for now and the number is still increasing. Here are some summaries and templates that might offer some bits of help.
 
 > TODO
+
+## Anki cards
+
+> TODO
 ## Table of solutions
-Total Submit: **145**/**300(Goal)**
+Total Submit: **146**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case |
   | --- | ------ | ------ | ----- | -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js)
-| 3 | Longest Substring Without Repeating Characters([en](https://leetcode.com/problems/longest-substring-without-repeating-characters), [cn](https://leetcode.cn/problems/longest-substring-without-repeating-characters)) |  Medium | [Javascript](./src/3.无重复字符的最长子串.js) | 
+| 3 | Longest Substring Without Repeating Characters([en](https://leetcode.com/problems/longest-substring-without-repeating-characters), [cn](https://leetcode.cn/problems/longest-substring-without-repeating-characters)) |  Medium | [Javascript](./src/3.无重复字符的最长子串.js) | [test](./src/3.无重复字符的最长子串.test.js)
 | 4 | Median of Two Sorted Arrays([en](https://leetcode.com/problems/median-of-two-sorted-arrays), [cn](https://leetcode.cn/problems/median-of-two-sorted-arrays)) |  Hard | [Javascript](./src/4.median-of-two-sorted-arrays.js) | [test](./src/4.median-of-two-sorted-arrays.test.js)
 | 5 | Longest Palindromic Substring([en](https://leetcode.com/problems/longest-palindromic-substring), [cn](https://leetcode.cn/problems/longest-palindromic-substring)) |  Medium | [Javascript](./src/5.最长回文子串.js) | [test](./src/5.最长回文子串.test.js)
 | 7 | Reverse Integer([en](https://leetcode.com/problems/reverse-integer), [cn](https://leetcode.cn/problems/reverse-integer)) |  Medium | [Javascript](./src/7.reverse-integer.js) | [test](./src/7.reverse-integer.test.js)
@@ -21,7 +25,7 @@ Total Submit: **145**/**300(Goal)**
 | 15 | 3Sum([en](https://leetcode.com/problems/3sum), [cn](https://leetcode.cn/problems/3sum)) |  Medium | [Javascript](./src/15.3-sum.js) | [test](./src/15.3-sum.test.js)
 | 16 | 3Sum Closest([en](https://leetcode.com/problems/3sum-closest), [cn](https://leetcode.cn/problems/3sum-closest)) |  Medium | [Javascript](./src/16.3-sum-closest.js) | [test](./src/16.3-sum-closest.test.js)
 | 17 | Letter Combinations of a Phone Number([en](https://leetcode.com/problems/letter-combinations-of-a-phone-number), [cn](https://leetcode.cn/problems/letter-combinations-of-a-phone-number)) |  Medium | [Javascript](./src/17.电话号码的字母组合.js) | [test](./src/17.电话号码的字母组合.test.js)
-| 19 | Remove Nth Node From End of List([en](https://leetcode.com/problems/remove-nth-node-from-end-of-list), [cn](https://leetcode.cn/problems/remove-nth-node-from-end-of-list)) |  Medium | [Javascript](./src/19.删除链表的倒数第-n-个结点.js) | 
+| 19 | Remove Nth Node From End of List([en](https://leetcode.com/problems/remove-nth-node-from-end-of-list), [cn](https://leetcode.cn/problems/remove-nth-node-from-end-of-list)) |  Medium | [Javascript](./src/19.删除链表的倒数第-n-个结点.js) | [test](./src/19.删除链表的倒数第-n-个结点.test.js)
 | 20 | Valid Parentheses([en](https://leetcode.com/problems/valid-parentheses), [cn](https://leetcode.cn/problems/valid-parentheses)) |  Easy | [Javascript](./src/20.valid-parentheses.js) | [test](./src/20.valid-parentheses.test.js)
 | 21 | Merge Two Sorted Lists([en](https://leetcode.com/problems/merge-two-sorted-lists), [cn](https://leetcode.cn/problems/merge-two-sorted-lists)) |  Easy | [Javascript](./src/21.合并两个有序链表.js) | 
 | 24 | Swap Nodes in Pairs([en](https://leetcode.com/problems/swap-nodes-in-pairs), [cn](https://leetcode.cn/problems/swap-nodes-in-pairs)) |  Medium | [Javascript](./src/24.swap-nodes-in-pairs.js) | [test](./src/24.swap-nodes-in-pairs.test.js)
@@ -152,3 +156,4 @@ Total Submit: **145**/**300(Goal)**
 | 1094 | Car Pooling([en](https://leetcode.com/problems/car-pooling), [cn](https://leetcode.cn/problems/car-pooling)) |  Medium | [Javascript](./src/1094.拼车.js) | 
 | 1143 | Longest Common Subsequence([en](https://leetcode.com/problems/longest-common-subsequence), [cn](https://leetcode.cn/problems/longest-common-subsequence)) |  Medium | [Javascript](./src/1143.最长公共子序列.js) | 
 | 1373 | Maximum Sum BST in Binary Tree([en](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree), [cn](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree)) |  Hard | [Javascript](./src/1373.二叉搜索子树的最大键值和.js) | 
+| 1541 | Minimum Insertions to Balance a Parentheses String([en](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string), [cn](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string)) |  Medium | [Javascript](./src/1541.平衡括号字符串的最少插入次数.js) | [test](./src/1541.平衡括号字符串的最少插入次数.test.js)
