@@ -37,8 +37,8 @@ function generateTable() {
 }
 
 function generateTableHeader() {
-  const header = `| ID | Title | Difficulty | Solutions  | Test Case |
-  | --- | ------ | ------ | ----- | -----|`
+  const header = `| ID | Title | Difficulty | Solutions  | Test Case | Explanation |
+  | --- | ------ | ------ | ----- | -----| -----|`
   return header
 }
 
@@ -81,6 +81,14 @@ function generateTableContent(prefixPath = '') {
     if (!fs.existsSync(testFolder)) {
       testCasePath = ''
     }
+
+    const explanationName = fileName.slice(0, -3) + '.md'
+    let explanationPath = `[explanation](./src${prefixPath}/${explanationName})`
+    const explanationFolder = path.join(__dirname, '../src', explanationName)
+    if (!fs.existsSync(explanationFolder)) {
+      explanationPath = ''
+    }
+
     const { name: titleName, difficulty } = leetcodeENDatas[id]
     const linkName = titleName
       .split(' ')
@@ -91,7 +99,7 @@ function generateTableContent(prefixPath = '') {
 
     return [
       id,
-      `| ${id} | ${titleName}([en](${enLink}), [cn](${cnLink})) |  ${difficulty} | [Javascript](./src${prefixPath}/${fileName}) | ${testCasePath}`
+      `| ${id} | ${titleName}([en](${enLink}), [cn](${cnLink})) |  ${difficulty} | [Javascript](./src${prefixPath}/${fileName}) | ${testCasePath} | ${explanationPath} `
     ]
   }
 }
