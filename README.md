@@ -13,7 +13,7 @@ It's almost impossible to finish all leetcode problems since it has more than 20
 
 > TODO
 ## Table of solutions
-Total Submit: **151**/**300(Goal)**
+Total Submit: **150**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -105,7 +105,7 @@ Total Submit: **151**/**300(Goal)**
 | 297 | Serialize and Deserialize Binary Tree([en](https://leetcode.com/problems/serialize-and-deserialize-binary-tree), [cn](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree)) |  Hard | [Javascript](./src/297.二叉树的序列化与反序列化.js) |  |  
 | 300 | Longest Increasing Subsequence([en](https://leetcode.com/problems/longest-increasing-subsequence), [cn](https://leetcode.cn/problems/longest-increasing-subsequence)) |  Medium | [Javascript](./src/300.最长递增子序列.js) | [test](./src/300.最长递增子序列.test.js) |  
 | 303 | Range Sum Query - Immutable([en](https://leetcode.com/problems/range-sum-query---immutable), [cn](https://leetcode.cn/problems/range-sum-query---immutable)) |  Easy | [Javascript](./src/303.区域和检索-数组不可变.js) |  |  
-| 316 | Remove Duplicate Letters([en](https://leetcode.com/problems/remove-duplicate-letters), [cn](https://leetcode.cn/problems/remove-duplicate-letters)) |  Medium | [Javascript](./src/316.去除重复字母.md) | [test](./src/316.去除重复字母.test.js) | [explanation](./src/316.去除重复字母.md) 
+| 316 | Remove Duplicate Letters([en](https://leetcode.com/problems/remove-duplicate-letters), [cn](https://leetcode.cn/problems/remove-duplicate-letters)) |  Medium | [Javascript](./src/316.去除重复字母.js) | [test](./src/316.去除重复字母.test.js) | [explanation](./src/316.去除重复字母.md) 
 | 322 | Coin Change([en](https://leetcode.com/problems/coin-change), [cn](https://leetcode.cn/problems/coin-change)) |  Medium | [Javascript](./src/322.零钱兑换.js) |  |  
 | 344 | Reverse String([en](https://leetcode.com/problems/reverse-string), [cn](https://leetcode.cn/problems/reverse-string)) |  Easy | [Javascript](./src/344.反转字符串.js) |  |  
 | 349 | Intersection of Two Arrays([en](https://leetcode.com/problems/intersection-of-two-arrays), [cn](https://leetcode.cn/problems/intersection-of-two-arrays)) |  Easy | [Javascript](./src/349.intersection-of-two-arrays.js) | [test](./src/349.intersection-of-two-arrays.test.js) |  

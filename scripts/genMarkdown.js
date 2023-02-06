@@ -60,7 +60,7 @@ function generateTableContent(prefixPath = '') {
       if (stats.isFile()) {
         if (
           /^\d/.test(fileOrFolderName) &&
-          !/test.js$/.test(fileOrFolderName)
+          !/(.test.js|.md)$/.test(fileOrFolderName)
         ) {
           totalCount++
           const [id, content] = genrateFileContent(prefixPath, fileOrFolderName)
