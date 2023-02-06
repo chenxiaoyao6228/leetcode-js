@@ -24,13 +24,16 @@ var nextGreaterElement = function(nums1, nums2) {
     const resMap = {}
     const stack = new Array(n).fill(-1)
     for (let i = n - 1; i >= 0; i--) {
-      while (stack.length && stack[stack.length - 1] <= nums[i]) {
+      while (stack.length && peekStack(stack) <= nums[i]) {
         stack.pop()
       }
-      resMap[nums[i]] = stack.length ? stack[stack.length - 1] : -1
+      resMap[nums[i]] = stack.length ? peekStack(stack) : -1
       stack.push(nums[i])
     }
     return resMap
+  }
+  function peekStack(stack) {
+    return stack.length ? stack[stack.length - 1] : null
   }
 }
 
