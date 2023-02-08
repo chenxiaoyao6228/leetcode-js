@@ -21,9 +21,11 @@ var reverseList = function(head) {
     return head
   }
   const last = reverseList(head.next)
-  head.next.next = head // pointer to reversedList head
-  head.next = null // break pointer between
+  head.next.next = head
+  head.next = null
   return last
 }
 
 // @lc code=end
+
+module.exports = { reverseList }
