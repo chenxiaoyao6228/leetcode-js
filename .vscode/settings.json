@@ -1,7 +1,6 @@
 {
     "grammarly.files.include": [
-        "**/README.md",
-        "**/readme.md",
+        "**/*.md",
         "**/*.txt",
         // "**/*.js"
     ]

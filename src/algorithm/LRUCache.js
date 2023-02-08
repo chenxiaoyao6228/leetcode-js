@@ -26,6 +26,8 @@ class DoubleLinkedList {
     this._size = 0
   }
   addToTail(x) {
+    //                  x
+    // head -> ..k.. ->   -> tail
     x.prev = this._tail.prev
     x.next = this._tail
     this._tail.prev.next = x
