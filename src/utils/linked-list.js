@@ -21,8 +21,17 @@ function createList(...values) {
   return list
 }
 
+function createLinkedListFromArr(values) {
+  let list = new ListNode(values[0])
+  for (let i = 1; i < values.length; i++) {
+    list = push(list, values[i])
+  }
+  return list
+}
+
 module.exports = {
   ListNode,
   push,
-  createList
+  createList,
+  createLinkedListFromArr
 }

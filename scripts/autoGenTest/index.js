@@ -54,6 +54,7 @@ function createTest(path, fnName) {
   const template = `
     const { ${fnName} } = require('./${fileName}')
     const { createBTFromArray } = require('./utils/bst')
+    const { createLinkedListFromArr } = require('./utils/linked-list')
 
     test('${fnName}1', () => {
       expect(${fnName}()).toEqual()

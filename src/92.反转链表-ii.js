@@ -18,8 +18,6 @@
  * @param {number} right
  * @return {ListNode}
  */
-
-// const { createList } = require('./utils/linked-list')
 // [1, 2, 3, | [4, 5, 6], 7, 8, 9]
 var reverseBetween = function(head, left, right) {
   if (left == 1) {
@@ -36,13 +34,11 @@ function reverseN(head, n) {
     return head
   }
   const last = reverseN(head.next, n - 1)
-  head.next.next = last
+  head.next.next = head
   head.next = successor
   return last
 }
 
-// const list = createList(1, 2, 3, 4, 5, 6, 7, 8, 9)
-// const reversedList = reverseBetween(list, 3, 6)
-// console.log('reversedList', reversedList)
-
 // @lc code=end
+
+module.exports = { reverseBetween }
