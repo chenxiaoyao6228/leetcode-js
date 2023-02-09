@@ -1,15 +1,17 @@
 # Leetcode-js
 
-Personal Leetcode solutions in Javascript. All JavaScript codes are written in ECMAScript 6 standard. Some questions may include more than one solution.
+Leetcode solutions in Javascript. All JavaScript codes are written in ECMAScript 6 standard. Some questions may include more than one solution.
 
-**Debug**:  For local debugging purposes, some questions also provide test cases with `Jest`, If you are using `Vscode`, I suggest you install [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) and [Jest runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner) and go to the corresponding test case. You can also call the function directly in the question file and hit the `Run and Debug` Button on the sidebar and select `Debug currentFile` option to start debugging.
+## Debugging
+For local debugging purposes, some questions also provide `test cases` with `Jest`, If you are using `Vscode`, I suggest you install [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) and [Jest runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner) and go to the corresponding test case. You can also call the function directly in the question file and hit the `Run and Debug` Button on the sidebar and select `Debug currentFile` option to start debugging.
 
 ## Summaries and Templates
-It's almost impossible to finish all leetcode problems since it has more than 2000 problems for now and the number is still increasing. Here are some summaries and templates that might offer some bits of help.
+It's almost impossible to finish all Leetcode problems since it has more than 2000 problems for now and the number is still increasing. Here are some summaries and templates that might offer some bits of help.
 
 > TODO
 
 ## Anki cards
+The most `frustrating` thing about `learning` is `forgetting`.  Following the `Forgetting Curve`,  `Anki` is an effective review tool. 
 
 > TODO
 ## Table of solutions
