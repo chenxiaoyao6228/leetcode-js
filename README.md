@@ -15,7 +15,7 @@ The most `frustrating` thing about `learning` is `forgetting`.  Following the `F
 
 > TODO
 ## Table of solutions
-Total Submit: **150**/**300(Goal)**
+Total Submit: **151**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -113,6 +113,7 @@ Total Submit: **150**/**300(Goal)**
 | 349 | Intersection of Two Arrays([en](https://leetcode.com/problems/intersection-of-two-arrays), [cn](https://leetcode.cn/problems/intersection-of-two-arrays)) |  Easy | [Javascript](./src/349.intersection-of-two-arrays.js) | [test](./src/349.intersection-of-two-arrays.test.js) |  
 | 350 | Intersection of Two Arrays II([en](https://leetcode.com/problems/intersection-of-two-arrays-ii), [cn](https://leetcode.cn/problems/intersection-of-two-arrays-ii)) |  Easy | [Javascript](./src/350.intersection-of-two-arrays-ii.js) | [test](./src/350.intersection-of-two-arrays-ii.test.js) |  
 | 354 | Russian Doll Envelopes([en](https://leetcode.com/problems/russian-doll-envelopes), [cn](https://leetcode.cn/problems/russian-doll-envelopes)) |  Hard | [Javascript](./src/354.俄罗斯套娃信封问题.js) |  |  
+| 380 | Insert Delete GetRandom O(1)([en](https://leetcode.com/problems/insert-delete-getrandom-o(1)), [cn](https://leetcode.cn/problems/insert-delete-getrandom-o(1))) |  Medium | [Javascript](./src/380.o-1-时间插入、删除和获取随机元素.js) | [test](./src/380.o-1-时间插入、删除和获取随机元素.test.js) |  
 | 416 | Partition Equal Subset Sum([en](https://leetcode.com/problems/partition-equal-subset-sum), [cn](https://leetcode.cn/problems/partition-equal-subset-sum)) |  Medium | [Javascript](./src/416.分割等和子集.js) | [test](./src/416.分割等和子集.test.js) |  
 | 438 | Find All Anagrams in a String([en](https://leetcode.com/problems/find-all-anagrams-in-a-string), [cn](https://leetcode.cn/problems/find-all-anagrams-in-a-string)) |  Medium | [Javascript](./src/438.找到字符串中所有字母异位词.js) |  |  
 | 450 | Delete Node in a BST([en](https://leetcode.com/problems/delete-node-in-a-bst), [cn](https://leetcode.cn/problems/delete-node-in-a-bst)) |  Medium | [Javascript](./src/450.删除二叉搜索树中的节点.js) | [test](./src/450.删除二叉搜索树中的节点.test.js) |  
