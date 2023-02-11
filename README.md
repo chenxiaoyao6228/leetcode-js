@@ -15,7 +15,7 @@ The most `frustrating` thing about `learning` is `forgetting`.  Following the `F
 
 > TODO
 ## Table of solutions
-Total Submit: **151**/**300(Goal)**
+Total Submit: **152**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -143,6 +143,7 @@ Total Submit: **151**/**300(Goal)**
 | 700 | Search in a Binary Search Tree([en](https://leetcode.com/problems/search-in-a-binary-search-tree), [cn](https://leetcode.cn/problems/search-in-a-binary-search-tree)) |  Easy | [Javascript](./src/700.二叉搜索树中的搜索.js) |  |  
 | 701 | Insert into a Binary Search Tree([en](https://leetcode.com/problems/insert-into-a-binary-search-tree), [cn](https://leetcode.cn/problems/insert-into-a-binary-search-tree)) |  Medium | [Javascript](./src/701.二叉搜索树中的插入操作.js) | [test](./src/701.二叉搜索树中的插入操作.test.js) |  
 | 704 | Binary Search([en](https://leetcode.com/problems/binary-search), [cn](https://leetcode.cn/problems/binary-search)) |  Easy | [Javascript](./src/704.二分查找.js) |  |  
+| 710 | Random Pick with Blacklist([en](https://leetcode.com/problems/random-pick-with-blacklist), [cn](https://leetcode.cn/problems/random-pick-with-blacklist)) |  Hard | [Javascript](./src/710.黑名单中的随机数.js) | [test](./src/710.黑名单中的随机数.test.js) |  
 | 739 | Daily Temperatures([en](https://leetcode.com/problems/daily-temperatures), [cn](https://leetcode.cn/problems/daily-temperatures)) |  Medium | [Javascript](./src/739.每日温度.js) | [test](./src/739.每日温度.test.js) |  
 | 752 | Open the Lock([en](https://leetcode.com/problems/open-the-lock), [cn](https://leetcode.cn/problems/open-the-lock)) |  Medium | [Javascript](./src/752.打开转盘锁.js) |  |  
 | 773 | Sliding Puzzle([en](https://leetcode.com/problems/sliding-puzzle), [cn](https://leetcode.cn/problems/sliding-puzzle)) |  Hard | [Javascript](./src/773.滑动谜题.js) |  |  
