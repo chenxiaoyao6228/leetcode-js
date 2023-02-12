@@ -15,7 +15,7 @@ The most `frustrating` thing about `learning` is `forgetting`.  Following the `F
 
 > TODO
 ## Table of solutions
-Total Submit: **153**/**300(Goal)**
+Total Submit: **154**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -79,6 +79,7 @@ Total Submit: **153**/**300(Goal)**
 | 141 | Linked List Cycle([en](https://leetcode.com/problems/linked-list-cycle), [cn](https://leetcode.cn/problems/linked-list-cycle)) |  Easy | [Javascript](./src/141.环形链表.js) |  |  
 | 144 | Binary Tree Preorder Traversal([en](https://leetcode.com/problems/binary-tree-preorder-traversal), [cn](https://leetcode.cn/problems/binary-tree-preorder-traversal)) |  Easy | [Javascript](./src/144.二叉树的前序遍历.js) | [test](./src/144.二叉树的前序遍历.test.js) |  
 | 145 | Binary Tree Postorder Traversal([en](https://leetcode.com/problems/binary-tree-postorder-traversal), [cn](https://leetcode.cn/problems/binary-tree-postorder-traversal)) |  Easy | [Javascript](./src/145.二叉树的后序遍历.js) | [test](./src/145.二叉树的后序遍历.test.js) |  
+| 146 | LRU Cache([en](https://leetcode.com/problems/lru-cache), [cn](https://leetcode.cn/problems/lru-cache)) |  Medium | [Javascript](./src/146.lru-缓存.js) | [test](./src/146.lru-缓存.test.js) |  
 | 147 | Insertion Sort List([en](https://leetcode.com/problems/insertion-sort-list), [cn](https://leetcode.cn/problems/insertion-sort-list)) |  Medium | [Javascript](./src/147.insertion-sort-list.js) | [test](./src/147.insertion-sort-list.test.js) |  
 | 149 | Max Points on a Line([en](https://leetcode.com/problems/max-points-on-a-line), [cn](https://leetcode.cn/problems/max-points-on-a-line)) |  Hard | [Javascript](./src/149.max-points-on-a-line.js) | [test](./src/149.max-points-on-a-line.test.js) |  
 | 160 | Intersection of Two Linked Lists([en](https://leetcode.com/problems/intersection-of-two-linked-lists), [cn](https://leetcode.cn/problems/intersection-of-two-linked-lists)) |  Easy | [Javascript](./src/160.相交链表.js) |  |  

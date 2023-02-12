@@ -1,15 +1,10 @@
-// leetcode 146
-// more specific implementation: https://github.com/rsms/js-lru/blob/master/test.js
-
 /*
- * Least recently used
- * Design points:
- * 1. cache must be in order, cuz we need to delete the least recently used element
- * 2. we need to lookup certain keys and get their corresponding value
- * 3. every time we look up certain keys in the cache, we need to change it to `recently used`,
- *    which means we should be able to insert and del value in any position
+ * @lc app=leetcode.cn id=146 lang=javascript
+ *
+ * [146] LRU 缓存
  */
 
+// @lc code=start
 class Node {
   constructor(key, val) {
     this.key = key
@@ -112,3 +107,7 @@ class LRUCache {
     this._addRecently(key, value)
   }
 }
+
+// @lc code=end
+
+module.exports = { LRUCache }

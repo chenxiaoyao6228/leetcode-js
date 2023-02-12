@@ -9,6 +9,11 @@
  * @param {string} s
  * @return {string}
  */
+/*
+ * 1. Forget about `the smallest in lexicographical order`, try to remove duplicate letters
+ * 2. compare order before pushing element into the stack
+ * 3. add `countObj` to skip pop operation when the element's count is 0.s
+ */
 // same as 1081
 var removeDuplicateLetters = function(s) {
   const stack = new Array()
@@ -24,14 +29,14 @@ var removeDuplicateLetters = function(s) {
   }
 
   for (let i = 0; i < s.length; i++) {
-    const char = s[i]
+    let char = s[i]
 
     countObj[char]--
 
     if (inStackObj[char]) {
       continue
     }
-    // remember to get ch from pop obj
+
     while (stack.length && peekStack(stack).ch > char) {
       if (countObj[peekStack(stack).ch] === 0) {
         break
