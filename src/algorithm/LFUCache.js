@@ -7,72 +7,91 @@
 
 class LFUCache {
   constructor(capacity) {
+    // init keyToValMap
     this._keyToValMap = new Map()
+    // init keyToFreqMap
     this._keyToFreqMap = new Map()
-    // multiple keys might have the same freq, each key of map contains an ordered Set
+    // init freqToKeysMap
+    // each freq will have a orderd Set
     this._freqToKeysMap = new Map()
-    this._minFreq = 0
     this._size = 0
     this._capacity = capacity
+    this._minFreq = 0
   }
-  // increaseFreq of existing key
-  _increaseFreqOfkey(key) {
+
+  _increaseFreByKey(key) {
     const oldFreq = this._keyToFreqMap.get(key)
     const newFreq = oldFreq + 1
-    // update keyToFreqMap
+
     this._keyToFreqMap.set(key, newFreq)
-    // update freqToKeysMap
-    // delete old
+
     this._freqToKeysMap.get(oldFreq).delete(key)
-    // update new
-    if (!this._freqToKeysMap.get(newFreq)) {
+
+    if (!this._freqToKeysMap.get(oldFreq).size) {
+      this._freqToKeysMap.delete(oldFreq)
+      // !
+      if (this._minFreq === oldFreq) {
+        this._minFreq++
+      }
+    }
+
+    if (!this._freqToKeysMap.has(newFreq)) {
       this._freqToKeysMap.set(newFreq, new Set())
     }
     this._freqToKeysMap.get(newFreq).add(key)
   }
-  _removeLeastFreqOfKey() {
-    // consider: which key to delete?
-    const minFreSet = this._freqToKeysMap.get(this._minFreq)
-    // get first Element of set: https://learnshareit.com/how-to-get-the-first-element-of-a-set-in-javascript
-    const KeyToDel = minFreSet.keys().next().value
 
-    // update freqToKeysMap
-    minFreSet.delete(KeyToDel)
-    if (!minFreSet.size) {
-      this._freqToKeysMap.delete(this._minFreq)
-    }
-    // update keyToValMap
-    this._keyToValMap.delete(KeyToDel)
-    // update keyToFreqMap
-    this._keyToFreqMap.delete(KeyToDel)
-
-    this._size--
-  }
   get(key) {
-    if (!this._keyToValMap.has(key)) {
+    if (this._keyToValMap.get(key) == undefined) {
       return -1
     }
-    this._increaseFreqOfkey(key)
-    return this._keyToFreqMap.get(key)
+    // update fre
+    this._increaseFreByKey(key)
+    // return val
+    return this._keyToValMap.get(key)
   }
-  set(key, val) {
-    // key is existed
-    if (this._keyToValMap.get(key)) {
-      this._keyToFreqMap.set(key, val)
-      this._increaseFreqOfkey(key)
+
+  _deleteLeastFreqKey() {
+    // find the least frequently used key
+    const minFreqSet = this._freqToKeysMap.get(this._minFreq)
+    const keyToRemove = minFreqSet.keys().next().value
+
+    minFreqSet.delete(keyToRemove)
+
+    this._keyToValMap.delete(keyToRemove)
+
+    this._keyToFreqMap.delete(keyToRemove)
+
+    // update size
+    this._size--
+  }
+
+  put(key, value) {
+    /*
+   if over capacity?
+      delete the least frequestly used val
+   if key exsit
+      update val
+      update freq
+    insert val
+    update freq
+  */
+
+    // !
+    if (this._capacity == 0) return
+
+    if (this._keyToFreqMap.has(key)) {
+      this._keyToValMap.set(key, value)
+      this._increaseFreByKey(key)
       return
     }
 
     if (this._size === this._capacity) {
-      this._removeLeastFreqOfKey()
+      this._deleteLeastFreqKey()
     }
-    // update keyToValMap
-    this._keyToValMap.set(key, val)
 
-    // update keyToFreqMap, new inserted val have frequency of 1
+    this._keyToValMap.set(key, value)
     this._keyToFreqMap.set(key, 1)
-
-    // update freqToKeysMap
     if (!this._freqToKeysMap.get(1)) {
       this._freqToKeysMap.set(1, new Set())
     }
@@ -81,10 +100,9 @@ class LFUCache {
     this._size++
   }
 }
-
-const lfu = new LFUCache(2)
-lfu.set(1, 10)
-lfu.set(2, 20)
-lfu.get(1)
-lfu.set(3, 30)
-lfu.get(2)
+// const lfu = new LFUCache(2)
+// lfu.put(1, 10)
+// lfu.put(2, 20)
+// lfu.get(1)
+// lfu.put(3, 30)
+// lfu.get(2)

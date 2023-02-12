@@ -25,6 +25,7 @@ RandomizedSet.prototype.insert = function(val) {
   this.arr.push(val)
   // record index
   this.valToIndexMap.set(val, this.arr.length - 1)
+  // return true
   return true
 }
 
@@ -33,20 +34,23 @@ RandomizedSet.prototype.insert = function(val) {
  * @return {boolean}
  */
 RandomizedSet.prototype.remove = function(val) {
-  // if val is  not existed, return -1
+  // if val is  not existed, return false
   if (!this.valToIndexMap.has(val)) {
     return false
   }
 
-  // find index of val
-  const indexToRemove = this.valToIndexMap.get(val)
+  // find the value and index at tail
+  let tailIndex = this.arr.length - 1
+  let tailVal = this.arr[tailIndex]
 
-  // find the index of value at tail
-  const tailIndex = this.arr.length - 1
-  const tailVal = this.arr[tailIndex]
+  // find indexToRemove of val
+  let indexToRemove = this.valToIndexMap.get(val)
 
   // update valToIndexMap
+  // 1. update valueAtDetail's index to indexToRemove
   this.valToIndexMap.set(tailVal, indexToRemove)
+
+  // 2. delete val(not index) at valToIndexMap
   this.valToIndexMap.delete(val)
 
   // swap current val with the val at tail
@@ -55,6 +59,7 @@ RandomizedSet.prototype.remove = function(val) {
   // pop tail val
   this.arr.pop()
 
+  // return true
   return true
 
   function swap(arr, i, j) {
