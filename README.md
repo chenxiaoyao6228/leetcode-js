@@ -8,7 +8,7 @@ For local debugging purposes, some questions also provide `test cases` with `Jes
 ## Summaries and Templates
 It's almost impossible to finish all Leetcode problems since it has more than 2000 problems for now and the number is still increasing. Here are some summaries and templates that might offer some bits of help.
 
-> TODO
+* [Guide](docs/guide.md)
 
 ## Anki cards
 The most `frustrating` thing about `learning` is `forgetting`.  Following the `Forgetting Curve`,  `Anki` is an effective review tool. 

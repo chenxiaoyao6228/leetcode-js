@@ -9,7 +9,7 @@ Some experiences of cracking leetcode
 
 ## Take notes
 
-Try to use different strategies to solve problems, like `Bruce force` and `Advanced algorithms`
+Try to use different strategies to solve the same problem, like `Bruce force` and `Advanced algorithms`
 
 ## Review strategy
 It's not about how much you can `learn`, it's about how much you can `remember`
@@ -24,4 +24,4 @@ I will use a table to record the time for solving the problem(You have to make s
 
 |Problem|difficulty|Solved time(in minutes)|
 |--|--|--|
-|1|eary|20|
+|1|easy|20|
