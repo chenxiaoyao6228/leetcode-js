@@ -8,14 +8,14 @@ For local debugging purposes, some questions also provide `test cases` with `Jes
 ## Summaries and Templates
 It's almost impossible to finish all Leetcode problems since it has more than 2000 problems for now and the number is still increasing. Here are some summaries and templates that might offer some bits of help.
 
-* [Guide](docs/guide.md)
+> TODO
 
 ## Anki cards
 The most `frustrating` thing about `learning` is `forgetting`.  Following the `Forgetting Curve`,  `Anki` is an effective review tool. 
 
 > TODO
 ## Table of solutions
-Total Submit: **154**/**300(Goal)**
+Total Submit: **155**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -52,6 +52,7 @@ Total Submit: **154**/**300(Goal)**
 | 80 | Remove Duplicates from Sorted Array II([en](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii), [cn](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)) |  Medium | [Javascript](./src/80.删除有序数组中的重复项-ii.js) | [test](./src/80.删除有序数组中的重复项-ii.test.js) |  
 | 83 | Remove Duplicates from Sorted List([en](https://leetcode.com/problems/remove-duplicates-from-sorted-list), [cn](https://leetcode.cn/problems/remove-duplicates-from-sorted-list)) |  Easy | [Javascript](./src/83.删除排序链表中的重复元素.js) |  |  
 | 86 | Partition List([en](https://leetcode.com/problems/partition-list), [cn](https://leetcode.cn/problems/partition-list)) |  Medium | [Javascript](./src/86.分隔链表.js) |  |  
+| 88 | Merge Sorted Array([en](https://leetcode.com/problems/merge-sorted-array), [cn](https://leetcode.cn/problems/merge-sorted-array)) |  Easy | [Javascript](./src/88.合并两个有序数组.js) | [test](./src/88.合并两个有序数组.test.js) |  
 | 90 | Subsets II([en](https://leetcode.com/problems/subsets-ii), [cn](https://leetcode.cn/problems/subsets-ii)) |  Medium | [Javascript](./src/90.子集-ii.js) |  |  
 | 92 | Reverse Linked List II([en](https://leetcode.com/problems/reverse-linked-list-ii), [cn](https://leetcode.cn/problems/reverse-linked-list-ii)) |  Medium | [Javascript](./src/92.反转链表-ii.js) | [test](./src/92.反转链表-ii.test.js) |  
 | 94 | Binary Tree Inorder Traversal([en](https://leetcode.com/problems/binary-tree-inorder-traversal), [cn](https://leetcode.cn/problems/binary-tree-inorder-traversal)) |  Easy | [Javascript](./src/94.二叉树的中序遍历.js) | [test](./src/94.二叉树的中序遍历.test.js) |  
