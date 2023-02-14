@@ -1,4 +1,4 @@
-const { moveZeroes } = require('./283.move-zeroes')
+const { moveZeroes } = require('./283.移动零.js')
 
 describe('moveZeroes', () => {
   test('should return the correct array', () => {

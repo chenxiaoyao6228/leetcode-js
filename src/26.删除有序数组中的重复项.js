@@ -23,3 +23,5 @@ var removeDuplicates = function(nums) {
   return slow + 1
 }
 // @lc code=end
+
+module.exports = { removeDuplicates }

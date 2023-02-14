@@ -1,5 +1,5 @@
 import { hashKey, HashMap } from './HashMap'
-describe('apis', () => {
+describe('HashMap', () => {
   'use strict'
   describe('hashKey', () => {
     test('is undefined:undefined for undefined', () => {
