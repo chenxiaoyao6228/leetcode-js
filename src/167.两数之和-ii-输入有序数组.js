@@ -10,18 +10,58 @@
  * @param {number} target
  * @return {number[]}
  */
+// bruteForce: without using the characteristics of sorted array
+// var twoSum = function(numbers, target) {
+//   for (let i = 0; i < numbers.length - 1; i++) {
+//     for (let j = i + 1; j < numbers.length; j++) {
+//       if (numbers[i] + numbers[j] === target) {
+//         return [i + 1, j + 1]
+//       }
+//     }
+//   }
+//   throw 'invalid input with no solutions'
+// }
+
+// // binarySearch for the rest array, O(nlog(n))
+// var twoSum = function(numbers, target) {
+//   for (let i = 0; i < numbers.length; i++) {
+//     let complement = target - numbers[i]
+//     let leftIndex = i + 1
+//     let rightIndex = numbers.length - 1
+//     while (leftIndex <= rightIndex) {
+//       let midIndex = (leftIndex + rightIndex) >> 1
+//       let current = numbers[midIndex]
+//       if (current === complement) {
+//         return [i + 1, midIndex + 1]
+//       } else if (current < complement) {
+//         leftIndex = midIndex + 1
+//       } else {
+//         rightIndex = midIndex - 1
+//       }
+//       if (midIndex === leftIndex) {
+//         break
+//       }
+//     }
+//   }
+//   throw 'invalid input with no solutions'
+// }
+
+// O(n) solution
 var twoSum = function(numbers, target) {
-  let left = 0,
-    right = numbers.length - 1
-  while (left < right) {
-    let sum = numbers[left] + numbers[right]
+  let leftIndex = 0
+  let rightIndex = numbers.length - 1
+  while (leftIndex < rightIndex) {
+    let sum = numbers[leftIndex] + numbers[rightIndex]
     if (sum === target) {
-      return [left + 1, right + 1] // count start from 1
+      return [leftIndex + 1, rightIndex + 1] // 1-based index
     } else if (sum < target) {
-      left++
+      leftIndex++
     } else {
-      right--
+      rightIndex--
     }
   }
+  throw 'invalid input with no solutions'
 }
 // @lc code=end
+
+module.exports = { twoSum }

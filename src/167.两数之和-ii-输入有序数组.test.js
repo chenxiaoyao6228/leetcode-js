@@ -1,4 +1,4 @@
-const { twoSum } = require('./167.two-sum-ii-input-array-is-sorted')
+const { twoSum } = require('./167.两数之和-ii-输入有序数组.js')
 
 test('twoSum', () => {
   expect(twoSum([2, 7, 11, 15], 9)).toEqual([1, 2])

@@ -23,3 +23,5 @@ var reverseString = function(s) {
   return s
 }
 // @lc code=end
+
+module.exports = { reverseString }
