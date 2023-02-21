@@ -15,7 +15,7 @@ The most `frustrating` thing about `learning` is `forgetting`.  Following the `F
 
 > TODO
 ## Table of solutions
-Total Submit: **156**/**300(Goal)**
+Total Submit: **157**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -27,6 +27,7 @@ Total Submit: **156**/**300(Goal)**
 | 15 | 3Sum([en](https://leetcode.com/problems/3sum), [cn](https://leetcode.cn/problems/3sum)) |  Medium | [Javascript](./src/15.3-sum.js) | [test](./src/15.3-sum.test.js) |  
 | 16 | 3Sum Closest([en](https://leetcode.com/problems/3sum-closest), [cn](https://leetcode.cn/problems/3sum-closest)) |  Medium | [Javascript](./src/16.3-sum-closest.js) | [test](./src/16.3-sum-closest.test.js) |  
 | 17 | Letter Combinations of a Phone Number([en](https://leetcode.com/problems/letter-combinations-of-a-phone-number), [cn](https://leetcode.cn/problems/letter-combinations-of-a-phone-number)) |  Medium | [Javascript](./src/17.电话号码的字母组合.js) | [test](./src/17.电话号码的字母组合.test.js) |  
+| 18 | 4Sum([en](https://leetcode.com/problems/4sum), [cn](https://leetcode.cn/problems/4sum)) |  Medium | [Javascript](./src/18.四数之和.js) | [test](./src/18.四数之和.test.js) |  
 | 19 | Remove Nth Node From End of List([en](https://leetcode.com/problems/remove-nth-node-from-end-of-list), [cn](https://leetcode.cn/problems/remove-nth-node-from-end-of-list)) |  Medium | [Javascript](./src/19.删除链表的倒数第-n-个结点.js) | [test](./src/19.删除链表的倒数第-n-个结点.test.js) |  
 | 20 | Valid Parentheses([en](https://leetcode.com/problems/valid-parentheses), [cn](https://leetcode.cn/problems/valid-parentheses)) |  Easy | [Javascript](./src/20.valid-parentheses.js) | [test](./src/20.valid-parentheses.test.js) |  
 | 21 | Merge Two Sorted Lists([en](https://leetcode.com/problems/merge-two-sorted-lists), [cn](https://leetcode.cn/problems/merge-two-sorted-lists)) |  Easy | [Javascript](./src/21.合并两个有序链表.js) |  |  
