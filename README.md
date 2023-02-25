@@ -15,7 +15,7 @@ The most `frustrating` thing about `learning` is `forgetting`.  Following the `F
 
 > TODO
 ## Table of solutions
-Total Submit: **158**/**300(Goal)**
+Total Submit: **159**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -172,3 +172,4 @@ Total Submit: **158**/**300(Goal)**
 | 1143 | Longest Common Subsequence([en](https://leetcode.com/problems/longest-common-subsequence), [cn](https://leetcode.cn/problems/longest-common-subsequence)) |  Medium | [Javascript](./src/1143.最长公共子序列.js) |  |  
 | 1373 | Maximum Sum BST in Binary Tree([en](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree), [cn](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree)) |  Hard | [Javascript](./src/1373.二叉搜索子树的最大键值和.js) |  |  
 | 1541 | Minimum Insertions to Balance a Parentheses String([en](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string), [cn](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string)) |  Medium | [Javascript](./src/1541.平衡括号字符串的最少插入次数.js) | [test](./src/1541.平衡括号字符串的最少插入次数.test.js) |  
+| 1695 | Maximum Erasure Value([en](https://leetcode.com/problems/maximum-erasure-value), [cn](https://leetcode.cn/problems/maximum-erasure-value)) |  Medium | [Javascript](./src/1695.删除子数组的最大得分.js) | [test](./src/1695.删除子数组的最大得分.test.js) |  
