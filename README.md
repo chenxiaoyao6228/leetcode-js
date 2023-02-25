@@ -15,7 +15,7 @@ The most `frustrating` thing about `learning` is `forgetting`.  Following the `F
 
 > TODO
 ## Table of solutions
-Total Submit: **157**/**300(Goal)**
+Total Submit: **158**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -140,6 +140,7 @@ Total Submit: **157**/**300(Goal)**
 | 589 | N-ary Tree Preorder Traversal([en](https://leetcode.com/problems/n-ary-tree-preorder-traversal), [cn](https://leetcode.cn/problems/n-ary-tree-preorder-traversal)) |  Easy | [Javascript](./src/589.n-叉树的前序遍历.js) |  |  
 | 590 | N-ary Tree Postorder Traversal([en](https://leetcode.com/problems/n-ary-tree-postorder-traversal), [cn](https://leetcode.cn/problems/n-ary-tree-postorder-traversal)) |  Easy | [Javascript](./src/590.n-叉树的后序遍历.js) |  |  
 | 617 | Merge Two Binary Trees([en](https://leetcode.com/problems/merge-two-binary-trees), [cn](https://leetcode.cn/problems/merge-two-binary-trees)) |  Easy | [Javascript](./src/617.合并二叉树.js) |  |  
+| 643 | Maximum Average Subarray I([en](https://leetcode.com/problems/maximum-average-subarray-i), [cn](https://leetcode.cn/problems/maximum-average-subarray-i)) |  Easy | [Javascript](./src/643.子数组最大平均数-i.js) | [test](./src/643.子数组最大平均数-i.test.js) |  
 | 652 | Find Duplicate Subtrees([en](https://leetcode.com/problems/find-duplicate-subtrees), [cn](https://leetcode.cn/problems/find-duplicate-subtrees)) |  Medium | [Javascript](./src/652.寻找重复的子树.js) | [test](./src/652.寻找重复的子树.test.js) |  
 | 653 | Two Sum IV - Input is a BST([en](https://leetcode.com/problems/two-sum-iv---input-is-a-bst), [cn](https://leetcode.cn/problems/two-sum-iv---input-is-a-bst)) |  Easy | [Javascript](./src/653.两数之和-iv-输入二叉搜索树.js) |  |  
 | 654 | Maximum Binary Tree([en](https://leetcode.com/problems/maximum-binary-tree), [cn](https://leetcode.cn/problems/maximum-binary-tree)) |  Medium | [Javascript](./src/654.最大二叉树.js) | [test](./src/654.最大二叉树.test.js) |  
