@@ -12,18 +12,18 @@
 var maximumUniqueSubarray = function(nums) {
   let sum = 0
   let res = -Infinity
-  let j = 0
+  let left = 0
   let set = new Set()
-  for (let i = 0; i < nums.length; i++) {
-    sum += nums[i]
+  for (let right = 0; right < nums.length; right++) {
+    sum += nums[right]
 
-    // when window contains duplicate value
-    while (set.has(nums[i])) {
-      set.delete(nums[j]) // delete
-      sum -= nums[j] // update
-      j++
+    // when window contains duplicate value, remove previous value until it contains no duplicate
+    while (set.has(nums[right])) {
+      set.delete(nums[left]) // delete
+      sum -= nums[left] // update
+      left++
     }
-    set.add(nums[i])
+    set.add(nums[right])
     res = Math.max(res, sum)
   }
   return res
