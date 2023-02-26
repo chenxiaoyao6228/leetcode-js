@@ -135,7 +135,7 @@ Total Submit: **159**/**300(Goal)**
 | 543 | Diameter of Binary Tree([en](https://leetcode.com/problems/diameter-of-binary-tree), [cn](https://leetcode.cn/problems/diameter-of-binary-tree)) |  Easy | [Javascript](./src/543.二叉树的直径.js) |  |  
 | 559 | Maximum Depth of N-ary Tree([en](https://leetcode.com/problems/maximum-depth-of-n-ary-tree), [cn](https://leetcode.cn/problems/maximum-depth-of-n-ary-tree)) |  Easy | [Javascript](./src/559.n-叉树的最大深度.js) |  |  
 | 563 | Binary Tree Tilt([en](https://leetcode.com/problems/binary-tree-tilt), [cn](https://leetcode.cn/problems/binary-tree-tilt)) |  Easy | [Javascript](./src/563.二叉树的坡度.js) |  |  
-| 567 | Permutation in String([en](https://leetcode.com/problems/permutation-in-string), [cn](https://leetcode.cn/problems/permutation-in-string)) |  Medium | [Javascript](./src/567.字符串的排列.js) |  |  
+| 567 | Permutation in String([en](https://leetcode.com/problems/permutation-in-string), [cn](https://leetcode.cn/problems/permutation-in-string)) |  Medium | [Javascript](./src/567.字符串的排列.js) | [test](./src/567.字符串的排列.test.js) |  
 | 572 | Subtree of Another Tree([en](https://leetcode.com/problems/subtree-of-another-tree), [cn](https://leetcode.cn/problems/subtree-of-another-tree)) |  Easy | [Javascript](./src/572.另一棵树的子树.js) |  |  
 | 589 | N-ary Tree Preorder Traversal([en](https://leetcode.com/problems/n-ary-tree-preorder-traversal), [cn](https://leetcode.cn/problems/n-ary-tree-preorder-traversal)) |  Easy | [Javascript](./src/589.n-叉树的前序遍历.js) |  |  
 | 590 | N-ary Tree Postorder Traversal([en](https://leetcode.com/problems/n-ary-tree-postorder-traversal), [cn](https://leetcode.cn/problems/n-ary-tree-postorder-traversal)) |  Easy | [Javascript](./src/590.n-叉树的后序遍历.js) |  |  
