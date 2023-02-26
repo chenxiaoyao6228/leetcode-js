@@ -8,7 +8,7 @@ function slidingWindow(arr){
     // need to iterate arr to init needObj and windowObj
     for(let i = 0; i < arr.length; i++) {
         const a = arr[i];
-        .....
+        ..... 
     }
     // two pointer
     let left = 0, right=0
