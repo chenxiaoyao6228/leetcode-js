@@ -1,13 +1,13 @@
 {
-  "name": "javascript-rock",
+  "name": "leetcode-js",
   "version": "1.0.0",
-  "description": "javascript kata collections",
+  "description": "Leetcode solutions in Javascript",
   "main": "index.js",
   "scripts": {
     "lint-staged": "linted-staged",
     "commit": "git-cz",
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
     "autoGenTest": "node ./scripts/autoGenTest/index.js",
     "genCache": "node ./scripts/autoGenTest/generateCache.js",
     "genMD": "node ./scripts/genMarkdown.js",
@@ -15,28 +15,15 @@
     "crawler": "node ./scripts/crawler/index.js"
   },
   "keywords": [
-    "kata",
-    "refactor"
+    "leetcode",
+    "Javascript",
+    "algorithm"
   ],
   "author": "chenxiaoyao <chenxiaoyao6228@163.com> (https://chenxiaoyao6228.github.io)",
   "license": "MIT",
   "prettier": {
     "semi": false,
     "singleQuote": true
-  },
-  "jest": {
-    "testEnvironment": "jsdom",
-    "coverageThreshold": {
-      "global": {
-        "branches": 90,
-        "functions": 95,
-        "lines": 95,
-        "statements": 95
-      }
-    },
-    "collectCoverageFrom": [
-      "**/*.{js,jsx}"
-    ]
   },
   "lint-staged": {
     "*.js": [
@@ -72,7 +59,6 @@
     "@commitlint/config-conventional": "^8.1.0",
     "@commitlint/prompt": "~8.1.0",
     "async": "^3.2.0",
-    "babel-jest": "^24.9.0",
     "chokidar": "^3.5.3",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "~3.0.2",
@@ -83,9 +69,8 @@
     "glob": "^8.0.3",
     "husky": "^3.0.5",
     "import-local": "^3.0.2",
-    "jest": "^24.9.0",
-    "jest-config": "^24.9.0",
     "lint-staged": "^9.2.5",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "vitest": "^0.29.1"
   }
 }
