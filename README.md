@@ -15,7 +15,7 @@ The most `frustrating` thing about `learning` is `forgetting`.  Following the `F
 
 > TODO
 ## Table of solutions
-Total Submit: **159**/**300(Goal)**
+Total Submit: **158**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -46,7 +46,7 @@ Total Submit: **159**/**300(Goal)**
 | 64 | Minimum Path Sum([en](https://leetcode.com/problems/minimum-path-sum), [cn](https://leetcode.cn/problems/minimum-path-sum)) |  Medium | [Javascript](./src/64.最小路径和.js) | [test](./src/64.最小路径和.test.js) |  
 | 72 | Edit Distance([en](https://leetcode.com/problems/edit-distance), [cn](https://leetcode.cn/problems/edit-distance)) |  Hard | [Javascript](./src/72.编辑距离.js) |  |  
 | 75 | Sort Colors([en](https://leetcode.com/problems/sort-colors), [cn](https://leetcode.cn/problems/sort-colors)) |  Medium | [Javascript](./src/75.sort-colors.js) | [test](./src/75.sort-colors.test.js) |  
-| 76 | Minimum Window Substring([en](https://leetcode.com/problems/minimum-window-substring), [cn](https://leetcode.cn/problems/minimum-window-substring)) |  Hard | [Javascript](./src/76.最小覆盖子串.js) |  |  
+| 76 | Minimum Window Substring([en](https://leetcode.com/problems/minimum-window-substring), [cn](https://leetcode.cn/problems/minimum-window-substring)) |  Hard | [Javascript](./src/76.最小覆盖子串.js) | [test](./src/76.最小覆盖子串.test.js) |  
 | 77 | Combinations([en](https://leetcode.com/problems/combinations), [cn](https://leetcode.cn/problems/combinations)) |  Medium | [Javascript](./src/77.组合.js) | [test](./src/77.组合.test.js) |  
 | 78 | Subsets([en](https://leetcode.com/problems/subsets), [cn](https://leetcode.cn/problems/subsets)) |  Medium | [Javascript](./src/78.子集.js) |  |  
 | 79 | Word Search([en](https://leetcode.com/problems/word-search), [cn](https://leetcode.cn/problems/word-search)) |  Medium | [Javascript](./src/79.单词搜索.js) | [test](./src/79.单词搜索.test.js) |  

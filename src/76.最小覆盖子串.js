@@ -11,54 +11,60 @@
  * @return {string}
  */
 var minWindow = function(source, target) {
-  let need = {}
-  let window = {}
-
-  let valid = 0,
-    left = 0,
-    right = 0,
-    start = 0,
-    len = Infinity
-  // init data
+  let windowObj = {},
+    needObj = {}
   for (let i = 0; i < target.length; i++) {
-    const el = target[i]
-    if (need[el] == undefined) {
-      need[el] = 0
-      window[el] = 0
+    const a = target[i]
+    // update needObj
+    if (needObj[a] == undefined) {
+      needObj[a] = 0
     }
-    need[el]++
+    needObj[a]++
+
+    // update window
+    if (windowObj[a] == undefined) {
+      windowObj[a] = 0
+    }
   }
 
-  // move right cursor
+  let left = 0,
+    right = 0,
+    validNum = 0,
+    // case specific params:  use start index and len to get minimum string
+    start = 0,
+    len = Infinity
   while (right < source.length) {
     const c = source[right]
     right++
-    if (need[c]) {
-      window[c]++
-      if (need[c] === window[c]) {
-        valid++
+
+    if (needObj[c]) {
+      windowObj[c]++
+      if (needObj[c] === windowObj[c]) {
+        validNum++
       }
     }
-
-    // check if we need to shrink window
-    while (valid === Object.keys(need).length) {
-      // update result
+    // shrink
+    while (validNum === Object.keys(needObj).length) {
       if (right - left < len) {
         start = left
         len = right - left
       }
-      let d = source[left]
+
+      const d = source[left]
       left++
-      if (need[d]) {
-        if (window[d] === need[d]) {
-          valid--
+
+      if (needObj[d]) {
+        if (needObj[d] === windowObj[d]) {
+          validNum--
         }
-        window[d]--
+        windowObj[d]--
       }
     }
   }
+
   return len === Infinity ? '' : source.substring(start, start + len)
 }
 
-minWindow('ADOBECODEBANC', 'ABC')
 // @lc code=end
+
+module.exports = { minWindow }

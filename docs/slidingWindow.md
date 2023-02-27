@@ -3,6 +3,7 @@
 ## template
 
 ```js
+// window definition: [left, right) => Right open interval
 function slidingWindow(arr){
     const needObj = {}, windowObj = {}
     // need to iterate arr to init needObj and windowObj
