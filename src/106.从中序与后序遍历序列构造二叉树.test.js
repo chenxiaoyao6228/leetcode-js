@@ -2,10 +2,10 @@ const { buildTree } = require('./106.从中序与后序遍历序列构造二叉�
 const { createBTFromArray } = require('./utils/bst')
 
 test('buildTree', () => {
-  console.log(
-    'JSON.stringify(buildTree([9, 3, 15, 20, 7], [9, 15, 7, 20, 3])',
-    JSON.stringify(buildTree([9, 3, 15, 20, 7], [9, 15, 7, 20, 3]))
-  )
+  // console.log(
+  //   'JSON.stringify(buildTree([9, 3, 15, 20, 7], [9, 15, 7, 20, 3])',
+  //   JSON.stringify(buildTree([9, 3, 15, 20, 7], [9, 15, 7, 20, 3]))
+  // )
   const res = {
     val: 9,
     left: null,
