@@ -11,49 +11,50 @@
  * @return {number[]}
  */
 var findAnagrams = function(source, target) {
-  let need = {}
-  let window = {}
-
-  // init all data
+  // init common
+  let needObj = {},
+    windowObj = {}
   for (let i = 0; i < target.length; i++) {
-    const t = target[i]
-    if (!need[t]) {
-      need[t] = 1
-    } else {
-      need[t]++
+    const char = target[i]
+    if (needObj[char] === undefined) {
+      needObj[char] = 0
+      windowObj[char] = 0
     }
-    window[t] = 0
+    needObj[char]++
   }
-
   let left = 0,
     right = 0,
-    valid = 0
-  const res = []
-  // move right pointer
+    validNum = 0,
+    res = []
+  // init specific
   while (right < source.length) {
-    let c = source[right]
+    const rightChar = source[right]
     right++
-    if (need[c]) {
-      window[c]++
-      if (window[c] === need[c]) {
-        valid++
+    if (needObj[rightChar]) {
+      windowObj[rightChar]++
+      if (needObj[rightChar] === windowObj[rightChar]) {
+        validNum++
       }
     }
-    // move left pointer
-    while (right - left > target.length) {
-      // update data
-      if (valid === Object.keys(need).length) {
+    // 💥: check condition
+    while (validNum === Object.keys(needObj).length) {
+      if (right - left === target.length) {
         res.push(left)
       }
-      let d = source[left]
+      const leftChar = source[left]
       left++
-      if (need[d]) {
-        window[d]--
-        if (window[d] === need[d]) {
-          valid--
+      if (needObj[leftChar]) {
+        windowObj[leftChar]--
+        // 💥: use '>'
+        if (needObj[leftChar] > windowObj[leftChar]) {
+          validNum--
         }
       }
     }
   }
+  return res
 }
+
 // @lc code=end
+
+module.exports = { findAnagrams }
