@@ -15,7 +15,7 @@ The most `frustrating` thing about `learning` is `forgetting`.  Following the `F
 
 > TODO
 ## Table of solutions
-Total Submit: **157**/**300(Goal)**
+Total Submit: **158**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -157,6 +157,7 @@ Total Submit: **157**/**300(Goal)**
 | 783 | Minimum Distance Between BST Nodes([en](https://leetcode.com/problems/minimum-distance-between-bst-nodes), [cn](https://leetcode.cn/problems/minimum-distance-between-bst-nodes)) |  Easy | [Javascript](./src/783.二叉搜索树节点最小距离.js) | [test](./src/783.二叉搜索树节点最小距离.test.js) |  
 | 785 | Is Graph Bipartite?([en](https://leetcode.com/problems/is-graph-bipartite?), [cn](https://leetcode.cn/problems/is-graph-bipartite?)) |  Medium | [Javascript](./src/785.判断二分图.js) |  |  
 | 797 | All Paths From Source to Target([en](https://leetcode.com/problems/all-paths-from-source-to-target), [cn](https://leetcode.cn/problems/all-paths-from-source-to-target)) |  Medium | [Javascript](./src/797.所有可能的路径.js) | [test](./src/797.所有可能的路径.test.js) |  
+| 862 | Shortest Subarray with Sum at Least K([en](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k), [cn](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k)) |  Hard | [Javascript](./src/862.和至少为-k-的最短子数组.js) | [test](./src/862.和至少为-k-的最短子数组.test.js) |  
 | 872 | Leaf-Similar Trees([en](https://leetcode.com/problems/leaf-similar-trees), [cn](https://leetcode.cn/problems/leaf-similar-trees)) |  Easy | [Javascript](./src/872.叶子相似的树.js) | [test](./src/872.叶子相似的树.test.js) |  
 | 876 | Middle of the Linked List([en](https://leetcode.com/problems/middle-of-the-linked-list), [cn](https://leetcode.cn/problems/middle-of-the-linked-list)) |  Easy | [Javascript](./src/876.链表的中间结点.js) |  |  
 | 886 | Possible Bipartition([en](https://leetcode.com/problems/possible-bipartition), [cn](https://leetcode.cn/problems/possible-bipartition)) |  Medium | [Javascript](./src/886.可能的二分法.js) |  |  

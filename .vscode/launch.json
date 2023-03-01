@@ -4,6 +4,7 @@
             "name": "Debug currentFile",
             "program": "${file}",
             "request": "launch",
+            "console": "integratedTerminal",
             "skipFiles": [
                 "<node_internals>/**"
             ],
