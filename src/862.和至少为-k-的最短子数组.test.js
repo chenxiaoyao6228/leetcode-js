@@ -10,3 +10,6 @@ test('shortestSubarray2', () => {
 test('shortestSubarray3', () => {
   expect(shortestSubarray([2, -1, 2], 3)).toEqual(3)
 })
+test('shortestSubarray4', () => {
+  expect(shortestSubarray([84, -37, 32, 40, 95], 167)).toEqual(3)
+})

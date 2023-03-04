@@ -11,23 +11,24 @@
  * @return {number}
  */
 var shortestSubarray = function(nums, k) {
-  let sum = 0,
-    minLen = Infinity
-  let left = 0,
-    right = 0
-
-  while (right < nums.length) {
-    sum += nums[right]
-    right++
-
-    while (sum >= k) {
-      sum -= nums[left]
-      minLen = Math.min(minLen, right - left)
-      left++
-    }
+  const n = nums.length
+  const preSumArr = new Array(n + 1).fill(0)
+  for (let i = 0; i < n; i++) {
+    preSumArr[i + 1] = preSumArr[i] + nums[i]
   }
-
-  return minLen === Infinity ? -1 : minLen
+  let res = n + 1
+  const queue = []
+  for (let i = 0; i <= n; i++) {
+    const curSum = preSumArr[i]
+    while (queue.length != 0 && curSum - preSumArr[queue[0]] >= k) {
+      res = Math.min(res, i - queue.shift())
+    }
+    while (queue.length != 0 && preSumArr[queue[queue.length - 1]] >= curSum) {
+      queue.pop()
+    }
+    queue.push(i)
+  }
+  return res < n + 1 ? res : -1
 }
 
 // @lc code=end
