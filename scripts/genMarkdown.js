@@ -14,6 +14,8 @@ const result = generateResult()
 
 fs.writeFileSync(readMePath, result, 'utf8')
 
+console.log('generate README successfully!')
+
 function generateResult() {
   const anchorText = '## Table of solutions'
   const anchorIndex = originReadMe.indexOf(anchorText)
@@ -76,7 +78,7 @@ function generateTableContent(prefixPath = '') {
     const [id, name, _] = fileName.split('.')
     const testName = fileName.slice(0, -3) + '.test.js'
     const testFolder = path.join(__dirname, '../src', testName)
-    console.log('testFolder', testFolder)
+    // console.log('testFolder', testFolder)
     let testCasePath = `[test](./src${prefixPath}/${testName})`
     if (!fs.existsSync(testFolder)) {
       testCasePath = ''

@@ -27,7 +27,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "npm run test",
+      "vitest related --run",
       "npm run lint",
       "git add"
     ]
