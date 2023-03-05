@@ -1,6 +1,6 @@
-class MonotonicQueue {
+class MonotonicDecreasingQueue {
   constructor(nums) {
-    this._queue = []
+    this._queue = nums || []
   }
   // add element n to the tail of the queue
   push(n) {
@@ -20,9 +20,10 @@ class MonotonicQueue {
   max() {
     return this._queue[0]
   }
-  min() {}
 
   get length() {
     return this._queue.length
   }
 }
+
+export { MonotonicDecreasingQueue }

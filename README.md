@@ -8,7 +8,8 @@ For local debugging purposes, some questions also provide `test cases` with `Jes
 ## Summaries and Templates
 It's almost impossible to finish all Leetcode problems since it has more than 2000 problems for now and the number is still increasing. Here are some summaries and templates that might offer some bits of help.
 
-> TODO
+### Basic data structure
+* [Queue](./docs/queue.md)
 
 ## Table of solutions
 Total Submit: **158**/**300(Goal)**
