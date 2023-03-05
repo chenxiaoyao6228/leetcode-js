@@ -20,10 +20,12 @@ var shortestSubarray = function(nums, k) {
   const queue = []
   for (let i = 0; i <= n; i++) {
     const curSum = preSumArr[i]
-    while (queue.length != 0 && curSum - preSumArr[queue[0]] >= k) {
+    // optimization-1
+    while (queue.length > 0 && curSum - preSumArr[queue[0]] >= k) {
       res = Math.min(res, i - queue.shift())
     }
-    while (queue.length != 0 && preSumArr[queue[queue.length - 1]] >= curSum) {
+    // optimization-2
+    while (queue.length > 0 && preSumArr[queue[queue.length - 1]] >= curSum) {
       queue.pop()
     }
     queue.push(i)
