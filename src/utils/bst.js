@@ -1,4 +1,4 @@
-const { TreeNode } = require('../data-structure/TreeNode')
+const { TreeNode } = require('./TreeNode')
 
 function createBTFromArray(arr) {
   if (!arr || !arr.length) {

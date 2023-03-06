@@ -1,7 +1,7 @@
 // linked-list with value and next property for leetcode solution
 // for full version of linked-list, check the data-structure folder
 
-const { ListNode } = require('../data-structure/ListNode')
+const { ListNode } = require('./ListNode')
 
 function push(head, value) {
   let originHead = head

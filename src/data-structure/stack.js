@@ -7,6 +7,7 @@ class Stack {
     this.dataStore[this.top++] = element
   }
   pop() {
+    if (this.top === 0) return null
     return this.dataStore[--this.top]
   }
   peek() {
