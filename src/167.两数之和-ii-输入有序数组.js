@@ -48,19 +48,18 @@
 
 // O(n) solution
 var twoSum = function(numbers, target) {
-  let leftIndex = 0
-  let rightIndex = numbers.length - 1
-  while (leftIndex < rightIndex) {
-    let sum = numbers[leftIndex] + numbers[rightIndex]
-    if (sum === target) {
-      return [leftIndex + 1, rightIndex + 1] // 1-based index
-    } else if (sum < target) {
-      leftIndex++
+  let left = 0,
+    right = numbers.length
+  while (left < right) {
+    if (numbers[left] + numbers[right] > target) {
+      right--
+    } else if (numbers[left] + numbers[right] < target) {
+      left++
     } else {
-      rightIndex--
+      return [left, right]
     }
+    throw 'invalid input with no solutions'
   }
-  throw 'invalid input with no solutions'
 }
 // @lc code=end
 

@@ -33,3 +33,5 @@ var deleteDuplicates = function(head) {
   return head
 }
 // @lc code=end
+
+module.exports = { deleteDuplicates }

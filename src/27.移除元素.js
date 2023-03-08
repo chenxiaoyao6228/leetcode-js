@@ -23,3 +23,5 @@ var removeElement = function(nums, val) {
   return slow
 }
 // @lc code=end
+
+module.exports = { removeElement }
