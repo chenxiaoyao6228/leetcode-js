@@ -47,3 +47,5 @@ var partition = function(head, x) {
   return dummyS.next
 }
 // @lc code=end
+
+module.exports = { partition }

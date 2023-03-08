@@ -17,32 +17,37 @@
  * @param {number} n
  * @return {ListNode}
  */
+
 function ListNode(val, next) {
   this.val = val === undefined ? 0 : val
   this.next = next === undefined ? null : next
 }
-
 var removeNthFromEnd = function(head, n) {
-  let dummy = new ListNode(-1)
+  // 💥: must use dummy head to avoid null pointer
+  // try to remove dummy and you will see the error
+  const dummy = new ListNode(-1)
   dummy.next = head
-  // have to find (n+1)th node in reverse and break
-  const x = findFromEnd(dummy, n + 1)
-  x.next = x.next.next
-  return dummy.next
-}
 
-function findFromEnd(head, k) {
-  let p1 = head
-  let p2 = head
-  // p1 move k step in advance
-  for (let i = 0; i < k; i++) {
-    p1 = p1.next
+  // need to use n+1 since we take dummy head into account
+  const nthNodeFromEnd = findNthNodeFromEnd(dummy, n + 1)
+
+  nthNodeFromEnd.next = nthNodeFromEnd.next.next
+
+  return dummy.next
+
+  function findNthNodeFromEnd(head, n) {
+    let slow = head
+    let fast = head
+    for (let i = 0; i < n; i++) {
+      fast = fast.next
+    }
+    while (fast) {
+      fast = fast.next
+      slow = slow.next
+    }
+
+    return slow
   }
-  while (p1) {
-    p1 = p1.next
-    p2 = p2.next
-  }
-  return p2
 }
 
 // @lc code=end

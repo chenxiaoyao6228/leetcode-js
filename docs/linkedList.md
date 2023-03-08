@@ -4,4 +4,7 @@
 
 ## Circular linked list
 
-## Double linked list
+##  Double linked list
+
+
+##  LRU
