@@ -27,3 +27,5 @@ var middleNode = function(head) {
   return slow
 }
 // @lc code=end
+
+module.exports = { middleNode }
