@@ -8,10 +8,11 @@ For local debugging purposes, some questions also provide `test cases` with `Jes
 ## Summaries and Templates
 It's almost impossible to finish all Leetcode problems since it has more than 2000 problems for now and the number is still increasing. Here are some summaries and templates that might offer some bits of help.
 
-* [Array](./docs/array.md)
 * [LinkedList](./docs/linkedList.md)
 * [Queue](./docs/queue.md)
 * [Stack](./docs/stack.md)
+* [Heap](./docs/heap.md)
+* [Array](./docs/array.md)
 * [SlidingWindow](./docs/slidingWindow.md)
 
 ## Table of solutions

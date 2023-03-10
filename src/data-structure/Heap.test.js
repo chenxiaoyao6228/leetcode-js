@@ -1,9 +1,9 @@
-import { MaxPQ } from './MaxPriorityQueue'
+import { MaxHeap } from './Heap'
 
-describe('MaxPQ', () => {
+describe('MaxHeap', () => {
   let pq
   beforeEach(() => {
-    pq = new MaxPQ()
+    pq = new MaxHeap()
   })
   afterEach(() => {
     pq = null
