@@ -1,31 +1,43 @@
-import { MaxHeap } from './Heap'
+import { Heap } from './Heap'
 
 describe('MaxHeap', () => {
-  let pq
+  let heap
   beforeEach(() => {
-    pq = new MaxHeap()
+    heap = new Heap((a, b) => a < b)
   })
   afterEach(() => {
-    pq = null
-  })
-  test('swim', () => {
-    pq._heap = [null, 19, 18, 14, 16, 15, 17, 13]
-    pq.swim(6)
-    expect(pq._heap).toEqual([null, 19, 18, 17, 16, 15, 14, 13])
-  })
-  test('sink', () => {
-    pq._heap = [null, 19, 18, 14, 16, 15, 17, 13]
-    pq.sink(3)
-    expect(pq._heap).toEqual([null, 19, 18, 17, 16, 15, 14, 13])
+    heap = null
   })
   test('insert', () => {
-    pq._heap = [null, 19, 18, 17, 16, 15, 14, 13]
-    pq.insert(20)
-    expect(pq._heap).toEqual([null, 20, 19, 17, 18, 15, 14, 13, 16])
+    heap._heap = [null, 19, 18, 17, 16, 15, 14, 13]
+    heap.insert(20)
+    expect(heap._heap).toEqual([null, 20, 19, 17, 18, 15, 14, 13, 16])
   })
-  test('delMax', () => {
-    pq._heap = [null, 20, 19, 17, 18, 15, 14, 13, 16]
-    pq.delMax()
-    expect(pq._heap).toEqual([null, 19, 18, 17, 16, 15, 14, 13])
+  test('poll', () => {
+    heap._heap = [null, 20, 19, 17, 18, 15, 14, 13, 16]
+    heap.poll()
+    expect(heap._heap).toEqual([null, 19, 18, 17, 16, 15, 14, 13])
+  })
+})
+
+describe('MinHeap', () => {
+  let heap
+  beforeEach(() => {
+    heap = new Heap((a, b) => a > b)
+  })
+  afterEach(() => {
+    heap = null
+  })
+  test('insert', () => {
+    heap._heap = [null, 14, 15, 16, 17, 18, 19]
+    heap.insert(13)
+    console.log('pq._heap', heap._heap)
+    expect(heap._heap).toEqual([null, 13, 15, 14, 17, 18, 19, 16])
+  })
+
+  test('poll', () => {
+    heap._heap = [null, 13, 15, 14, 17, 18, 19, 16]
+    heap.poll()
+    expect(heap._heap).toEqual([null, 14, 15, 16, 17, 18, 19])
   })
 })

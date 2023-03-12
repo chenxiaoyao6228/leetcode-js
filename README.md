@@ -16,7 +16,7 @@ It's almost impossible to finish all Leetcode problems since it has more than 20
 * [SlidingWindow](./docs/slidingWindow.md)
 
 ## Table of solutions
-Total Submit: **158**/**300(Goal)**
+Total Submit: **159**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |
   | --- | ------ | ------ | ----- | -----| -----|
 | 1 | Two Sum([en](https://leetcode.com/problems/two-sum), [cn](https://leetcode.cn/problems/two-sum)) |  Easy | [Javascript](./src/1.两数之和.js) | [test](./src/1.两数之和.test.js) |  
@@ -32,6 +32,7 @@ Total Submit: **158**/**300(Goal)**
 | 19 | Remove Nth Node From End of List([en](https://leetcode.com/problems/remove-nth-node-from-end-of-list), [cn](https://leetcode.cn/problems/remove-nth-node-from-end-of-list)) |  Medium | [Javascript](./src/19.删除链表的倒数第-n-个结点.js) | [test](./src/19.删除链表的倒数第-n-个结点.test.js) |  
 | 20 | Valid Parentheses([en](https://leetcode.com/problems/valid-parentheses), [cn](https://leetcode.cn/problems/valid-parentheses)) |  Easy | [Javascript](./src/20.valid-parentheses.js) | [test](./src/20.valid-parentheses.test.js) |  
 | 21 | Merge Two Sorted Lists([en](https://leetcode.com/problems/merge-two-sorted-lists), [cn](https://leetcode.cn/problems/merge-two-sorted-lists)) |  Easy | [Javascript](./src/21.合并两个有序链表.js) | [test](./src/21.合并两个有序链表.test.js) |  
+| 23 | Merge k Sorted Lists([en](https://leetcode.com/problems/merge-k-sorted-lists), [cn](https://leetcode.cn/problems/merge-k-sorted-lists)) |  Hard | [Javascript](./src/23.合并k个升序链表.js) | [test](./src/23.合并k个升序链表.test.js) |  
 | 24 | Swap Nodes in Pairs([en](https://leetcode.com/problems/swap-nodes-in-pairs), [cn](https://leetcode.cn/problems/swap-nodes-in-pairs)) |  Medium | [Javascript](./src/24.swap-nodes-in-pairs.js) | [test](./src/24.swap-nodes-in-pairs.test.js) |  
 | 25 | Reverse Nodes in k-Group([en](https://leetcode.com/problems/reverse-nodes-in-k-group), [cn](https://leetcode.cn/problems/reverse-nodes-in-k-group)) |  Hard | [Javascript](./src/25.reverse-nodes-in-k-group.js) | [test](./src/25.reverse-nodes-in-k-group.test.js) |  
 | 26 | Remove Duplicates from Sorted Array([en](https://leetcode.com/problems/remove-duplicates-from-sorted-array), [cn](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)) |  Easy | [Javascript](./src/26.删除有序数组中的重复项.js) | [test](./src/26.删除有序数组中的重复项.test.js) |  

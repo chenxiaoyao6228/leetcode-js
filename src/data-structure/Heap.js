@@ -1,45 +1,48 @@
-export class MaxHeap {
-  constructor() {
+export class Heap {
+  constructor(comparator) {
     this._heap = [null]
+    this._comparator = comparator
   }
-  insert(n) {
-    this._heap.push(n)
-    this.swim(this._heap.length - 1)
+  insert(element) {
+    this._heap.push(element)
+    this._swim(this._heap.length - 1)
   }
-  swim(k) {
-    let i
-    while (k > 1 && this.less(Math.floor(k / 2), k)) {
-      // moveUp
-      i = Math.floor(k / 2)
-      if (this._heap[i] < this._heap[k]) {
-        this.swap(i, k)
-      }
-      k = i
-    }
-  }
-  delMax() {
-    let max = this._heap[1]
+  poll() {
+    let top = this._heap[1]
     // to avoid holes in the array, so we move swap the the first(greateset) element and last
-    this.swap(1, this._heap.length - 1)
+    this._swap(1, this._heap.length - 1)
     // remove the last
     this._heap.pop()
     // heapify
-    this.sink(1)
-    return max
+    this._sink(1)
+    return top
   }
-  sink(k) {
+  isEmpty() {
+    return this._heap.length === 1
+  }
+  _swim(k) {
+    while (k > 1 && this._compare(Math.floor(k / 2), k)) {
+      let i = Math.floor(k / 2)
+      this._swap(i, k)
+      k = i
+    }
+  }
+  _sink(k) {
     while (2 * k < this._heap.length - 1) {
       let j = 2 * k
-      if (j < this._heap.length && this.less(j, j + 1)) j++
-      if (!this.less(k, j)) break
-      this.swap(k, j)
+      if (j < this._heap.length && this._compare(j, j + 1)) {
+        j++
+      }
+      // can not move down any more
+      if (!this._compare(k, j)) break
+      this._swap(k, j)
       k = j
     }
   }
-  less(a, b) {
-    return this._heap[a] < this._heap[b]
+  _compare(a, b) {
+    return this._comparator(this._heap[a], this._heap[b])
   }
-  swap(a, b) {
+  _swap(a, b) {
     let temp = this._heap[a]
     this._heap[a] = this._heap[b]
     this._heap[b] = temp
