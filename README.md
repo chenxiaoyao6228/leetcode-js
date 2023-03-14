@@ -12,7 +12,6 @@ It's almost impossible to finish all Leetcode problems since it has more than 20
 * [Queue](./docs/queue.md)
 * [Stack](./docs/stack.md)
 * [Heap](./docs/heap.md)
-* [Array](./docs/array.md)
 * [SlidingWindow](./docs/slidingWindow.md)
 
 ## Table of solutions

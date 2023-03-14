@@ -1,7 +1,7 @@
 // https://github.com/hustcc/JS-Sorting-Algorithm
 
 // 快速排序的逻辑是,若要对 nums[lo..hi] 进行排序,我们先找一个分界点 p,通过交换元素使得nums[lo..p-1] 都小于等于 nums[p],且 nums[p+1..hi] 都大于 nums[p],然后递归地去nums[lo..p-1] 和 nums[p+1..hi] 中寻找新的分界点,最后整个数组就被排序了。
-var quickSort = function(nums) {
+const quickSort = function(nums) {
   return quickSortHelper(nums, 0, nums.length - 1)
 
   function quickSortHelper(nums, l, r) {
@@ -71,7 +71,7 @@ var quickSort = function(nums) {
 // }
 
 // solution2
-var mergeSort = function(nums) {
+const mergeSort = function(nums) {
   let temp = []
   return mergeSortHelper(nums, 0, nums.length - 1)
 
@@ -108,4 +108,43 @@ var mergeSort = function(nums) {
   }
 }
 
-module.exports = { quickSort, mergeSort }
+function heapSort(nums) {
+  const n = nums.length
+  buildHeap(nums, nums.length - 1, 1)
+  let k = n
+  while (k > 1) {
+    swap(nums, 1, k)
+    k--
+    heapify(nums, k, 1)
+  }
+  return nums
+
+  function buildHeap(nums, n) {
+    for (let i = Math.floor(n / 2); i >= 1; i--) {
+      heapify(nums, n, i)
+    }
+  }
+  function heapify(nums, n, i) {
+    while (true) {
+      let maxPos = i
+      if (i * 2 <= n && nums[i] < nums[i * 2]) {
+        maxPos = i * 2 + 1
+      }
+      if (i * 2 + 1 <= n && nums[maxPos] < nums[i * 2 + 1]) {
+        maxPos = i * 2 + 1
+      }
+      if (maxPos == i) {
+        break
+      }
+      swap(nums, i, maxPos)
+      i = maxPos
+    }
+  }
+  function swap(nums, i, j) {
+    let temp = nums[i]
+    nums[i] = nums[j]
+    nums[j] = temp
+  }
+}
+
+module.exports = { quickSort, mergeSort, heapSort }

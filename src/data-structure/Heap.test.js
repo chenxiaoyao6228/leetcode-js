@@ -31,7 +31,6 @@ describe('MinHeap', () => {
   test('insert', () => {
     heap._heap = [null, 14, 15, 16, 17, 18, 19]
     heap.insert(13)
-    console.log('pq._heap', heap._heap)
     expect(heap._heap).toEqual([null, 13, 15, 14, 17, 18, 19, 16])
   })
 
@@ -39,5 +38,13 @@ describe('MinHeap', () => {
     heap._heap = [null, 13, 15, 14, 17, 18, 19, 16]
     heap.poll()
     expect(heap._heap).toEqual([null, 14, 15, 16, 17, 18, 19])
+  })
+  test('poll2', () => {
+    heap._heap = [null, 13, 14, 15]
+    heap.poll()
+    console.log('heap._heap', heap._heap)
+    expect(heap._heap).toEqual([null, 14, 15])
+    heap.poll()
+    expect(heap._heap).toEqual([null, 15])
   })
 })
