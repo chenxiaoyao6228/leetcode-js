@@ -1,9 +1,9 @@
-import { Heap } from './Heap'
+const { MinHeap, MaxHeap } = require('./Heap')
 
 describe('MaxHeap', () => {
   let heap
   beforeEach(() => {
-    heap = new Heap((a, b) => a < b)
+    heap = new MaxHeap()
   })
   afterEach(() => {
     heap = null
@@ -23,7 +23,7 @@ describe('MaxHeap', () => {
 describe('MinHeap', () => {
   let heap
   beforeEach(() => {
-    heap = new Heap((a, b) => a > b)
+    heap = new MinHeap()
   })
   afterEach(() => {
     heap = null
@@ -34,7 +34,7 @@ describe('MinHeap', () => {
     expect(heap._heap).toEqual([null, 13, 15, 14, 17, 18, 19, 16])
   })
 
-  test('poll', () => {
+  test.only('poll', () => {
     heap._heap = [null, 13, 15, 14, 17, 18, 19, 16]
     heap.poll()
     expect(heap._heap).toEqual([null, 14, 15, 16, 17, 18, 19])

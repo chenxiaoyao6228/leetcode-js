@@ -30,6 +30,10 @@ const heap = new Heap(maxHeapComparator)
 ```
 ### Insert
 
+Suppose we need to insert a new value named `22` to the existing heap
+![](../assets//imgs/heap/heap-insert-2.png)
+
+Here is a diagram of heapify. We can compare the size of the newly inserted node to the parent node. If the child node is not equal to or less than the parent, we swap two nodes. The process is repeated until the size relationship between the parent and child nodes is satisfied
 ![](../assets//imgs/heap/heap-insert.png)
 
 The corresponding code: 
@@ -100,10 +104,22 @@ export class Heap {
 
 The whole code can be found [Here](../src/data-structure/Heap.js)
 
+
+## Heap sort
+We can roughly break down the heap sorting process into two large steps, **heap building** and **sorting**
+
+### Heap building
+The leaf nodes will only be compared to themselves during the **heapify** process, so we can take the **non-leaf node** and heapify them one by one, **For a complete binary tree, all nodes with an index between [n/2+1, n] are leaves**
+
+![](../assets//imgs/heap/heap-sorting.png)
+
+### Sorting
+After the heap is built, the data in the array is organized according to the characteristics of the **max heap**. The first element in the array is the top of the heap, which is the largest element. We swap it with the last element, and that puts the largest element to index `n`.
+
+![](../assets//imgs/heap/heap-sorting-2.png)
 ## Usage
 
 ### React scheduler
-
 
 
 ## References

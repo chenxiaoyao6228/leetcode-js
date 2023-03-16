@@ -1,6 +1,5 @@
 // https://github.com/hustcc/JS-Sorting-Algorithm
 
-// 快速排序的逻辑是,若要对 nums[lo..hi] 进行排序,我们先找一个分界点 p,通过交换元素使得nums[lo..p-1] 都小于等于 nums[p],且 nums[p+1..hi] 都大于 nums[p],然后递归地去nums[lo..p-1] 和 nums[p+1..hi] 中寻找新的分界点,最后整个数组就被排序了。
 const quickSort = function(nums) {
   return quickSortHelper(nums, 0, nums.length - 1)
 
@@ -33,7 +32,6 @@ const quickSort = function(nums) {
   }
 }
 
-// 归并排序的逻辑,若要对 nums[lo..hi] 进行排序,我们先对 nums[lo..mid] 排序,再对nums[mid+1..hi] 排序,最后把这两个有序的子数组合并,整个数组就排好序了。
 // var mergeSort = function(arr) {
 //   return mergeSortHelper(arr)
 
@@ -77,7 +75,7 @@ const mergeSort = function(nums) {
 
   function mergeSortHelper(nums, lo, hi) {
     if (lo == hi) {
-      return
+      return nums
     }
     const mid = lo + Math.floor((hi - lo) / 2)
     mergeSortHelper(nums, lo, mid)
@@ -85,7 +83,6 @@ const mergeSort = function(nums) {
     merge(nums, lo, mid, hi)
     return nums
   }
-
   // use two pointer to merge two sorted array
   function merge(nums, lo, mid, hi) {
     for (let i = lo; i <= hi; i++) {
@@ -109,42 +106,45 @@ const mergeSort = function(nums) {
 }
 
 function heapSort(nums) {
-  const n = nums.length
-  buildHeap(nums, nums.length - 1, 1)
-  let k = n
-  while (k > 1) {
-    swap(nums, 1, k)
-    k--
-    heapify(nums, k, 1)
+  let n = nums.length
+  buildHeap(nums)
+  for (let i = n - 1; i > 0; i--) {
+    swap(nums, 0, i)
+    n--
+    swim(nums, 0)
   }
   return nums
 
-  function buildHeap(nums, n) {
-    for (let i = Math.floor(n / 2); i >= 1; i--) {
-      heapify(nums, n, i)
+  function buildHeap(nums, i) {
+    for (let i = Math.floor(n / 2); i >= 0; i--) {
+      swim(nums, i)
     }
   }
-  function heapify(nums, n, i) {
-    while (true) {
-      let maxPos = i
-      if (i * 2 <= n && nums[i] < nums[i * 2]) {
-        maxPos = i * 2 + 1
-      }
-      if (i * 2 + 1 <= n && nums[maxPos] < nums[i * 2 + 1]) {
-        maxPos = i * 2 + 1
-      }
-      if (maxPos == i) {
-        break
-      }
-      swap(nums, i, maxPos)
-      i = maxPos
+  function swim(nums, i) {
+    let left = 2 * i + 1,
+      right = 2 * i + 2,
+      largest = i
+
+    if (left < n && nums[left] > nums[largest]) {
+      largest = left
+    }
+    if (right < n && nums[right] > nums[largest]) {
+      largest = right
+    }
+    if (largest !== i) {
+      swap(nums, i, largest)
+      swim(nums, largest)
     }
   }
   function swap(nums, i, j) {
-    let temp = nums[i]
+    const temp = nums[i]
     nums[i] = nums[j]
     nums[j] = temp
   }
 }
+
+const origin = [3, 4, 5, 1, 2]
+const result = [1, 2, 3, 4, 5]
+console.log('heapSort(origin)', heapSort(origin))
 
 module.exports = { quickSort, mergeSort, heapSort }
