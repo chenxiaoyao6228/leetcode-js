@@ -50,23 +50,6 @@ function swapPairs(head) {
 }
 // @lc code=end
 
-function ListNode(val) {
-  this.val = val
-  this.next = null
-}
-
-function push(head, value) {
-  let originHead = head
-  while (head && head.next) {
-    head = head.next
-  }
-  let node = new ListNode(value)
-  head.next = node
-  return originHead
-}
-
 module.exports = {
-  swapPairs,
-  ListNode,
-  push
+  swapPairs
 }

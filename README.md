@@ -5,15 +5,6 @@ Leetcode solutions in Javascript. All JavaScript codes are written in ECMAScript
 ## Debugging
 For local debugging purposes, some questions also provide `test cases` with `Jest`, If you are using `Vscode`, I suggest you install [Vitest](https://marketplace.visualstudio.com/items?itemName=ZixuanChen.vitest-explorer) and [Vitest runner](https://marketplace.visualstudio.com/items?itemName=kingwl.vscode-vitest-runner) and go to the corresponding test case. You can also call the function directly in the question file and hit the `Run and Debug` Button on the sidebar and select `Debug currentFile` option to start debugging.
 
-## Summaries and Templates
-It's almost impossible to finish all Leetcode problems since it has more than 2000 problems for now and the number is still increasing. Here are some summaries and templates that might offer some bits of help.
-
-* [LinkedList](./docs/linkedList.md)
-* [Queue](./docs/queue.md)
-* [Stack](./docs/stack.md)
-* [Heap](./docs/heap.md)
-* [SlidingWindow](./docs/slidingWindow.md)
-
 ## Table of solutions
 Total Submit: **159**/**300(Goal)**
 | ID | Title | Difficulty | Solutions  | Test Case | Explanation |

@@ -33,7 +33,7 @@ const heap = new Heap(maxHeapComparator)
 Suppose we need to insert a new value named `22` to the existing heap
 ![](../assets//imgs/heap/heap-insert-2.png)
 
-Here is a diagram of heapify. We can compare the size of the newly inserted node to the parent node. If the child node is not equal to or less than the parent, we swap two nodes. The process is repeated until the size relationship between the parent and child nodes is satisfied
+Here is a diagram of heapify. We can compare the value of the newly inserted node to the parent node. If the child node is not equal to or less than the parent, we swap two nodes. The process is repeated until the size relationship between the parent and child nodes is satisfied
 ![](../assets//imgs/heap/heap-insert.png)
 
 The corresponding code: 

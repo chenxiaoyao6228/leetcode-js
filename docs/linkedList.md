@@ -8,3 +8,8 @@
 
 
 ##  LRU
+
+## Tips 
+
+* use a dummy head to avoid null-pointer problems
+
